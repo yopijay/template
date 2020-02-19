@@ -1,0 +1,27 @@
+// List Group Themes
+@mixin list-group-item($theme) {
+	@if $theme == default {
+		@include list-group-theme(#f5f6fa, #dcdde1);
+	}
+	@else if $theme == success {
+		@include list-group-theme(#4cd137, #44bd32);
+	}
+	@else if $theme == danger {
+		@include list-group-theme(#e84118, #c23616);
+		color: $white;
+	}
+	@else if $theme == warning {
+		@include list-group-theme(#fbc531, #e1b12c);
+	}
+}
+
+@mixin list-group-theme($color, $hover) {
+	background-color: $color;
+	font-size: .8rem;
+
+	&:hover {
+		transition: all 0.3s ease-in-out;	
+		background-color: $hover;
+	}
+}
+// End of List Group Themes

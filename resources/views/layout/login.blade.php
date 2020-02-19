@@ -16,9 +16,9 @@
                         <input type= "password" class= "form-control"/>
                     </div>
                 </form>
-                <a href= "#" class= "standard-link mb-5">Forgot password?</a>
+                <a href= "#" class= "standard-forgot mb-5">Forgot password?</a>
                 <button type= "button" class= "btn btn-standard">Login</button>
-                <a href= "#" class= "standard-link">Create an account?</a>
+                <a href= "#" class= "standard-register">Create an account?</a>
                 <div class= "row">
                     <hr class= "col-md-4 col-3 px-0 divider"/>
                     <p class= "col-md-4 col-6 px-0">SIGN IN WITH</p>

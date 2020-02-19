@@ -10905,7 +10905,7 @@ body.agm-standard .agm-standard-login h5 {
   text-align: center;
   font-size: 2rem;
   font-family: "Gentona";
-  color: #9B9B9B;
+  color: #353b48;
 }
 
 body.agm-standard .agm-standard-login img {
@@ -10920,12 +10920,12 @@ body.agm-standard .agm-standard-login form.standard-form .form-group {
 }
 
 body.agm-standard .agm-standard-login form.standard-form .form-group label {
-  color: #777777;
+  color: #353b48;
   font-size: 0.9rem;
 }
 
 body.agm-standard .agm-standard-login form.standard-form .form-group .form-control {
-  color: #777777;
+  color: #718093;
   border-radius: 50px;
   font-size: 0.8rem;
   padding: 0 0.9rem;
@@ -10940,7 +10940,7 @@ body.agm-standard .agm-standard-login form.standard-form .form-group .form-contr
 body.agm-standard .agm-standard-login .standard-link {
   font-size: 0.8rem;
   text-decoration: underline;
-  color: #0097E6;
+  color: #00A8FF;
 }
 
 body.agm-standard .agm-standard-login .standard-link:hover {
@@ -10951,7 +10951,7 @@ body.agm-standard .agm-standard-login .standard-link:hover {
 body.agm-standard .agm-standard-login a.standard-forgot {
   font-size: 0.8rem;
   text-decoration: underline;
-  color: #0097E6;
+  color: #00A8FF;
   float: right;
   margin: -5px 0 0 0;
 }
@@ -10964,7 +10964,7 @@ body.agm-standard .agm-standard-login a.standard-forgot:hover {
 body.agm-standard .agm-standard-login a.standard-register {
   font-size: 0.8rem;
   text-decoration: underline;
-  color: #0097E6;
+  color: #00A8FF;
   float: left;
   width: 100%;
   text-align: center;
@@ -10973,25 +10973,6 @@ body.agm-standard .agm-standard-login a.standard-register {
 body.agm-standard .agm-standard-login a.standard-register:hover {
   color: #0097e6;
   transition: all 0.3s ease-in-out;
-}
-
-body.agm-standard .agm-standard-login .btn-standard {
-  display: block;
-  width: 100%;
-  background-color: #00A8FF;
-  color: #FFFFFF;
-  font-family: "Gentona";
-  text-transform: uppercase;
-  border-radius: 50px;
-}
-
-body.agm-standard .agm-standard-login .btn-standard:hover {
-  background-color: #0097e6;
-  transition: all 0.3s ease-in-out;
-}
-
-body.agm-standard .agm-standard-login .btn-standard:focus {
-  box-shadow: none;
 }
 
 body.agm-standard .agm-standard-login .row {
@@ -11006,7 +10987,7 @@ body.agm-standard .agm-standard-login .row .divider {
 body.agm-standard .agm-standard-login .row p {
   font-size: 0.9rem;
   text-transform: uppercase;
-  color: #777777;
+  color: #718093;
   text-align: center;
   margin-top: 3px;
 }
@@ -11064,7 +11045,123 @@ body.agm-standard .agm-standard-login .standard-btn-group .standard-btn-rounded-
   background-color: #DF4D40;
 }
 
-body.agm-standard .card img {
-  height: 200px;
+body.agm-standard .card-body {
+  color: #353b48;
+  padding: 0.9rem;
+  font-size: 0.8rem;
+}
+
+body.agm-standard .card-body .card-title {
+  font-size: 1.1rem;
+  font-family: "Gentona";
+  text-transform: uppercase;
+}
+
+body.agm-standard .card-body .card-subtitle {
+  font-size: 0.8rem;
+  margin-top: -10px;
+}
+
+body.agm-standard .card-body .card-text {
+  font-size: 0.8rem;
+  margin: 2% 0;
+  color: #353b48;
+}
+
+body.agm-standard .card-body .card-link {
+  font-size: 0.8rem;
+  text-decoration: underline;
+  color: #00A8FF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+body.agm-standard .card-body .card-link:hover {
+  color: #0097e6;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .card-header {
+  font-family: "Gentona";
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #353b48;
+}
+
+body.agm-standard .card-footer {
+  text-align: right;
+  font-size: 0.8rem;
+  color: #718093;
+}
+
+body.agm-standard .card .list-group-default .list-group-item {
+  background-color: #f5f6fa;
+  font-size: 0.8rem;
+}
+
+body.agm-standard .card .list-group-default .list-group-item:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #dcdde1;
+}
+
+body.agm-standard .card .list-group-success .list-group-item {
+  background-color: #4cd137;
+  font-size: 0.8rem;
+}
+
+body.agm-standard .card .list-group-success .list-group-item:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #44bd32;
+}
+
+body.agm-standard .card .list-group-danger .list-group-item {
+  background-color: #e84118;
+  font-size: 0.8rem;
+  color: #FFFFFF;
+}
+
+body.agm-standard .card .list-group-danger .list-group-item:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #c23616;
+}
+
+body.agm-standard .card .list-group-warning .list-group-item {
+  background-color: #fbc531;
+  font-size: 0.8rem;
+}
+
+body.agm-standard .card .list-group-warning .list-group-item:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #e1b12c;
+}
+
+body.agm-standard .btn-standard {
+  display: block;
+  width: 100%;
+  background-color: #00A8FF;
+  color: #FFFFFF;
+  font-family: "Gentona";
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+body.agm-standard .btn-standard:hover {
+  background-color: #0097e6;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .btn-standard:focus {
+  box-shadow: none;
+}
+
+body.agm-standard .blockquote {
+  font-size: 0.9rem;
+  color: #353b48;
+}
+
+body.agm-standard .blockquote-footer {
+  font-size: 0.8rem;
+  color: #718093;
 }
 
