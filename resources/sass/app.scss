@@ -113,6 +113,70 @@ body.agm-standard {
     }
 
     .card {
+        &.card-primary {
+            @include card-theme(solid, primary);
+        }
+    
+        &.card-success {
+            @include card-theme(solid, success);
+        }
+    
+        &.card-danger {
+            @include card-theme(solid, danger);
+        }
+    
+        &.card-warning {
+            @include card-theme(solid, warning);
+        }
+    
+        &.card-info {
+            @include card-theme(solid, info);
+        }
+    
+        &.card-light {
+            @include card-theme(solid, light);
+        }
+    
+        &.card-dark {
+            @include card-theme(solid, dark);
+        }
+
+
+        &.card-border-primary {
+            @include card-theme(border, primary);
+            border: solid 1px #0097e6;
+        }
+    
+        &.card-border-success {
+            @include card-theme(border, success);
+            border: solid 1px #44bd32;
+        }
+    
+        &.card-border-danger {
+            @include card-theme(border, danger);
+            border: solid 1px #c23616;
+        }
+    
+        &.card-border-warning {
+            @include card-theme(border, warning);
+            border: solid 1px #e1b12c;
+        }
+    
+        &.card-border-info {
+            @include card-theme(border, info);
+            border: solid 1px #40739e;
+        }
+    
+        &.card-border-light {
+            @include card-theme(border, light);
+            border: solid 1px #f5f6fa;
+        }
+    
+        &.card-border-dark {
+            @include card-theme(border, dark);
+            border: solid 1px #2f3640;
+        }
+        
         &-body {
             color: $default-text-color;
             padding: .9rem;
@@ -154,6 +218,36 @@ body.agm-standard {
             text-align: right;
             font-size: .8rem;
             color: $default-text-color-light;
+        }
+
+        &-img-overlay {
+            color: $white;
+            padding: .9rem;
+            font-size: .8rem;
+
+            .card-title {
+                font-size: 1.1rem;
+                font-family: 'Gentona';
+                text-transform: uppercase;
+            }
+
+            .card-subtitle {
+                font-size: .8rem;
+                margin-top: -10px;
+            }
+
+            .card-text {
+                font-size: .8rem;
+                margin: 2% 0;
+                color: $white;
+            }
+
+            .card-link {
+                @include link-standard;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: .7rem;
+            }
         }
 
         .list-group-default {

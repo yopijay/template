@@ -11045,6 +11045,230 @@ body.agm-standard .agm-standard-login .standard-btn-group .standard-btn-rounded-
   background-color: #DF4D40;
 }
 
+body.agm-standard .card.card-primary .card-header {
+  background-color: #0097e6;
+  color: #FFFFFF;
+  font-size: 1.1rem;
+}
+
+body.agm-standard .card.card-primary .card-body .card-title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+body.agm-standard .card.card-primary .card-footer {
+  background-color: #00a8ff;
+  color: #FFFFFF;
+}
+
+body.agm-standard .card.card-success .card-header {
+  background-color: #44bd32;
+  color: #FFFFFF;
+  font-size: 1.1rem;
+}
+
+body.agm-standard .card.card-success .card-body .card-title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+body.agm-standard .card.card-success .card-footer {
+  background-color: #4cd137;
+  color: #FFFFFF;
+}
+
+body.agm-standard .card.card-danger .card-header {
+  background-color: #c23616;
+  color: #FFFFFF;
+  font-size: 1.1rem;
+}
+
+body.agm-standard .card.card-danger .card-body .card-title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+body.agm-standard .card.card-danger .card-footer {
+  background-color: #e84118;
+  color: #FFFFFF;
+}
+
+body.agm-standard .card.card-warning .card-header {
+  background-color: #e1b12c;
+  color: #FFFFFF;
+  font-size: 1.1rem;
+}
+
+body.agm-standard .card.card-warning .card-body .card-title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+body.agm-standard .card.card-warning .card-footer {
+  background-color: #fbc531;
+  color: #FFFFFF;
+}
+
+body.agm-standard .card.card-info .card-header {
+  background-color: #40739e;
+  color: #FFFFFF;
+  font-size: 1.1rem;
+}
+
+body.agm-standard .card.card-info .card-body .card-title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+body.agm-standard .card.card-info .card-footer {
+  background-color: #487eb0;
+  color: #FFFFFF;
+}
+
+body.agm-standard .card.card-light .card-header {
+  background-color: #f5f6fa;
+  color: #353b48;
+  font-size: 1.1rem;
+}
+
+body.agm-standard .card.card-light .card-body .card-title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+body.agm-standard .card.card-light .card-footer {
+  background-color: #dcdde1;
+  color: #353b48;
+}
+
+body.agm-standard .card.card-dark .card-header {
+  background-color: #2f3640;
+  color: #FFFFFF;
+  font-size: 1.1rem;
+}
+
+body.agm-standard .card.card-dark .card-body .card-title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+body.agm-standard .card.card-dark .card-footer {
+  background-color: #353b48;
+  color: #FFFFFF;
+}
+
+body.agm-standard .card.card-border-primary {
+  border: solid 1px #0097e6;
+}
+
+body.agm-standard .card.card-border-primary .card-header {
+  color: #0097e6;
+  font-size: 1.1rem;
+}
+
+body.agm-standard .card.card-border-primary .card-body .card-title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+body.agm-standard .card.card-border-success {
+  border: solid 1px #44bd32;
+}
+
+body.agm-standard .card.card-border-success .card-header {
+  color: #44bd32;
+  font-size: 1.1rem;
+}
+
+body.agm-standard .card.card-border-success .card-body .card-title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+body.agm-standard .card.card-border-danger {
+  border: solid 1px #c23616;
+}
+
+body.agm-standard .card.card-border-danger .card-header {
+  color: #c23616;
+  font-size: 1.1rem;
+}
+
+body.agm-standard .card.card-border-danger .card-body .card-title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+body.agm-standard .card.card-border-warning {
+  border: solid 1px #e1b12c;
+}
+
+body.agm-standard .card.card-border-warning .card-header {
+  color: #e1b12c;
+  font-size: 1.1rem;
+}
+
+body.agm-standard .card.card-border-warning .card-body .card-title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+body.agm-standard .card.card-border-info {
+  border: solid 1px #40739e;
+}
+
+body.agm-standard .card.card-border-info .card-header {
+  color: #40739e;
+  font-size: 1.1rem;
+}
+
+body.agm-standard .card.card-border-info .card-body .card-title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+body.agm-standard .card.card-border-light {
+  border: solid 1px #f5f6fa;
+}
+
+body.agm-standard .card.card-border-light .card-header {
+  color: #718093;
+  font-size: 1.1rem;
+}
+
+body.agm-standard .card.card-border-light .card-body .card-title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+body.agm-standard .card.card-border-dark {
+  border: solid 1px #2f3640;
+}
+
+body.agm-standard .card.card-border-dark .card-header {
+  color: #2f3640;
+  font-size: 1.1rem;
+}
+
+body.agm-standard .card.card-border-dark .card-body .card-title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
 body.agm-standard .card-body {
   color: #353b48;
   padding: 0.9rem;
@@ -11093,6 +11317,43 @@ body.agm-standard .card-footer {
   text-align: right;
   font-size: 0.8rem;
   color: #718093;
+}
+
+body.agm-standard .card-img-overlay {
+  color: #FFFFFF;
+  padding: 0.9rem;
+  font-size: 0.8rem;
+}
+
+body.agm-standard .card-img-overlay .card-title {
+  font-size: 1.1rem;
+  font-family: "Gentona";
+  text-transform: uppercase;
+}
+
+body.agm-standard .card-img-overlay .card-subtitle {
+  font-size: 0.8rem;
+  margin-top: -10px;
+}
+
+body.agm-standard .card-img-overlay .card-text {
+  font-size: 0.8rem;
+  margin: 2% 0;
+  color: #FFFFFF;
+}
+
+body.agm-standard .card-img-overlay .card-link {
+  font-size: 0.8rem;
+  text-decoration: underline;
+  color: #00A8FF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+body.agm-standard .card-img-overlay .card-link:hover {
+  color: #0097e6;
+  transition: all 0.3s ease-in-out;
 }
 
 body.agm-standard .card .list-group-default .list-group-item {

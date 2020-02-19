@@ -25,3 +25,89 @@
 	}
 }
 // End of List Group Themes
+// Card Themes
+@mixin card-theme($type, $theme) {
+	@if $type == solid {
+		@if $theme == primary {
+			@include card-solid(#0097e6, $white, #00a8ff, $white);
+		}
+		@else if $theme == success {
+			@include card-solid(#44bd32, $white, #4cd137, $white);
+		}
+		@else if $theme == danger {
+			@include card-solid(#c23616, $white, #e84118, $white);
+		}
+		@else if $theme == warning {
+			@include card-solid(#e1b12c, $white, #fbc531, $white);
+		}
+		@else if $theme == info {
+			@include card-solid(#40739e, $white, #487eb0, $white);
+		}
+		@else if $theme == light {
+			@include card-solid(#f5f6fa, $default-text-color, #dcdde1, $default-text-color);
+		}
+		@else if $theme == dark {
+			@include card-solid(#2f3640, $white, #353b48, $white);
+		}
+	}
+	@else if $type == border {
+		@if $theme == primary {
+			@include card-border(#0097e6);
+		}
+		@else if $theme == success {
+			@include card-border(#44bd32);
+		}
+		@else if $theme == danger {
+			@include card-border(#c23616);
+		}
+		@else if $theme == warning {
+			@include card-border(#e1b12c);
+		}
+		@else if $theme == info {
+			@include card-border(#40739e);
+		}
+		@else if $theme == light {
+			@include card-border($default-text-color-light);
+		}
+		@else if $theme == dark {
+			@include card-border(#2f3640);
+		}
+	}
+}
+
+@mixin card-solid($header-color, $header-font-color, $footer-color, $footer-font-color) {
+	.card-header {
+		background-color: $header-color;
+		color: $header-font-color;
+		font-size: 1.1rem;
+	}
+
+	.card-body {
+		.card-title {
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			font-size: .9rem;
+			font-weight: 900;
+		}
+	}
+
+	.card-footer {
+		background-color: $footer-color;
+		color: $footer-font-color;
+	}
+}
+
+@mixin card-border($header-font-color) {
+	.card-header {
+		color: $header-font-color;
+		font-size: 1.1rem;
+	}
+
+	.card-body {
+		.card-title {
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			font-size: .9rem;
+			font-weight: 900;
+		}
+	}
+}
+//End of Card Themees
