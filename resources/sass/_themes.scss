@@ -111,3 +111,17 @@
 	}
 }
 //End of Card Themees
+//Modal Themes
+@mixin modal($header-color, $header-font-color) {
+	.modal-content {
+		.modal-header {
+			background-color: $header-color;
+			color: $header-font-color;
+
+			.close {
+				color: $header-font-color;
+			}
+		}
+	}
+}
+//End of Modal Themes

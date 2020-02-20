@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('layout.card');
+    return view('layout.login');
 });

@@ -11000,7 +11000,7 @@ body.agm-standard .agm-standard-login .standard-btn-group {
 body.agm-standard .agm-standard-login .standard-btn-group .standard-btn-rounded-left {
   background-color: #00A8FF;
   color: #FFFFFF;
-  font-family: "Gentona";
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
@@ -11025,7 +11025,7 @@ body.agm-standard .agm-standard-login .standard-btn-group .standard-btn-rounded-
 body.agm-standard .agm-standard-login .standard-btn-group .standard-btn-rounded-right {
   background-color: #00A8FF;
   color: #FFFFFF;
-  font-family: "Gentona";
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
@@ -11399,10 +11399,9 @@ body.agm-standard .card .list-group-warning .list-group-item:hover {
 
 body.agm-standard .btn-standard {
   display: block;
-  width: 100%;
   background-color: #00A8FF;
   color: #FFFFFF;
-  font-family: "Gentona";
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
   border-radius: 50px;
 }
@@ -11424,5 +11423,98 @@ body.agm-standard .blockquote {
 body.agm-standard .blockquote-footer {
   font-size: 0.8rem;
   color: #718093;
+}
+
+body.agm-standard .modal .modal-dialog .modal-content .modal-header {
+  color: #353b48;
+  font-family: "Gentona";
+  text-transform: uppercase;
+}
+
+body.agm-standard .modal .modal-dialog .modal-content .modal-header .modal-title {
+  font-size: 1rem;
+}
+
+body.agm-standard .modal .modal-dialog .modal-content .modal-header button:focus {
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+
+body.agm-standard .modal .modal-dialog .modal-content .modal-body {
+  font-size: 0.8rem;
+  color: #353b48;
+}
+
+body.agm-standard .modal .modal-dialog .modal-content .modal-footer {
+  display: block;
+  justify-content: center;
+}
+
+body.agm-standard .modal .modal-dialog .modal-content .modal-footer button {
+  margin: 1% 2%;
+}
+
+body.agm-standard .modal .modal-dialog.modal-primary .modal-content .modal-header {
+  background-color: #0097e6;
+  color: #FFFFFF;
+}
+
+body.agm-standard .modal .modal-dialog.modal-primary .modal-content .modal-header .close {
+  color: #FFFFFF;
+}
+
+body.agm-standard .modal .modal-dialog.modal-success .modal-content .modal-header {
+  background-color: #44bd32;
+  color: #FFFFFF;
+}
+
+body.agm-standard .modal .modal-dialog.modal-success .modal-content .modal-header .close {
+  color: #FFFFFF;
+}
+
+body.agm-standard .modal .modal-dialog.modal-danger .modal-content .modal-header {
+  background-color: #c23616;
+  color: #FFFFFF;
+}
+
+body.agm-standard .modal .modal-dialog.modal-danger .modal-content .modal-header .close {
+  color: #FFFFFF;
+}
+
+body.agm-standard .modal .modal-dialog.modal-warning .modal-content .modal-header {
+  background-color: #e1b12c;
+  color: #FFFFFF;
+}
+
+body.agm-standard .modal .modal-dialog.modal-warning .modal-content .modal-header .close {
+  color: #FFFFFF;
+}
+
+body.agm-standard .modal .modal-dialog.modal-info .modal-content .modal-header {
+  background-color: #40739e;
+  color: #FFFFFF;
+}
+
+body.agm-standard .modal .modal-dialog.modal-info .modal-content .modal-header .close {
+  color: #FFFFFF;
+}
+
+body.agm-standard .modal .modal-dialog.modal-light .modal-content .modal-header {
+  background-color: #f5f6fa;
+  color: #353b48;
+}
+
+body.agm-standard .modal .modal-dialog.modal-light .modal-content .modal-header .close {
+  color: #353b48;
+}
+
+body.agm-standard .modal .modal-dialog.modal-dark .modal-content .modal-header {
+  background-color: #2f3640;
+  color: #FFFFFF;
+}
+
+body.agm-standard .modal .modal-dialog.modal-dark .modal-content .modal-header .close {
+  color: #FFFFFF;
 }
 

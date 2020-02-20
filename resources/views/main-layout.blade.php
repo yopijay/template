@@ -14,6 +14,6 @@
     <body class= "agm-standard">
         <div class= "container-fluid">
             @yield('content')
-        </div>        
+        </div>
     </body>
 </html>

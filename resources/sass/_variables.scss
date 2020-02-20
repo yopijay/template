@@ -39,7 +39,7 @@ $default-gmail-color: #DF4D40;
 @mixin button-standard() {
 	background-color: $default-button-color;
 	color: $white;
-	font-family: 'Gentona';
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	text-transform: uppercase;
 
 	&:hover {

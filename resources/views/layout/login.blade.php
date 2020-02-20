@@ -17,7 +17,7 @@
                     </div>
                 </form>
                 <a href= "#" class= "standard-forgot mb-5">Forgot password?</a>
-                <button type= "button" class= "btn btn-standard">Login</button>
+                <button type= "button" class= "btn btn-standard w-100">Login</button>
                 <a href= "#" class= "standard-register">Create an account?</a>
                 <div class= "row">
                     <hr class= "col-md-4 col-3 px-0 divider"/>

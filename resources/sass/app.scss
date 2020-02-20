@@ -4,6 +4,7 @@
 // Variables
 @import 'variables';
 @import 'themes';
+@import 'modal';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
@@ -277,7 +278,6 @@ body.agm-standard {
 
     .btn-standard {
         display: block;
-        width: 100%;
         @include button-standard;
         @include button-rounded;
     }
@@ -289,6 +289,34 @@ body.agm-standard {
         &-footer {
             font-size: .8rem;
             color: $default-text-color-light;
+        }
+    }
+
+    .modal {
+        .modal-dialog {
+            @include modal-default;
+
+            &.modal-primary {
+               @include modal(#0097e6, $white);
+            }
+            &.modal-success {
+               @include modal(#44bd32, $white);
+            }
+            &.modal-danger {
+               @include modal(#c23616, $white);
+            }
+            &.modal-warning {
+               @include modal(#e1b12c, $white);
+            }
+            &.modal-info {
+               @include modal(#40739e, $white);
+            }
+            &.modal-light {
+               @include modal(#f5f6fa, $default-text-color);
+            }
+            &.modal-dark {
+               @include modal(#2f3640, $white);
+            }
         }
     }
 }
