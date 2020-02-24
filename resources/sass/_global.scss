@@ -227,3 +227,38 @@
         }
     }
 }
+
+@mixin checkbox($type, $color) {
+    @if $type == simple {
+        label:hover svg {
+            stroke: $color;
+        }
+
+        input:checked + label svg {
+            stroke: $color;
+        }
+    }
+    @else if $type == rounded {
+
+    }
+    @else if $type == box {
+        input:checked {
+            color: $default-text-white;
+
+            & + label {
+                color: $default-text-white;
+                background-color: $color + a4;
+            }
+        }
+
+        label {
+            border: solid 1px $color;
+            color: $color;
+
+            &:hover {
+                background-color: $color + a4;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+}

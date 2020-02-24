@@ -101,7 +101,7 @@
                 <div class= "row">
                     <div class= "col-1 pr-0 custom-icon"><i class= "fas fa-exclamation-triangle"></i></div>
                     <div class= "col-10 pr-0">
-                        <p class= "mt-2 ml-2 text-white">Sample toast message.</p>
+                        <p class= "mt-1 ml-2 text-white">Sample toast message.</p>
                     </div>
                     <div class= "col-1 pl-0 mt-2">
                         <button type="button" class="close toast-button" data-dismiss="toast" aria-label="Close"><i class= "fas fa-times"></i></button>
@@ -114,7 +114,7 @@
                 <div class= "row">
                     <div class= "col-1 pr-0 custom-icon"><i class= "fas fa-check"></i></div>
                     <div class= "col-10 pr-0">
-                        <p class= "mt-2 ml-2 text-white">Sample toast message.</p>
+                        <p class= "mt-1 ml-2 text-white">Sample toast message.</p>
                     </div>
                     <div class= "col-1 pl-0 mt-2">
                         <button type="button" class="close toast-button" data-dismiss="toast" aria-label="Close"><i class= "fas fa-times"></i></button>
@@ -127,7 +127,7 @@
                 <div class= "row">
                     <div class= "col-1 pr-0 custom-icon"><i class= "fas fa-info-circle"></i></div>
                     <div class= "col-10 pr-0">
-                        <p class= "mt-2 ml-2 text-white">Sample toast message.</p>
+                        <p class= "mt-1 ml-2 text-white">Sample toast message.</p>
                     </div>
                     <div class= "col-1 pl-0 mt-2">
                         <button type="button" class="close toast-button" data-dismiss="toast" aria-label="Close"><i class= "fas fa-times"></i></button>
@@ -140,7 +140,7 @@
                 <div class= "row">
                     <div class= "col-1 pr-0 custom-icon"><i class= "fas fa-radiation"></i></div>
                     <div class= "col-10 pr-0">
-                        <p class= "mt-2 ml-2 text-white">Sample toast message.</p>
+                        <p class= "mt-1 ml-2 text-white">Sample toast message.</p>
                     </div>
                     <div class= "col-1 pl-0 mt-2">
                         <button type="button" class="close toast-button" data-dismiss="toast" aria-label="Close"><i class= "fas fa-times"></i></button>
@@ -153,7 +153,7 @@
                 <div class= "row">
                     <div class= "col-1 pr-0 custom-icon"><i class= "fas fa-check"></i></div>
                     <div class= "col-10 pr-0">
-                        <p class= "mt-2 ml-2 text-muted">Sample toast message.</p>
+                        <p class= "mt-1 ml-2 text-muted">Sample toast message.</p>
                     </div>
                     <div class= "col-1 pl-0 mt-2">
                         <button type="button" class="close toast-button" data-dismiss="toast" aria-label="Close"><i class= "fas fa-times"></i></button>
@@ -166,7 +166,7 @@
                 <div class= "row">
                     <div class= "col-1 pr-0 custom-icon"><i class= "fas fa-check"></i></div>
                     <div class= "col-10 pr-0">
-                        <p class= "mt-2 ml-2 text-white">Sample toast message.</p>
+                        <p class= "mt-1 ml-2 text-white">Sample toast message.</p>
                     </div>
                     <div class= "col-1 pl-0 mt-2">
                         <button type="button" class="close toast-button" data-dismiss="toast" aria-label="Close"><i class= "fas fa-times"></i></button>
@@ -179,7 +179,7 @@
                 <div class= "row">
                     <div class= "col-1 pr-0 custom-icon"><i class= "fas fa-check"></i></div>
                     <div class= "col-10 pr-0">
-                        <p class= "mt-2 ml-2 text-white">Sample toast message.</p>
+                        <p class= "mt-1 ml-2 text-white">Sample toast message.</p>
                     </div>
                     <div class= "col-1 pl-0 mt-2">
                         <button type="button" class="close toast-button" data-dismiss="toast" aria-label="Close"><i class= "fas fa-times"></i></button>
@@ -194,7 +194,7 @@
                 <div class= "row">
                     <div class= "col-1 pr-0 custom-icon"><i class= "fas fa-exclamation-triangle"></i></div>
                     <div class= "col-10 pr-0">
-                        <p class= "mt-2 ml-2">Sample toast message.</p>
+                        <p class= "mt-1 ml-2">Sample toast message.</p>
                     </div>
                     <div class= "col-1 pl-0 mt-2">
                         <button type="button" class="close toast-button" data-dismiss="toast" aria-label="Close"><i class= "fas fa-times"></i></button>
@@ -207,7 +207,7 @@
                 <div class= "row">
                     <div class= "col-1 pr-0 custom-icon"><i class= "fas fa-check"></i></div>
                     <div class= "col-10 pr-0">
-                        <p class= "mt-2 ml-2">Sample toast message.</p>
+                        <p class= "mt-1 ml-2">Sample toast message.</p>
                     </div>
                     <div class= "col-1 pl-0 mt-2">
                         <button type="button" class="close toast-button" data-dismiss="toast" aria-label="Close"><i class= "fas fa-times"></i></button>
@@ -220,7 +220,7 @@
                 <div class= "row">
                     <div class= "col-1 pr-0 custom-icon"><i class= "fas fa-info-circle"></i></div>
                     <div class= "col-10 pr-0">
-                        <p class= "mt-2 ml-2">Sample toast message.</p>
+                        <p class= "mt-1 ml-2">Sample toast message.</p>
                     </div>
                     <div class= "col-1 pl-0 mt-2">
                         <button type="button" class="close toast-button" data-dismiss="toast" aria-label="Close"><i class= "fas fa-times"></i></button>
@@ -233,7 +233,7 @@
                 <div class= "row">
                     <div class= "col-1 pr-0 custom-icon"><i class= "fas fa-radiation"></i></div>
                     <div class= "col-10 pr-0">
-                        <p class= "mt-2 ml-2">Sample toast message.</p>
+                        <p class= "mt-1 ml-2">Sample toast message.</p>
                     </div>
                     <div class= "col-1 pl-0 mt-2">
                         <button type="button" class="close toast-button" data-dismiss="toast" aria-label="Close"><i class= "fas fa-times"></i></button>
@@ -246,7 +246,7 @@
                 <div class= "row">
                     <div class= "col-1 pr-0 custom-icon"><i class= "fas fa-check"></i></div>
                     <div class= "col-10 pr-0">
-                        <p class= "mt-2 ml-2">Sample toast message.</p>
+                        <p class= "mt-1 ml-2">Sample toast message.</p>
                     </div>
                     <div class= "col-1 pl-0 mt-2">
                         <button type="button" class="close toast-button" data-dismiss="toast" aria-label="Close"><i class= "fas fa-times"></i></button>
@@ -259,7 +259,7 @@
                 <div class= "row">
                     <div class= "col-1 pr-0 custom-icon"><i class= "fas fa-check"></i></div>
                     <div class= "col-10 pr-0">
-                        <p class= "mt-2 ml-2">Sample toast message.</p>
+                        <p class= "mt-1 ml-2">Sample toast message.</p>
                     </div>
                     <div class= "col-1 pl-0 mt-2">
                         <button type="button" class="close toast-button" data-dismiss="toast" aria-label="Close"><i class= "fas fa-times"></i></button>
@@ -272,7 +272,7 @@
                 <div class= "row">
                     <div class= "col-1 pr-0 custom-icon"><i class= "fas fa-check"></i></div>
                     <div class= "col-10 pr-0">
-                        <p class= "mt-2 ml-2">Sample toast message.</p>
+                        <p class= "mt-1 ml-2">Sample toast message.</p>
                     </div>
                     <div class= "col-1 pl-0 mt-2">
                         <button type="button" class="close toast-button" data-dismiss="toast" aria-label="Close"><i class= "fas fa-times"></i></button>

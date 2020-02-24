@@ -1,4 +1,70 @@
 @mixin card-default() {
+
+    // Solid Cards
+    &.card-primary {
+        @include theme(primary, solid);
+    }
+
+    &.card-success {
+     @include theme(success, solid);
+    }
+
+    &.card-danger {
+     @include theme(danger, solid);
+    }
+
+    &.card-warning {
+     @include theme(warning, solid);
+    }
+
+    &.card-info {
+     @include theme(info, solid);
+    }
+
+    &.card-light {
+     @include theme(light, solid);
+    }
+
+    &.card-dark {
+     @include theme(dark, solid);
+    }
+    
+    // Outline Cards
+    &.card-outline-primary {
+         @include theme(primary, outline);
+         border: solid 1px #0097e6;
+     }
+
+     &.card-outline-success {
+         @include theme(success, outline);
+         border: solid 1px #44bd32;
+     }
+
+     &.card-outline-danger {
+         @include theme(danger, outline);
+         border: solid 1px #c23616;
+     }
+
+     &.card-outline-warning {
+         @include theme(warning, outline);
+         border: solid 1px #e1b12c;
+     }
+
+     &.card-outline-info {
+         @include theme(info, outline);
+         border: solid 1px #40739e;
+     }
+
+     &.card-outline-light {
+         @include theme(light, outline);
+         border: solid 1px #f5f6fa;
+     }
+
+     &.card-outline-dark {
+         @include theme(dark, outline);
+         border: solid 1px #2f3640;
+     }
+
     &-body {
         color: $default-text-color;
         padding: .9rem;

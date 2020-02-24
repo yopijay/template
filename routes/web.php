@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('layout.toaster');
+    return view('layout.forms');
 });

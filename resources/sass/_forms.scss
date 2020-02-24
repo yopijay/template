@@ -1,0 +1,151 @@
+@mixin check-simple-default() {
+
+    &.check-primary {
+        @include theme(primary, outline);
+    }
+    &.check-success {
+        @include theme(success, outline);
+    }
+    &.check-danger {
+        @include theme(danger, outline);
+    }
+    &.check-warning {
+        @include theme(warning, outline);
+    }
+    &.check-info {
+        @include theme(info, outline);
+    }
+    &.check-light {
+        @include theme(light, outline);
+    }
+    &.check-dark {
+        @include theme(dark, outline);
+    }
+
+    label {
+        cursor: pointer;
+        position: relative;
+        margin: auto;
+        width: 18px;
+        height: 18px;
+        -webkit-tap-highlight-color: transparent;
+        transform: translate3d(0, 0, 0);
+
+        &:before {
+            content: "";
+            position: absolute;
+            top: -15px;
+            left: -15px;
+            width: 48px;
+            height: 48px;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        svg {
+            position: relative;
+            z-index: 1;
+            fill: none;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke: #c8ccd4;
+            stroke-width: 1.5;
+            transform: translate3d(0, 0, 0);
+            transition: all 0.2s ease;
+
+            path {
+                stroke-dasharray: 60;
+                stroke-dashoffset: 0;
+            }
+    
+            polyline {
+                stroke-dasharray: 22;
+                stroke-dashoffset: 66;
+            }
+        }
+
+        &:hover {
+            &:before {
+                opacity: 1;
+            }
+    
+            svg {
+                stroke: $default-dark;
+            }
+        }
+    }
+
+    input:checked {
+        & + label svg {
+            stroke: $default-dark;
+        }
+
+        & + label svg path {
+            stroke-dashoffset: 60;
+            transition: all 0.3s linear;
+        }
+        
+        & + label svg polyline {
+            stroke-dashoffset: 42;
+            transition: all 0.2s linear;
+            transition-delay: 0.15s;
+        }
+    }
+
+    p {
+        font-size: .8rem;
+        margin-left: .5rem;
+    }
+}
+
+@mixin check-square-default() {
+
+    &.check-primary {
+        @include theme(primary, custom);
+    }
+    &.check-success {
+        @include theme(success, custom);
+    }
+    &.check-danger {
+        @include theme(danger, custom);
+    }
+    &.check-warning {
+        @include theme(warning, custom);
+    }
+    &.check-info {
+        @include theme(info, custom);
+    }
+    &.check-light {
+        @include theme(light, custom);
+    }
+    &.check-dark {
+        @include theme(dark, custom);
+    }
+
+    input {
+        display: none;
+
+        &:checked {
+            & + label i {
+                opacity: 1;
+            }
+        }
+    }
+
+    label {
+        width: 23px;
+        height: 23px;
+        display: inline-block;
+        border: 1px solid $default-dark;
+        text-align: center;
+        line-height: 18px;
+        margin-right: 6px;
+        border-radius: 3px;
+        cursor: pointer;
+
+        i {
+            font-size: 14px;
+            opacity: 0;
+        }
+    }
+}

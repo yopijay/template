@@ -5,6 +5,8 @@
 @import 'variables';
 @import 'global';
 @import 'card';
+@import 'forms';
+@import 'table';
 @import 'themes';
 @import 'modal';
 @import 'toast';
@@ -66,164 +68,18 @@ body.agm-standard {
     // Cards
    .card {
         @include card-default;
-
-        // Solid Cards
-       &.card-primary {
-           @include theme(primary, solid);
-       }
-
-       &.card-success {
-        @include theme(success, solid);
-       }
-
-       &.card-danger {
-        @include theme(danger, solid);
-       }
-
-       &.card-warning {
-        @include theme(warning, solid);
-       }
-
-       &.card-info {
-        @include theme(info, solid);
-       }
-
-       &.card-light {
-        @include theme(light, solid);
-       }
-
-       &.card-dark {
-        @include theme(dark, solid);
-       }
-       
-       // Outline Cards
-       &.card-outline-primary {
-            @include theme(primary, outline);
-            border: solid 1px #0097e6;
-        }
-
-        &.card-outline-success {
-            @include theme(success, outline);
-            border: solid 1px #44bd32;
-        }
-
-        &.card-outline-danger {
-            @include theme(danger, outline);
-            border: solid 1px #c23616;
-        }
-
-        &.card-outline-warning {
-            @include theme(warning, outline);
-            border: solid 1px #e1b12c;
-        }
-
-        &.card-outline-info {
-            @include theme(info, outline);
-            border: solid 1px #40739e;
-        }
-
-        &.card-outline-light {
-            @include theme(light, outline);
-            border: solid 1px #f5f6fa;
-        }
-
-        &.card-outline-dark {
-            @include theme(dark, outline);
-            border: solid 1px #2f3640;
-        }
    }
 
    // Toasts
    .toast {
        @include toast-default;
+   }
 
-        // Default Toast
-       &.toast-primary {
-            @include theme(primary, solid);
-        }
-
-        &.toast-success {
-            @include theme(success, solid);
-        }
-
-        &.toast-danger {
-            @include theme(danger, solid);
-        }
-
-        &.toast-warning {
-            @include theme(warning, solid);
-        }
-
-        &.toast-info {
-            @include theme(info, solid);
-        }
-
-        &.toast-light {
-            @include theme(light, solid);
-        }
-
-        &.toast-dark {
-            @include theme(dark, solid);
-        }
-
-        
-        // Custom Solid Toast
-        &.toast-custom-primary-solid {
-            @include theme(primary, custom);
-        }
-        
-        &.toast-custom-success-solid {
-            @include theme(success, custom);
-        }
-
-        &.toast-custom-danger-solid {
-            @include theme(danger, custom);
-        }
-
-        &.toast-custom-warning-solid {
-            @include theme(warning, custom);
-        }
-
-        &.toast-custom-info-solid {
-            @include theme(info, custom);
-        }
-
-        &.toast-custom-light-solid {
-            @include theme(light, custom);
-        }
-
-        &.toast-custom-dark-solid {
-            @include theme(dark, custom);
-        }
-
-        
-        // Custom Outline Toast
-        &.toast-custom-primary-outline {
-            @include theme(primary, outline);
-        }
-        
-        &.toast-custom-success-outline {
-            @include theme(success, outline);
-        }
-
-        &.toast-custom-danger-outline {
-            @include theme(danger, outline);
-        }
-
-        &.toast-custom-warning-outline {
-            @include theme(warning, outline);
-        }
-
-        &.toast-custom-info-outline {
-            @include theme(info, outline);
-        }
-
-        &.toast-custom-light-outline {
-            @include theme(light, outline);
-        }
-
-        &.toast-custom-dark-outline {
-            @include theme(dark, outline);
-        }
+   // Checkboxes
+   .checkbox-simple {
+        @include check-simple-default;
+   }
+   .checkbox-square {
+       @include check-square-default;
    }
 }
