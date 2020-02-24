@@ -1,4 +1,3 @@
-
 // Body
 $body-bg: #f8fafc;
 
@@ -8,73 +7,55 @@ $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 
 // Colors
-$blue: #3490dc;
-$indigo: #6574cd;
-$purple: #9561e2;
-$pink: #f66d9b;
-$red: #e3342f;
-$orange: #f6993f;
-$yellow: #ffed4a;
-$green: #38c172;
-$teal: #4dc0b5;
-$cyan: #6cb2eb;
-$white: #FFFFFF;
-
 $default-text-color: #353b48;
+$default-text-white: #ffffff;
 $default-text-color-light: #718093;
 $default-body: #f5f6fa;
-$default-button-color: #00A8FF;
-$default-button-color-hover: #0097e6;
-$default-link-color: #00A8FF;
-$default-link-color-hover: #0097e6;
 
-$default-fb-color: #4A81D6;
-$default-gmail-color: #DF4D40;
+	// Color for Buttons
+	$default-button-color: #00A8FF;
+	$default-button-color-hover: #0097e6;
 
+	// Color for Links
+	$default-link-color: #00A8FF;
+	$default-link-color-hover: #0097e6;
+
+	//Color for Facebook
+	$default-fb-color: #4A81D6;
+
+	// Color for Gmail
+	$default-gmail-color: #DF4D40;
+
+	// Color for Primary
+	$default-primary: #00a8ff;
+	$default-primary-dark: #0097e6;
+
+	// Color for Success
+	$default-success: #4cd137;
+	$default-success-dark: #44bd32;
+
+	// Color for Danger
+	$default-danger: #e84118;
+	$default-danger-dark: #c23616;
+
+	// Color for Warning
+	$default-warning: #fbc531;
+	$default-warning-dark: #e1b12c;
+
+	// Color for Info
+	$default-info: #487eb0;
+	$default-info-dark: #40739e;
+
+	// Color for Light
+	$default-light: #f5f6fa;
+	$default-light-dark: #dcdde1;
+
+	// Color for Dark
+	$default-dark: #353b48;
+	$default-dark-dark: #2f3640;
+
+// Fonts
 @font-face {
 	font-family: 'Gentona';
 	src: url('Rene Bieder - Gentona ExtraBold DEMO.otf') format('opentype');
-}
-
-@mixin button-standard() {
-	background-color: $default-button-color;
-	color: $white;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	text-transform: uppercase;
-
-	&:hover {
-		background-color: $default-button-color-hover;
-		transition: all 0.3s ease-in-out;
-	}
-
-	&:focus {
-		box-shadow: none;
-	}
-}
-
-@mixin button-rounded() {
-	border-radius: 50px;
-}
-
-@mixin button-rounded-left() {
-	border-top-left-radius: 50px;
-	border-bottom-left-radius: 50px;
-	border-top-right-radius: none !important;
-	border-bottom-right-radius: none !important;
-}
-
-@mixin button-rounded-right() {
-	border-top-right-radius: 50px;
-	border-bottom-right-radius: 50px;
-}
-
-@mixin link-standard() {
-	font-size: .8rem;
-	text-decoration: underline;
-	color: $default-link-color;
-
-	&:hover {
-		color: $default-link-color-hover;
-		transition: all 0.3s ease-in-out;
-	}
 }
