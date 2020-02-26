@@ -1,5 +1,5 @@
 @extends('main-layout')
-@section('title', 'Forms')
+@section('title', 'Checkbox')
 @section('content')
 <div class= "row mt-5 mb-5">
     <div class= "col-md-6 offset-md-3">

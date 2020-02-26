@@ -1,0 +1,88 @@
+@mixin toggle-light {
+
+    &.t-primary {
+        @include theme(primary, solid);
+    }
+    &.t-success {
+        @include theme(success, solid);
+    }
+    &.t-danger {
+        @include theme(danger, solid);
+    }
+    &.t-warning {
+        @include theme(warning, solid);
+    }
+    &.t-info {
+        @include theme(info, solid);
+    }
+    &.t-light {
+        @include theme(light, solid);
+    }
+    &.t-dark {
+        @include theme(dark, solid);
+    }
+    
+    input {
+        + label {
+            background-color: #f0f0f0;
+            border-radius: 2rem;
+            padding: 2px;
+            transition: all 0.4s ease;
+
+            &:after {
+                border-radius: 50%;
+                background-color: #fff;
+                transition: all 0.2s ease;
+            }
+        }
+
+        &:checked + label {
+            background-color: $default-success;
+        }
+    }
+}
+
+@mixin toggle-ios() {
+
+    &.t-primary {
+        @include theme(primary, solid);
+    }
+    &.t-success {
+        @include theme(success, solid);
+    }
+    &.t-danger {
+        @include theme(danger, solid);
+    }
+    &.t-warning {
+        @include theme(warning, solid);
+    }
+    &.t-info {
+        @include theme(info, solid);
+    }
+    &.t-light {
+        @include theme(light, solid);
+    }
+    &.t-dark {
+        @include theme(dark, solid);
+    }
+
+    input {
+        + label {
+            background-color: #f0f0f0;
+            border-radius: 2rem;
+            padding: 2px;
+            transition: all 0.4s ease;
+
+            &:after {
+                border-radius: 50%;
+                background-color: #fff;
+                transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+                box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08);
+            }
+        }
+
+        &:checked + label {
+            background-color: $default-success;
+        }
+    }
+}

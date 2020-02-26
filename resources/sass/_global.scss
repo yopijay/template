@@ -288,3 +288,25 @@
         }
     }
 }
+
+@mixin toggle($type, $color) {
+    @if $type == light {
+        input {
+            &:checked + label {
+                background-color: $color;
+            }
+        }
+    }
+    @else if $type == ios {
+
+    }
+    @else if $type == skewed {
+
+    }
+    @else if $type == flat {
+
+    }
+    @else if $type == flip {
+
+    }
+}

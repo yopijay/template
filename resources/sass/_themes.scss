@@ -5,6 +5,7 @@
 			@include card($type, #0097e6, $default-text-white, #00a8ff, $default-text-white);
 			@include toast($type, #0097e6, $default-text-white);
 			@include checkbox(rounded, $default-primary);
+			@include toggle(light, $default-primary);
 		}
 		@else if $type == outline {
 			@include card($type, #0097e6, $default-text-white, #00a8ff, $default-text-white);
@@ -22,6 +23,7 @@
 			@include card($type, #44bd32, $default-text-white, #4cd137, $default-text-white);
 			@include toast($type, #44bd32, $default-text-white);
 			@include checkbox(rounded, $default-success);
+			@include toggle(light, $default-success);
 		}
 		@else if $type == outline {
 			@include card($type, #44bd32, $default-text-white, #4cd137, $default-text-white);
@@ -39,6 +41,7 @@
 			@include card($type, #c23616, $default-text-white, #e84118, $default-text-white);
 			@include toast($type, #c23616, $default-text-white);
 			@include checkbox(rounded, $default-danger);
+			@include toggle(light, $default-danger);
 		}
 		@else if $type == outline {
 			@include card($type, #c23616, $default-text-white, #e84118, $default-text-white);
@@ -56,6 +59,7 @@
 			@include card($type, #e1b12c, $default-text-white, #fbc531, $default-text-white);
 			@include toast($type, #e1b12c, $default-text-white);
 			@include checkbox(rounded, $default-warning);
+			@include toggle(light, $default-warning);
 		}
 		@else if $type == outline {
 			@include card($type, #e1b12c, $default-text-white, #fbc531, $default-text-white);
@@ -72,6 +76,7 @@
 			@include card($type, #40739e, $default-text-white, #487eb0, $default-text-white);
 			@include toast($type, #40739e, $default-text-white);
 			@include checkbox(rounded, $default-info);
+			@include toggle(light, $default-info);
 		}
 		@else if $type == outline {
 			@include card($type, #40739e, $default-text-white, #487eb0, $default-text-white);
@@ -89,6 +94,7 @@
 			@include card($type, #f5f6fa, $default-text-color, #dcdde1, $default-text-color);
 			@include toast($type, #f5f6fa, $default-text-color);
 			@include checkbox(rounded, $default-light);
+			@include toggle(light, $default-light);
 		}
 		@else if $type == outline {
 			@include card($type, #f5f6fa, $default-text-color, #dcdde1, $default-text-color);
@@ -105,6 +111,7 @@
 			@include card($type, #2f3640, $default-text-white, #353b48, $default-text-white);
 			@include toast($type, #2f3640, $default-text-white);
 			@include checkbox(rounded, $default-dark);
+			@include toggle(light, $default-dark);
 		}
 		@else if $type == outline {
 			@include card($type, #2f3640, $default-text-white, #353b48, $default-text-white);

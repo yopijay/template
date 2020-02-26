@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('layout.forms');
+    return view('layout.switch-toggle');
 });
