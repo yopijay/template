@@ -239,7 +239,33 @@
         }
     }
     @else if $type == rounded {
+        label {
+            span {
+                border: solid 2px $color;
 
+                &:before {
+                    background-color: $color;
+                }
+
+                &:after {
+                    background-color: $color;
+                }
+            }
+        }
+
+        input {
+            &:checked + label {
+                span {
+                    background-color: $color;
+                }
+
+                &:hover {
+                    span {
+                        background-color: $color;
+                    }
+                }
+            }
+        }
     }
     @else if $type == box {
         input:checked {

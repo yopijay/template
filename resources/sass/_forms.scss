@@ -149,3 +149,132 @@
         }
     }
 }
+
+@mixin check-rounded-default() {
+
+    &.check-primary {
+        @include theme(primary, solid);
+    }
+    &.check-success {
+        @include theme(success, solid);
+    }
+    &.check-danger {
+        @include theme(danger, solid);
+    }
+    &.check-warning {
+        @include theme(warning, solid);
+    }
+    &.check-info {
+        @include theme(info, solid);
+    }
+    &.check-light {
+        @include theme(light, solid);
+    }
+    &.check-dark {
+        @include theme(dark, solid);
+    }
+
+    label {
+        display: inline-block;
+        color: $default-text-color;
+        cursor: pointer;
+        position: relative;
+
+        span {
+            display: inline-block;
+            background-color: transparent;
+            position: relative;
+            width: 25px;
+            height: 25px;
+            transform-origin: center;
+            border: solid 2px $default-text-color;
+            margin-right: 10px;
+            border-radius: 50%;
+            vertical-align: -7px;
+            transition: background-color 150ms 200ms, transform 350ms cubic-bezier(.78, -1.22, .17, 1.89);
+    
+            &:before {
+                content: "";
+                width: 0;
+                height: 2px;
+                border-radius: 2px;
+                background-color: $default-text-color;
+                position: absolute;
+                transform: rotate(45deg);
+                transition: width 50ms ease 50ms;
+                transform-origin: 0% 0%;
+                top: 11px;
+                left: 7px;
+            }
+    
+            &:after {
+                content: "";
+                width: 0;
+                height: 2px;
+                background-color: $default-text-color;
+                position: absolute;
+                transform: rotate(305deg);
+                transition: width 50ms ease 50ms;
+                transform-origin: 0% 0%;
+                top: 14px;
+                left: 9px;
+            }
+        }
+
+        &:hover {
+            span {
+                &:before {
+                    width: 5px;
+                    transition: width 100ms ease;
+                }
+
+                &:after {
+                    width: 10px;
+                    transition: width 150ms ease 100ms;
+                }
+            }
+        }
+    }
+
+    input {
+        display: none;
+
+        &:checked + label {
+            span {
+                background-color: $default-text-color;
+                transform: scale(1.25);
+
+                &:after {
+                    width: 10px;
+                    background-color: $default-text-white;
+                    transition: width 150ms ease 100ms;
+                }
+
+                &:before {
+                    width: 5px;
+                    background: $default-text-white;
+                    transition: width 150ms ease 100ms;
+                }
+            }
+
+            &:hover {
+                span {
+                    background-color: $default-text-color;
+                    transform: scale(1.25);
+
+                    &:after {
+                        width: 10px;
+                        background-color: $default-text-white;
+                        transition: width 150ms ease 100ms;
+                    }
+
+                    &:before {
+                        width: 5px;
+                        background-color: $default-text-white;
+                        transition: width 150ms ease 100ms;
+                    }
+                }
+            }
+        }
+    }
+}

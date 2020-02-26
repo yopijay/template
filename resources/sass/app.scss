@@ -82,4 +82,8 @@ body.agm-standard {
    .checkbox-square {
        @include check-square-default;
    }
+
+   .checkbox-rounded {
+       @include check-rounded-default;
+   }
 }

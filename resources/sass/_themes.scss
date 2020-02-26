@@ -4,6 +4,7 @@
 		@if $type == solid {
 			@include card($type, #0097e6, $default-text-white, #00a8ff, $default-text-white);
 			@include toast($type, #0097e6, $default-text-white);
+			@include checkbox(rounded, $default-primary);
 		}
 		@else if $type == outline {
 			@include card($type, #0097e6, $default-text-white, #00a8ff, $default-text-white);
@@ -12,7 +13,7 @@
 		}
 		@else if $type == custom {
 			@include toast($type, #0097e6c4, $default-text-white);
-			@include checkbox(box, $default-primary,);
+			@include checkbox(box, $default-primary);
 		}
 	}
 	@else if $theme == success {
@@ -20,6 +21,7 @@
 			@include list-group(#4cd137, #44bd32);
 			@include card($type, #44bd32, $default-text-white, #4cd137, $default-text-white);
 			@include toast($type, #44bd32, $default-text-white);
+			@include checkbox(rounded, $default-success);
 		}
 		@else if $type == outline {
 			@include card($type, #44bd32, $default-text-white, #4cd137, $default-text-white);
@@ -36,6 +38,7 @@
 			@include list-group(#e84118, #c23616);
 			@include card($type, #c23616, $default-text-white, #e84118, $default-text-white);
 			@include toast($type, #c23616, $default-text-white);
+			@include checkbox(rounded, $default-danger);
 		}
 		@else if $type == outline {
 			@include card($type, #c23616, $default-text-white, #e84118, $default-text-white);
@@ -52,6 +55,7 @@
 			@include list-group(#fbc531, #e1b12c);
 			@include card($type, #e1b12c, $default-text-white, #fbc531, $default-text-white);
 			@include toast($type, #e1b12c, $default-text-white);
+			@include checkbox(rounded, $default-warning);
 		}
 		@else if $type == outline {
 			@include card($type, #e1b12c, $default-text-white, #fbc531, $default-text-white);
@@ -67,6 +71,7 @@
 		@if $type == solid {
 			@include card($type, #40739e, $default-text-white, #487eb0, $default-text-white);
 			@include toast($type, #40739e, $default-text-white);
+			@include checkbox(rounded, $default-info);
 		}
 		@else if $type == outline {
 			@include card($type, #40739e, $default-text-white, #487eb0, $default-text-white);
@@ -83,6 +88,7 @@
 			@include list-group(#f5f6fa, #dcdde1);
 			@include card($type, #f5f6fa, $default-text-color, #dcdde1, $default-text-color);
 			@include toast($type, #f5f6fa, $default-text-color);
+			@include checkbox(rounded, $default-light);
 		}
 		@else if $type == outline {
 			@include card($type, #f5f6fa, $default-text-color, #dcdde1, $default-text-color);
@@ -98,6 +104,7 @@
 		@if $type == solid {
 			@include card($type, #2f3640, $default-text-white, #353b48, $default-text-white);
 			@include toast($type, #2f3640, $default-text-white);
+			@include checkbox(rounded, $default-dark);
 		}
 		@else if $type == outline {
 			@include card($type, #2f3640, $default-text-white, #353b48, $default-text-white);

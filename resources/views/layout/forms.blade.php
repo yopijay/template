@@ -1,7 +1,7 @@
 @extends('main-layout')
 @section('title', 'Forms')
 @section('content')
-<div class= "row mt-3">
+<div class= "row mt-5 mb-5">
     <div class= "col-md-6 offset-md-3">
         <div class= "checkbox-simple check-primary">
             <input type="checkbox" id= "checkbox1" style="display: none;">
@@ -75,7 +75,7 @@
         </div>
     </div>
 </div>
-<div class= "mt-5">
+<div class= "row mt-5 mb-5">
     <div class= "col-md-6 offset-md-3">
         <div class= "checkbox-square check-primary">
             <input type= "checkbox" id= "checkbox8">
@@ -128,12 +128,48 @@
         </div>
     </div>
 </div>
-<div class= "row mt-5">
+<div class= "row mt-5 mb-5">
     <div class= "col-md-6 offset-md-3">
-        <div class= "checkbox-rounded">
+        <div class= "checkbox-rounded check-primary">
             <input type= "checkbox" id= "checkbox15">
-            <label for= "checkbox15">
-                
+            <label for="checkbox15">
+                <span><!-- This span is needed to create the "checkbox" element --></span>Checkbox
+            </label>
+        </div>
+        <div class= "checkbox-rounded check-success">
+            <input type= "checkbox" id= "checkbox16">
+            <label for="checkbox16">
+                <span><!-- This span is needed to create the "checkbox" element --></span>Checkbox
+            </label>
+        </div>
+        <div class= "checkbox-rounded check-danger">
+            <input type= "checkbox" id= "checkbox17">
+            <label for="checkbox17">
+                <span><!-- This span is needed to create the "checkbox" element --></span>Checkbox
+            </label>
+        </div>
+        <div class= "checkbox-rounded check-warning">
+            <input type= "checkbox" id= "checkbox18">
+            <label for="checkbox18">
+                <span><!-- This span is needed to create the "checkbox" element --></span>Checkbox
+            </label>
+        </div>
+        <div class= "checkbox-rounded check-info">
+            <input type= "checkbox" id= "checkbox19">
+            <label for="checkbox19">
+                <span><!-- This span is needed to create the "checkbox" element --></span>Checkbox
+            </label>
+        </div>
+        <div class= "checkbox-rounded check-light">
+            <input type= "checkbox" id= "checkbox20">
+            <label for="checkbox20">
+                <span><!-- This span is needed to create the "checkbox" element --></span>Checkbox
+            </label>
+        </div>
+        <div class= "checkbox-rounded check-dark">
+            <input type= "checkbox" id= "checkbox21">
+            <label for="checkbox21">
+                <span><!-- This span is needed to create the "checkbox" element --></span>Checkbox
             </label>
         </div>
     </div>
