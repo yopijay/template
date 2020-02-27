@@ -18,6 +18,7 @@
                 <input type= "radio" id= "radio-3" name= "theme">
                 <span></span>
                 <label for= "radio-3">Danger</label>
+            </div>
             <div class= "radio-simple r-warning">
                 <input type= "radio" id= "radio-4" name= "theme">
                 <span></span>
