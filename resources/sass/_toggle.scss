@@ -1,26 +1,5 @@
 @mixin toggle-light {
-
-    &.t-primary {
-        @include theme(primary, solid);
-    }
-    &.t-success {
-        @include theme(success, solid);
-    }
-    &.t-danger {
-        @include theme(danger, solid);
-    }
-    &.t-warning {
-        @include theme(warning, solid);
-    }
-    &.t-info {
-        @include theme(info, solid);
-    }
-    &.t-light {
-        @include theme(light, solid);
-    }
-    &.t-dark {
-        @include theme(dark, solid);
-    }
+    @include toggle-theme-default(solid);
     
     input {
         + label {
@@ -43,28 +22,7 @@
 }
 
 @mixin toggle-ios() {
-
-    &.t-primary {
-        @include theme(primary, solid);
-    }
-    &.t-success {
-        @include theme(success, solid);
-    }
-    &.t-danger {
-        @include theme(danger, solid);
-    }
-    &.t-warning {
-        @include theme(warning, solid);
-    }
-    &.t-info {
-        @include theme(info, solid);
-    }
-    &.t-light {
-        @include theme(light, solid);
-    }
-    &.t-dark {
-        @include theme(dark, solid);
-    }
+    @include toggle-theme-default(solid);
 
     input {
         + label {
@@ -83,6 +41,228 @@
 
         &:checked + label {
             background-color: $default-success;
+        }
+    }
+}
+
+@mixin toggle-skewed() {
+    @include toggle-theme-default(solid);
+
+    input {
+        + label {
+            overflow: hidden;
+            transform: skew(-10deg);
+            backface-visibility: hidden;
+            transition: all 0.2s ease;
+            font-weight: bold;
+            background: #888888;
+
+            &:after,
+            &:before {
+                transform: skew(10deg);
+                display: inline-block;
+                transition: all 0.2s ease;
+                width: 100%;
+                text-align: center;
+                position: absolute;
+                margin-top: -2px;
+                line-height: 2em;
+                color: #ffffff;
+                text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+            }
+
+            &:after {
+                left: 100%;
+                content: attr(data-tg-on);
+            }
+
+            &:before {
+                left: 0;
+                content: attr(data-tg-off);
+            }
+
+            &:active {
+                background: #888888;
+
+                &:before {
+                    left: -10%;
+                }
+            }
+        }
+
+        &:checked + label {
+            background: $default-success;
+
+            &:before {
+                left: -100%;
+            }
+
+            &:after {
+                left: 0;
+            }
+
+            &:active:after {
+                left: 10%;
+            }
+        }
+    }
+}
+
+@mixin toggle-flat() {
+    @include toggle-theme-default(outline);
+
+    input {
+        + label {
+            padding: 2px;
+            transition: all 0.2s ease;
+            background-color: #ffffff;
+            border: solid 4px #f2f2f2;
+            border-radius: 2em;
+
+            &:after {
+                transition: all 0.2s ease;
+                background-color: #f2f2f2;
+                content: "";
+                border-radius: 1em;
+            }
+        }
+
+        &:checked + label {
+            border: solid 4px $default-success;
+
+            &:after {
+                left: 50%;
+                background-color: $default-success;
+            }
+        }
+    }
+}
+
+@mixin toggle-flip() {
+    @include toggle-theme-default(flip);
+
+    input {
+        + label {
+            transition: all 0.2s ease;
+
+            &:after,
+            &:before {
+                display: inline-block;
+                transition: all 0.4s ease;
+                width: 100%;
+                text-align: center;
+                position: absolute;
+                font-weight: bold;
+                color: #ffffff;
+                top: 0;
+                left: 0;
+                backface-visibility: hidden;
+                border-radius: 2px;
+            }
+
+            &:after {
+                content: attr(data-tg-on);
+                background-color: #000000;
+                transform: rotateY(-180deg);
+            }
+
+            &:before {
+                background-color: #888888;
+                content: attr(data-tg-off);
+            }
+
+            &:active:before {
+                transform: rotateY(-20deg);
+            }
+        }
+
+        &:checked + label {
+            &:before {
+                transform: rotateY(180deg);
+            }
+
+            &:after {
+                transform: rotateY(0);
+                left: 0;
+                background-color: $default-success;
+            }
+
+            &:active:before {
+                transform: rotateY(20deg);
+            }
+        }
+    }
+}
+
+@mixin toggle-theme-default($type) {
+
+    @if $type == solid {
+        &.t-primary {
+            @include theme(primary, $type);
+        }
+        &.t-success {
+            @include theme(success, $type);
+        }
+        &.t-danger {
+            @include theme(danger, $type);
+        }
+        &.t-warning {
+            @include theme(warning, $type);
+        }
+        &.t-info {
+            @include theme(info, $type);
+        }
+        &.t-light {
+            @include theme(light, $type);
+        }
+        &.t-dark {
+            @include theme(dark, $type);
+        }
+    }
+    @else if $type == outline {
+        &.t-primary {
+            @include theme(primary, $type);
+        }
+        &.t-success {
+            @include theme(success, $type);
+        }
+        &.t-danger {
+            @include theme(danger, $type);
+        }
+        &.t-warning {
+            @include theme(warning, $type);
+        }
+        &.t-info {
+            @include theme(info, $type);
+        }
+        &.t-light {
+            @include theme(light, $type);
+        }
+        &.t-dark {
+            @include theme(dark, $type);
+        }
+    }
+    @else if $type == flip {
+        &.t-primary {
+            @include theme(primary, $type);
+        }
+        &.t-success {
+            @include theme(success, $type);
+        }
+        &.t-danger {
+            @include theme(danger, $type);
+        }
+        &.t-warning {
+            @include theme(warning, $type);
+        }
+        &.t-info {
+            @include theme(info, $type);
+        }
+        &.t-light {
+            @include theme(light, $type);
+        }
+        &.t-dark {
+            @include theme(dark, $type);
         }
     }
 }

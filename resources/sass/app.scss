@@ -99,6 +99,18 @@ body.agm-standard {
             @include toggle-ios;
         }
 
+        &.toggle-skewed {
+            @include toggle-skewed;
+        }
+
+        &.toggle-flat {
+            @include toggle-flat;
+        }
+
+        &.toggle-flip {
+            @include toggle-flip;
+        }
+
         input {
             display: none;
 

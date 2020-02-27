@@ -297,16 +297,27 @@
             }
         }
     }
-    @else if $type == ios {
-
-    }
-    @else if $type == skewed {
-
-    }
     @else if $type == flat {
+        input {
+            &:checked + label {
+                border: solid 4px $color;
+                background-color: transparent;
 
+                &:after {
+                    background-color: $color;
+                }
+            }
+        }
     }
     @else if $type == flip {
-
+        input {
+            &:checked + label {
+                &:after {
+                    transform: rotateY(0);
+                    left: 0;
+                    background-color: $color;
+                }
+            }
+        }
     }
 }
