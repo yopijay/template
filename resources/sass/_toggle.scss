@@ -195,7 +195,6 @@
 }
 
 @mixin toggle-theme-default($type) {
-
     @if $type == solid {
         &.t-primary {
             @include theme(primary, $type);
@@ -263,6 +262,56 @@
         }
         &.t-dark {
             @include theme(dark, $type);
+        }
+    }
+}
+
+@mixin toggle-default() {
+    input {
+        display: none;
+
+        &,
+        &:after,
+        &:before,
+        & *,
+        & *:after,
+        & *:before,
+        & + label {
+            box-sizing: border-box;
+
+            &::selection {
+                background: none;
+            }
+        }
+
+        & + label {
+            outline: 0;
+            display: block;
+            width: 3em;
+            position: relative;
+            height: 1.5rem;
+            cursor: pointer;
+
+            &:after,
+            &:before {
+                content: "";
+                display: block;
+                position: relative;
+                width: 50%;
+                height: 100%;
+            }
+
+            &:after {
+                left: 0;
+            }
+
+            &:before { 
+                display: none;
+            }
+        }
+
+        &:checked + label:after {
+            left: 50%;
         }
     }
 }

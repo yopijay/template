@@ -321,3 +321,15 @@
         }
     }
 }
+
+@mixin radio($type, $color) {
+    @if $type == simple {
+        input:checked + span {
+            border: solid 2px $color;
+        }
+
+        span:after {
+            background-color: $color;
+        }
+    }
+}

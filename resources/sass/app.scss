@@ -6,6 +6,7 @@
 @import 'global';
 @import 'card';
 @import 'toggle';
+@import 'radio';
 @import 'checkbox';
 @import 'table';
 @import 'themes';
@@ -90,73 +91,32 @@ body.agm-standard {
 
    //Toggles
    .toggle {
+    @include toggle-default;
 
         &.toggle-light {
             @include toggle-light;
         }
-
         &.toggle-ios {
             @include toggle-ios;
         }
-
         &.toggle-skewed {
             @include toggle-skewed;
         }
-
         &.toggle-flat {
             @include toggle-flat;
         }
-
         &.toggle-flip {
             @include toggle-flip;
         }
+   }
 
-        input {
-            display: none;
+   .radio-group {
+       .radio-simple {
+           @include radio-simple;
+       }
 
-            &,
-            &:after,
-            &:before,
-            & *,
-            & *:after,
-            & *:before,
-            & + label {
-                box-sizing: border-box;
-
-                &::selection {
-                    background: none;
-                }
-            }
-
-            & + label {
-                outline: 0;
-                display: block;
-                width: 3em;
-                position: relative;
-                height: 1.5rem;
-                cursor: pointer;
-
-                &:after,
-                &:before {
-                    content: "";
-                    display: block;
-                    position: relative;
-                    width: 50%;
-                    height: 100%;
-                }
-
-                &:after {
-                    left: 0;
-                }
-
-                &:before { 
-                    display: none;
-                }
-            }
-
-            &:checked + label:after {
-                left: 50%;
-            }
-        }
+       .radio-icon {
+           @include radio-icon;
+       }
    }
 }

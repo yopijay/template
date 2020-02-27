@@ -6,6 +6,7 @@
 			@include toast($type, $default-primary, $default-text-white);
 			@include checkbox(rounded, $default-primary);
 			@include toggle(light, $default-primary);
+			@include radio(simple, $default-primary);
 		}
 		@else if $type == outline {
 			@include card($type, $default-primary, $default-text-white, $default-primary-dark, $default-text-white);
@@ -23,20 +24,21 @@
 	}
 	@else if $theme == success {
 		@if $type == solid {
-			@include list-group(#4cd137, #44bd32);
-			@include card($type, #44bd32, $default-text-white, #4cd137, $default-text-white);
-			@include toast($type, #44bd32, $default-text-white);
+			@include list-group($default-success, $default-success-dark);
+			@include card($type, $default-success, $default-text-white, $default-success-dark, $default-text-white);
+			@include toast($type, $default-success, $default-text-white);
 			@include checkbox(rounded, $default-success);
 			@include toggle(light, $default-success);
+			@include radio(simple, $default-success);
 		}
 		@else if $type == outline {
-			@include card($type, #44bd32, $default-text-white, #4cd137, $default-text-white);
-			@include toast($type, #45bd32c4, $default-text-color);
+			@include card($type, $default-success, $default-text-white, $default-success-dark, $default-text-white);
+			@include toast($type, $default-success + c4, $default-text-color);
 			@include checkbox(simple, $default-success);
 			@include toggle(flat, $default-success);
 		}
 		@else if $type == custom {
-			@include toast($type, #45bd32c4, $default-text-white);
+			@include toast($type, $default-success + c4, $default-text-white);
 			@include checkbox(box, $default-success);
 		}
 		@else {
@@ -45,20 +47,22 @@
 	}
 	@else if $theme == danger {
 		@if $type == solid {
-			@include list-group(#e84118, #c23616);
-			@include card($type, #c23616, $default-text-white, #e84118, $default-text-white);
-			@include toast($type, #c23616, $default-text-white);
+			@include list-group($default-danger, $default-danger-dark);
+			@include card($type, $default-danger-dark, $default-text-white, $default-danger, $default-text-white);
+			@include toast($type, $default-danger-dark, $default-text-white);
 			@include checkbox(rounded, $default-danger);
 			@include toggle(light, $default-danger);
+			@include radio(light, $default-danger);
+			@include radio(simple, $default-danger);
 		}
 		@else if $type == outline {
-			@include card($type, #c23616, $default-text-white, #e84118, $default-text-white);
-			@include toast($type, #c23616c4, $default-text-color);
+			@include card($type, $default-danger-dark, $default-text-white, $default-danger, $default-text-white);
+			@include toast($type, $default-danger-dark + c4, $default-text-color);
 			@include checkbox(simple, $default-danger);
 			@include toggle(flat, $default-danger);
 		}
 		@else if $type == custom {
-			@include toast($type, #c23616c4, $default-text-white);
+			@include toast($type, $default-danger-dark + c4, $default-text-white);
 			@include checkbox(box, $default-danger);
 		}
 		@else {
@@ -67,20 +71,22 @@
 	}
 	@else if $theme == warning {
 		@if $type == solid {
-			@include list-group(#fbc531, #e1b12c);
-			@include card($type, #e1b12c, $default-text-white, #fbc531, $default-text-white);
-			@include toast($type, #e1b12c, $default-text-white);
+			@include list-group($default-warning, $default-warning-dark);
+			@include card($type, $default-warning-dark, $default-text-white, $default-warning, $default-text-white);
+			@include toast($type, $default-warning-dark, $default-text-white);
 			@include checkbox(rounded, $default-warning);
 			@include toggle(light, $default-warning);
+			@include radio(light, $default-warning);
+			@include radio(simple, $default-warning);
 		}
 		@else if $type == outline {
-			@include card($type, #e1b12c, $default-text-white, #fbc531, $default-text-white);
-			@include toast($type, #e1b12cc4, $default-text-color);
+			@include card($type, $default-warning-dark, $default-text-white, $default-warning, $default-text-white);
+			@include toast($type, $default-warning-dark + c4, $default-text-color);
 			@include checkbox(simple, $default-warning);
 			@include toggle(flat, $default-warning);
 		}
 		@else if $type == custom {
-			@include toast($type, #e1b12cc4, $default-text-white);
+			@include toast($type, $default-warning-dark + c4, $default-text-white);
 			@include checkbox(box, $default-warning);
 		}
 		@else {
@@ -89,19 +95,21 @@
 	}
 	@else if $theme == info {
 		@if $type == solid {
-			@include card($type, #40739e, $default-text-white, #487eb0, $default-text-white);
-			@include toast($type, #40739e, $default-text-white);
+			@include card($type, $default-info, $default-text-white, $default-info-dark, $default-text-white);
+			@include toast($type, $default-info, $default-text-white);
 			@include checkbox(rounded, $default-info);
 			@include toggle(light, $default-info);
+			@include radio(light, $default-info);
+			@include radio(simple, $default-info);
 		}
 		@else if $type == outline {
-			@include card($type, #40739e, $default-text-white, #487eb0, $default-text-white);
-			@include toast($type, #40739ec4, $default-text-color);
+			@include card($type, $default-info, $default-text-white, $default-info-dark, $default-text-white);
+			@include toast($type, $default-info-dark + c4, $default-text-color);
 			@include checkbox(simple, $default-info);
 			@include toggle(flat, $default-info);
 		}
 		@else if $type == custom {
-			@include toast($type, #40739ec4, $default-text-white);
+			@include toast($type, $default-info-dark + c4, $default-text-white);
 			@include checkbox(box, $default-info);
 		}
 		@else {
@@ -110,20 +118,21 @@
 	}
 	@else if $theme == light {
 		@if $type == solid {
-			@include list-group(#f5f6fa, #dcdde1);
-			@include card($type, #f5f6fa, $default-text-color, #dcdde1, $default-text-color);
-			@include toast($type, #f5f6fa, $default-text-color);
+			@include list-group($default-light, $default-light-dark);
+			@include card($type, $default-light, $default-text-color, $default-light-dark, $default-text-color);
+			@include toast($type, $default-light, $default-text-color);
 			@include checkbox(rounded, $default-light);
 			@include toggle(light, $default-light);
+			@include radio(simple, $default-light);
 		}
 		@else if $type == outline {
-			@include card($type, #f5f6fa, $default-text-color, #dcdde1, $default-text-color);
+			@include card($type, $default-light, $default-text-color, $default-light-dark, $default-text-color);
 			@include toast($type, $default-text-color, $default-text-color);
 			@include checkbox(simple, $default-light);
 			@include toggle(flat, $default-light);
 		}
 		@else if $type == custom {
-			@include toast($type, #f5f6fac4, $default-text-color);
+			@include toast($type, $default-light + c4, $default-text-color);
 			@include checkbox(box, $default-light);
 		}
 		@else {
@@ -132,19 +141,20 @@
 	}
 	@else if $theme == dark {
 		@if $type == solid {
-			@include card($type, #2f3640, $default-text-white, #353b48, $default-text-white);
-			@include toast($type, #2f3640, $default-text-white);
+			@include card($type, $default-dark-dark, $default-text-white, $default-dark, $default-text-white);
+			@include toast($type, $default-dark-dark, $default-text-white);
 			@include checkbox(rounded, $default-dark);
 			@include toggle(light, $default-dark);
+			@include radio(simple, $default-dark);
 		}
 		@else if $type == outline {
-			@include card($type, #2f3640, $default-text-white, #353b48, $default-text-white);
-			@include toast($type, #2f3640c4, $default-text-color);
+			@include card($type, $default-dark-dark, $default-text-white, $default-dark, $default-text-white);
+			@include toast($type, $default-dark-dark + c4, $default-text-color);
 			@include checkbox(simple, $default-dark);
 			@include toggle(flat, $default-dark);
 		}
 		@else if $type == custom {
-			@include toast($type, #2f3640c4, $default-text-white);
+			@include toast($type, $default-dark-dark + c4, $default-text-white);
 			@include checkbox(box, $default-dark);
 		}
 		@else {
