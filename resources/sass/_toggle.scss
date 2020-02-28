@@ -1,5 +1,5 @@
 @mixin toggle-light {
-    @include toggle-theme-default(solid);
+    @include toggle-theme(light);
     
     input {
         + label {
@@ -22,7 +22,7 @@
 }
 
 @mixin toggle-ios() {
-    @include toggle-theme-default(solid);
+    @include toggle-theme(light);
 
     input {
         + label {
@@ -46,7 +46,7 @@
 }
 
 @mixin toggle-skewed() {
-    @include toggle-theme-default(solid);
+    @include toggle-theme(light);
 
     input {
         + label {
@@ -109,7 +109,7 @@
 }
 
 @mixin toggle-flat() {
-    @include toggle-theme-default(outline);
+    @include toggle-theme(flat);
 
     input {
         + label {
@@ -139,7 +139,7 @@
 }
 
 @mixin toggle-flip() {
-    @include toggle-theme-default(flip);
+    @include toggle-theme(flip);
 
     input {
         + label {
@@ -194,75 +194,27 @@
     }
 }
 
-@mixin toggle-theme-default($type) {
-    @if $type == solid {
-        &.t-primary {
-            @include theme(primary, $type);
-        }
-        &.t-success {
-            @include theme(success, $type);
-        }
-        &.t-danger {
-            @include theme(danger, $type);
-        }
-        &.t-warning {
-            @include theme(warning, $type);
-        }
-        &.t-info {
-            @include theme(info, $type);
-        }
-        &.t-light {
-            @include theme(light, $type);
-        }
-        &.t-dark {
-            @include theme(dark, $type);
-        }
+@mixin toggle-theme($type) {
+    &.t-primary {
+        @include theme($type, primary, toggle);
     }
-    @else if $type == outline {
-        &.t-primary {
-            @include theme(primary, $type);
-        }
-        &.t-success {
-            @include theme(success, $type);
-        }
-        &.t-danger {
-            @include theme(danger, $type);
-        }
-        &.t-warning {
-            @include theme(warning, $type);
-        }
-        &.t-info {
-            @include theme(info, $type);
-        }
-        &.t-light {
-            @include theme(light, $type);
-        }
-        &.t-dark {
-            @include theme(dark, $type);
-        }
+    &.t-success {
+        @include theme($type, success, toggle);
     }
-    @else if $type == flip {
-        &.t-primary {
-            @include theme(primary, $type);
-        }
-        &.t-success {
-            @include theme(success, $type);
-        }
-        &.t-danger {
-            @include theme(danger, $type);
-        }
-        &.t-warning {
-            @include theme(warning, $type);
-        }
-        &.t-info {
-            @include theme(info, $type);
-        }
-        &.t-light {
-            @include theme(light, $type);
-        }
-        &.t-dark {
-            @include theme(dark, $type);
-        }
+    &.t-danger {
+        @include theme($type, danger, toggle);
+    }
+    &.t-warning {
+        @include theme($type, warning, toggle);
+    }
+    &.t-info {
+        @include theme($type, info, toggle);
+    }
+    &.t-light {
+        @include theme($type, light, toggle);
+    }
+    &.t-dark {
+        @include theme($type, dark, toggle);
     }
 }
 

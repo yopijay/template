@@ -1,26 +1,6 @@
 @mixin check-simple-default() {
 
-    &.check-primary {
-        @include theme(primary, outline);
-    }
-    &.check-success {
-        @include theme(success, outline);
-    }
-    &.check-danger {
-        @include theme(danger, outline);
-    }
-    &.check-warning {
-        @include theme(warning, outline);
-    }
-    &.check-info {
-        @include theme(info, outline);
-    }
-    &.check-light {
-        @include theme(light, outline);
-    }
-    &.check-dark {
-        @include theme(dark, outline);
-    }
+    @include checkbox-theme(simple);
 
     label {
         cursor: pointer;
@@ -100,27 +80,7 @@
 
 @mixin check-square-default() {
 
-    &.check-primary {
-        @include theme(primary, custom);
-    }
-    &.check-success {
-        @include theme(success, custom);
-    }
-    &.check-danger {
-        @include theme(danger, custom);
-    }
-    &.check-warning {
-        @include theme(warning, custom);
-    }
-    &.check-info {
-        @include theme(info, custom);
-    }
-    &.check-light {
-        @include theme(light, custom);
-    }
-    &.check-dark {
-        @include theme(dark, custom);
-    }
+    @include checkbox-theme(box);
 
     input {
         display: none;
@@ -152,27 +112,7 @@
 
 @mixin check-rounded-default() {
 
-    &.check-primary {
-        @include theme(primary, solid);
-    }
-    &.check-success {
-        @include theme(success, solid);
-    }
-    &.check-danger {
-        @include theme(danger, solid);
-    }
-    &.check-warning {
-        @include theme(warning, solid);
-    }
-    &.check-info {
-        @include theme(info, solid);
-    }
-    &.check-light {
-        @include theme(light, solid);
-    }
-    &.check-dark {
-        @include theme(dark, solid);
-    }
+   @include checkbox-theme(rounded);
 
     label {
         display: inline-block;
@@ -276,5 +216,30 @@
                 }
             }
         }
+    }
+}
+
+@mixin checkbox-theme($type) {
+
+    &.check-primary {
+        @include theme($type, primary, checkbox);
+    }
+    &.check-success {
+        @include theme($type, success, checkbox);
+    }
+    &.check-danger {
+        @include theme($type, danger, checkbox);
+    }
+    &.check-warning {
+        @include theme($type, warning, checkbox);
+    }
+    &.check-info {
+        @include theme($type, info, checkbox);
+    }
+    &.check-light {
+        @include theme($type, light, checkbox);
+    }
+    &.check-dark {
+        @include theme($type, dark, checkbox);
     }
 }
