@@ -10957,6 +10957,36 @@ body.agm-standard .btn-standard:focus {
   box-shadow: none;
 }
 
+body.agm-standard .modal-content .modal-header {
+  color: #353b48;
+  font-family: "Gentona";
+  text-transform: uppercase;
+}
+
+body.agm-standard .modal-content .modal-header .modal-title {
+  font-size: 1rem;
+}
+
+body.agm-standard .modal-content .modal-header button:focus {
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+
+body.agm-standard .modal-content .modal-body {
+  font-size: 0.8rem;
+  color: #353b48;
+}
+
+body.agm-standard .modal-content .modal-footer {
+  display: block;
+  justify-content: center;
+}
+
+body.agm-standard .modal-content .modal-footer button {
+  margin: 1% 2%;
+}
+
 body.agm-standard .agm-standard-login {
   margin: 5rem 10%;
 }
@@ -11061,53 +11091,12 @@ body.agm-standard .card.card-primary .card-footer {
   color: #ffffff;
 }
 
-body.agm-standard .card.card-primary .toast-header {
-  background-color: #00a8ff;
-  color: #ffffff;
-}
-
-body.agm-standard .card.card-primary .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .card.card-primary label span {
-  border: solid 2px #00a8ff;
-}
-
-body.agm-standard .card.card-primary label span:before {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .card.card-primary label span:after {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .card.card-primary input:checked + label span {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .card.card-primary input:checked + label:hover span {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .card.card-primary input:checked + label {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .card.card-primary input:checked + span {
-  border: solid 2px #00a8ff;
-}
-
-body.agm-standard .card.card-primary span:after {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .card.card-success .list-group-item {
+body.agm-standard .card.card-primary .list-group-item {
   background-color: #4cd137;
   font-size: 0.8rem;
 }
 
-body.agm-standard .card.card-success .list-group-item:hover {
+body.agm-standard .card.card-primary .list-group-item:hover {
   transition: all 0.3s ease-in-out;
   background-color: #44bd32;
 }
@@ -11133,57 +11122,6 @@ body.agm-standard .card.card-success .card-footer {
   color: #ffffff;
 }
 
-body.agm-standard .card.card-success .toast-header {
-  background-color: #4cd137;
-  color: #ffffff;
-}
-
-body.agm-standard .card.card-success .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .card.card-success label span {
-  border: solid 2px #4cd137;
-}
-
-body.agm-standard .card.card-success label span:before {
-  background-color: #4cd137;
-}
-
-body.agm-standard .card.card-success label span:after {
-  background-color: #4cd137;
-}
-
-body.agm-standard .card.card-success input:checked + label span {
-  background-color: #4cd137;
-}
-
-body.agm-standard .card.card-success input:checked + label:hover span {
-  background-color: #4cd137;
-}
-
-body.agm-standard .card.card-success input:checked + label {
-  background-color: #4cd137;
-}
-
-body.agm-standard .card.card-success input:checked + span {
-  border: solid 2px #4cd137;
-}
-
-body.agm-standard .card.card-success span:after {
-  background-color: #4cd137;
-}
-
-body.agm-standard .card.card-danger .list-group-item {
-  background-color: #e84118;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .card.card-danger .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #c23616;
-}
-
 body.agm-standard .card.card-danger .card-header {
   background-color: #c23616;
   color: #ffffff;
@@ -11205,55 +11143,14 @@ body.agm-standard .card.card-danger .card-footer {
   color: #ffffff;
 }
 
-body.agm-standard .card.card-danger .toast-header {
-  background-color: #c23616;
-  color: #ffffff;
-}
-
-body.agm-standard .card.card-danger .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .card.card-danger label span {
-  border: solid 2px #e84118;
-}
-
-body.agm-standard .card.card-danger label span:before {
+body.agm-standard .card.card-danger .list-group-item {
   background-color: #e84118;
-}
-
-body.agm-standard .card.card-danger label span:after {
-  background-color: #e84118;
-}
-
-body.agm-standard .card.card-danger input:checked + label span {
-  background-color: #e84118;
-}
-
-body.agm-standard .card.card-danger input:checked + label:hover span {
-  background-color: #e84118;
-}
-
-body.agm-standard .card.card-danger input:checked + label {
-  background-color: #e84118;
-}
-
-body.agm-standard .card.card-danger input:checked + span {
-  border: solid 2px #e84118;
-}
-
-body.agm-standard .card.card-danger span:after {
-  background-color: #e84118;
-}
-
-body.agm-standard .card.card-warning .list-group-item {
-  background-color: #fbc531;
   font-size: 0.8rem;
 }
 
-body.agm-standard .card.card-warning .list-group-item:hover {
+body.agm-standard .card.card-danger .list-group-item:hover {
   transition: all 0.3s ease-in-out;
-  background-color: #e1b12c;
+  background-color: #c23616;
 }
 
 body.agm-standard .card.card-warning .card-header {
@@ -11277,45 +11174,14 @@ body.agm-standard .card.card-warning .card-footer {
   color: #ffffff;
 }
 
-body.agm-standard .card.card-warning .toast-header {
+body.agm-standard .card.card-warning .list-group-item {
+  background-color: #fbc531;
+  font-size: 0.8rem;
+}
+
+body.agm-standard .card.card-warning .list-group-item:hover {
+  transition: all 0.3s ease-in-out;
   background-color: #e1b12c;
-  color: #ffffff;
-}
-
-body.agm-standard .card.card-warning .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .card.card-warning label span {
-  border: solid 2px #fbc531;
-}
-
-body.agm-standard .card.card-warning label span:before {
-  background-color: #fbc531;
-}
-
-body.agm-standard .card.card-warning label span:after {
-  background-color: #fbc531;
-}
-
-body.agm-standard .card.card-warning input:checked + label span {
-  background-color: #fbc531;
-}
-
-body.agm-standard .card.card-warning input:checked + label:hover span {
-  background-color: #fbc531;
-}
-
-body.agm-standard .card.card-warning input:checked + label {
-  background-color: #fbc531;
-}
-
-body.agm-standard .card.card-warning input:checked + span {
-  border: solid 2px #fbc531;
-}
-
-body.agm-standard .card.card-warning span:after {
-  background-color: #fbc531;
 }
 
 body.agm-standard .card.card-info .card-header {
@@ -11339,57 +11205,6 @@ body.agm-standard .card.card-info .card-footer {
   color: #ffffff;
 }
 
-body.agm-standard .card.card-info .toast-header {
-  background-color: #487eb0;
-  color: #ffffff;
-}
-
-body.agm-standard .card.card-info .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .card.card-info label span {
-  border: solid 2px #487eb0;
-}
-
-body.agm-standard .card.card-info label span:before {
-  background-color: #487eb0;
-}
-
-body.agm-standard .card.card-info label span:after {
-  background-color: #487eb0;
-}
-
-body.agm-standard .card.card-info input:checked + label span {
-  background-color: #487eb0;
-}
-
-body.agm-standard .card.card-info input:checked + label:hover span {
-  background-color: #487eb0;
-}
-
-body.agm-standard .card.card-info input:checked + label {
-  background-color: #487eb0;
-}
-
-body.agm-standard .card.card-info input:checked + span {
-  border: solid 2px #487eb0;
-}
-
-body.agm-standard .card.card-info span:after {
-  background-color: #487eb0;
-}
-
-body.agm-standard .card.card-light .list-group-item {
-  background-color: #f5f6fa;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .card.card-light .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #dcdde1;
-}
-
 body.agm-standard .card.card-light .card-header {
   background-color: #f5f6fa;
   color: #353b48;
@@ -11411,45 +11226,14 @@ body.agm-standard .card.card-light .card-footer {
   color: #353b48;
 }
 
-body.agm-standard .card.card-light .toast-header {
+body.agm-standard .card.card-light .list-group-item {
   background-color: #f5f6fa;
-  color: #353b48;
+  font-size: 0.8rem;
 }
 
-body.agm-standard .card.card-light .toast-header button {
-  color: #353b48;
-}
-
-body.agm-standard .card.card-light label span {
-  border: solid 2px #f5f6fa;
-}
-
-body.agm-standard .card.card-light label span:before {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .card.card-light label span:after {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .card.card-light input:checked + label span {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .card.card-light input:checked + label:hover span {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .card.card-light input:checked + label {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .card.card-light input:checked + span {
-  border: solid 2px #f5f6fa;
-}
-
-body.agm-standard .card.card-light span:after {
-  background-color: #f5f6fa;
+body.agm-standard .card.card-light .list-group-item:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #dcdde1;
 }
 
 body.agm-standard .card.card-dark .card-header {
@@ -11473,47 +11257,6 @@ body.agm-standard .card.card-dark .card-footer {
   color: #ffffff;
 }
 
-body.agm-standard .card.card-dark .toast-header {
-  background-color: #2f3640;
-  color: #ffffff;
-}
-
-body.agm-standard .card.card-dark .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .card.card-dark label span {
-  border: solid 2px #353b48;
-}
-
-body.agm-standard .card.card-dark label span:before {
-  background-color: #353b48;
-}
-
-body.agm-standard .card.card-dark label span:after {
-  background-color: #353b48;
-}
-
-body.agm-standard .card.card-dark input:checked + label span {
-  background-color: #353b48;
-}
-
-body.agm-standard .card.card-dark input:checked + label:hover span {
-  background-color: #353b48;
-}
-
-body.agm-standard .card.card-dark input:checked + label {
-  background-color: #353b48;
-}
-
-body.agm-standard .card.card-dark input:checked + span {
-  border: solid 2px #353b48;
-}
-
-body.agm-standard .card.card-dark span:after {
-  background-color: #353b48;
-}
-
 body.agm-standard .card.card-outline-primary {
   border: solid 1px #0097e6;
 }
@@ -11534,46 +11277,14 @@ body.agm-standard .card.card-outline-primary .card-footer {
   border-top: solid 1px #00a8ff;
 }
 
-body.agm-standard .card.card-outline-primary .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #00a8ffc4;
+body.agm-standard .card.card-outline-primary .list-group-item {
+  background-color: #4cd137;
+  font-size: 0.8rem;
 }
 
-body.agm-standard .card.card-outline-primary .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #00a8ffc4;
-}
-
-body.agm-standard .card.card-outline-primary .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .card.card-outline-primary .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .card.card-outline-primary .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
-body.agm-standard .card.card-outline-primary label:hover svg {
-  stroke: #00a8ff;
-}
-
-body.agm-standard .card.card-outline-primary input:checked + label svg {
-  stroke: #00a8ff;
-}
-
-body.agm-standard .card.card-outline-primary input:checked + label {
-  border: solid 4px #00a8ff;
-  background-color: transparent;
-}
-
-body.agm-standard .card.card-outline-primary input:checked + label:after {
-  background-color: #00a8ff;
+body.agm-standard .card.card-outline-primary .list-group-item:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #44bd32;
 }
 
 body.agm-standard .card.card-outline-success {
@@ -11596,48 +11307,6 @@ body.agm-standard .card.card-outline-success .card-footer {
   border-top: solid 1px #4cd137;
 }
 
-body.agm-standard .card.card-outline-success .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #4cd137c4;
-}
-
-body.agm-standard .card.card-outline-success .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #4cd137c4;
-}
-
-body.agm-standard .card.card-outline-success .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .card.card-outline-success .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .card.card-outline-success .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
-body.agm-standard .card.card-outline-success label:hover svg {
-  stroke: #4cd137;
-}
-
-body.agm-standard .card.card-outline-success input:checked + label svg {
-  stroke: #4cd137;
-}
-
-body.agm-standard .card.card-outline-success input:checked + label {
-  border: solid 4px #4cd137;
-  background-color: transparent;
-}
-
-body.agm-standard .card.card-outline-success input:checked + label:after {
-  background-color: #4cd137;
-}
-
 body.agm-standard .card.card-outline-danger {
   border: solid 1px #c23616;
 }
@@ -11658,46 +11327,14 @@ body.agm-standard .card.card-outline-danger .card-footer {
   border-top: solid 1px #c23616;
 }
 
-body.agm-standard .card.card-outline-danger .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #c23616c4;
-}
-
-body.agm-standard .card.card-outline-danger .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #c23616c4;
-}
-
-body.agm-standard .card.card-outline-danger .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .card.card-outline-danger .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .card.card-outline-danger .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
-body.agm-standard .card.card-outline-danger label:hover svg {
-  stroke: #e84118;
-}
-
-body.agm-standard .card.card-outline-danger input:checked + label svg {
-  stroke: #e84118;
-}
-
-body.agm-standard .card.card-outline-danger input:checked + label {
-  border: solid 4px #e84118;
-  background-color: transparent;
-}
-
-body.agm-standard .card.card-outline-danger input:checked + label:after {
+body.agm-standard .card.card-outline-danger .list-group-item {
   background-color: #e84118;
+  font-size: 0.8rem;
+}
+
+body.agm-standard .card.card-outline-danger .list-group-item:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #c23616;
 }
 
 body.agm-standard .card.card-outline-warning {
@@ -11720,46 +11357,14 @@ body.agm-standard .card.card-outline-warning .card-footer {
   border-top: solid 1px #e1b12c;
 }
 
-body.agm-standard .card.card-outline-warning .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #e1b12cc4;
-}
-
-body.agm-standard .card.card-outline-warning .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #e1b12cc4;
-}
-
-body.agm-standard .card.card-outline-warning .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .card.card-outline-warning .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .card.card-outline-warning .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
-body.agm-standard .card.card-outline-warning label:hover svg {
-  stroke: #fbc531;
-}
-
-body.agm-standard .card.card-outline-warning input:checked + label svg {
-  stroke: #fbc531;
-}
-
-body.agm-standard .card.card-outline-warning input:checked + label {
-  border: solid 4px #fbc531;
-  background-color: transparent;
-}
-
-body.agm-standard .card.card-outline-warning input:checked + label:after {
+body.agm-standard .card.card-outline-warning .list-group-item {
   background-color: #fbc531;
+  font-size: 0.8rem;
+}
+
+body.agm-standard .card.card-outline-warning .list-group-item:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #e1b12c;
 }
 
 body.agm-standard .card.card-outline-info {
@@ -11782,48 +11387,6 @@ body.agm-standard .card.card-outline-info .card-footer {
   border-top: solid 1px #487eb0;
 }
 
-body.agm-standard .card.card-outline-info .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #40739ec4;
-}
-
-body.agm-standard .card.card-outline-info .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #40739ec4;
-}
-
-body.agm-standard .card.card-outline-info .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .card.card-outline-info .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .card.card-outline-info .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
-body.agm-standard .card.card-outline-info label:hover svg {
-  stroke: #487eb0;
-}
-
-body.agm-standard .card.card-outline-info input:checked + label svg {
-  stroke: #487eb0;
-}
-
-body.agm-standard .card.card-outline-info input:checked + label {
-  border: solid 4px #487eb0;
-  background-color: transparent;
-}
-
-body.agm-standard .card.card-outline-info input:checked + label:after {
-  background-color: #487eb0;
-}
-
 body.agm-standard .card.card-outline-light {
   border: solid 1px #f5f6fa;
 }
@@ -11844,46 +11407,14 @@ body.agm-standard .card.card-outline-light .card-footer {
   border-top: solid 1px #f5f6fa;
 }
 
-body.agm-standard .card.card-outline-light .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #353b48;
-}
-
-body.agm-standard .card.card-outline-light .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #353b48;
-}
-
-body.agm-standard .card.card-outline-light .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .card.card-outline-light .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .card.card-outline-light .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
-body.agm-standard .card.card-outline-light label:hover svg {
-  stroke: #f5f6fa;
-}
-
-body.agm-standard .card.card-outline-light input:checked + label svg {
-  stroke: #f5f6fa;
-}
-
-body.agm-standard .card.card-outline-light input:checked + label {
-  border: solid 4px #f5f6fa;
-  background-color: transparent;
-}
-
-body.agm-standard .card.card-outline-light input:checked + label:after {
+body.agm-standard .card.card-outline-light .list-group-item {
   background-color: #f5f6fa;
+  font-size: 0.8rem;
+}
+
+body.agm-standard .card.card-outline-light .list-group-item:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #dcdde1;
 }
 
 body.agm-standard .card.card-outline-dark {
@@ -11904,48 +11435,6 @@ body.agm-standard .card.card-outline-dark .card-body .card-title {
 
 body.agm-standard .card.card-outline-dark .card-footer {
   border-top: solid 1px #2f3640;
-}
-
-body.agm-standard .card.card-outline-dark .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #2f3640c4;
-}
-
-body.agm-standard .card.card-outline-dark .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #2f3640c4;
-}
-
-body.agm-standard .card.card-outline-dark .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .card.card-outline-dark .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .card.card-outline-dark .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
-body.agm-standard .card.card-outline-dark label:hover svg {
-  stroke: #353b48;
-}
-
-body.agm-standard .card.card-outline-dark input:checked + label svg {
-  stroke: #353b48;
-}
-
-body.agm-standard .card.card-outline-dark input:checked + label {
-  border: solid 4px #353b48;
-  background-color: transparent;
-}
-
-body.agm-standard .card.card-outline-dark input:checked + label:after {
-  background-color: #353b48;
 }
 
 body.agm-standard .card-body {
@@ -12042,16 +11531,6 @@ body.agm-standard .card-img-overlay .card-link .link-standard:hover {
   transition: all 0.3s ease-in-out;
 }
 
-body.agm-standard .card .list-group-light .list-group-item {
-  background-color: #f5f6fa;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .card .list-group-light .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #dcdde1;
-}
-
 body.agm-standard .card .list-group-light .card-header {
   background-color: #f5f6fa;
   color: #353b48;
@@ -12073,55 +11552,14 @@ body.agm-standard .card .list-group-light .card-footer {
   color: #353b48;
 }
 
-body.agm-standard .card .list-group-light .toast-header {
+body.agm-standard .card .list-group-light .list-group-item {
   background-color: #f5f6fa;
-  color: #353b48;
-}
-
-body.agm-standard .card .list-group-light .toast-header button {
-  color: #353b48;
-}
-
-body.agm-standard .card .list-group-light label span {
-  border: solid 2px #f5f6fa;
-}
-
-body.agm-standard .card .list-group-light label span:before {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .card .list-group-light label span:after {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .card .list-group-light input:checked + label span {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .card .list-group-light input:checked + label:hover span {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .card .list-group-light input:checked + label {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .card .list-group-light input:checked + span {
-  border: solid 2px #f5f6fa;
-}
-
-body.agm-standard .card .list-group-light span:after {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .card .list-group-success .list-group-item {
-  background-color: #4cd137;
   font-size: 0.8rem;
 }
 
-body.agm-standard .card .list-group-success .list-group-item:hover {
+body.agm-standard .card .list-group-light .list-group-item:hover {
   transition: all 0.3s ease-in-out;
-  background-color: #44bd32;
+  background-color: #dcdde1;
 }
 
 body.agm-standard .card .list-group-success .card-header {
@@ -12145,59 +11583,8 @@ body.agm-standard .card .list-group-success .card-footer {
   color: #ffffff;
 }
 
-body.agm-standard .card .list-group-success .toast-header {
-  background-color: #4cd137;
-  color: #ffffff;
-}
-
-body.agm-standard .card .list-group-success .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .card .list-group-success label span {
-  border: solid 2px #4cd137;
-}
-
-body.agm-standard .card .list-group-success label span:before {
-  background-color: #4cd137;
-}
-
-body.agm-standard .card .list-group-success label span:after {
-  background-color: #4cd137;
-}
-
-body.agm-standard .card .list-group-success input:checked + label span {
-  background-color: #4cd137;
-}
-
-body.agm-standard .card .list-group-success input:checked + label:hover span {
-  background-color: #4cd137;
-}
-
-body.agm-standard .card .list-group-success input:checked + label {
-  background-color: #4cd137;
-}
-
-body.agm-standard .card .list-group-success input:checked + span {
-  border: solid 2px #4cd137;
-}
-
-body.agm-standard .card .list-group-success span:after {
-  background-color: #4cd137;
-}
-
 body.agm-standard .card .list-group-danger {
   color: #ffffff;
-}
-
-body.agm-standard .card .list-group-danger .list-group-item {
-  background-color: #e84118;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .card .list-group-danger .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #c23616;
 }
 
 body.agm-standard .card .list-group-danger .card-header {
@@ -12221,55 +11608,14 @@ body.agm-standard .card .list-group-danger .card-footer {
   color: #ffffff;
 }
 
-body.agm-standard .card .list-group-danger .toast-header {
-  background-color: #c23616;
-  color: #ffffff;
-}
-
-body.agm-standard .card .list-group-danger .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .card .list-group-danger label span {
-  border: solid 2px #e84118;
-}
-
-body.agm-standard .card .list-group-danger label span:before {
+body.agm-standard .card .list-group-danger .list-group-item {
   background-color: #e84118;
-}
-
-body.agm-standard .card .list-group-danger label span:after {
-  background-color: #e84118;
-}
-
-body.agm-standard .card .list-group-danger input:checked + label span {
-  background-color: #e84118;
-}
-
-body.agm-standard .card .list-group-danger input:checked + label:hover span {
-  background-color: #e84118;
-}
-
-body.agm-standard .card .list-group-danger input:checked + label {
-  background-color: #e84118;
-}
-
-body.agm-standard .card .list-group-danger input:checked + span {
-  border: solid 2px #e84118;
-}
-
-body.agm-standard .card .list-group-danger span:after {
-  background-color: #e84118;
-}
-
-body.agm-standard .card .list-group-warning .list-group-item {
-  background-color: #fbc531;
   font-size: 0.8rem;
 }
 
-body.agm-standard .card .list-group-warning .list-group-item:hover {
+body.agm-standard .card .list-group-danger .list-group-item:hover {
   transition: all 0.3s ease-in-out;
-  background-color: #e1b12c;
+  background-color: #c23616;
 }
 
 body.agm-standard .card .list-group-warning .card-header {
@@ -12293,66 +11639,14 @@ body.agm-standard .card .list-group-warning .card-footer {
   color: #ffffff;
 }
 
-body.agm-standard .card .list-group-warning .toast-header {
+body.agm-standard .card .list-group-warning .list-group-item {
+  background-color: #fbc531;
+  font-size: 0.8rem;
+}
+
+body.agm-standard .card .list-group-warning .list-group-item:hover {
+  transition: all 0.3s ease-in-out;
   background-color: #e1b12c;
-  color: #ffffff;
-}
-
-body.agm-standard .card .list-group-warning .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .card .list-group-warning label span {
-  border: solid 2px #fbc531;
-}
-
-body.agm-standard .card .list-group-warning label span:before {
-  background-color: #fbc531;
-}
-
-body.agm-standard .card .list-group-warning label span:after {
-  background-color: #fbc531;
-}
-
-body.agm-standard .card .list-group-warning input:checked + label span {
-  background-color: #fbc531;
-}
-
-body.agm-standard .card .list-group-warning input:checked + label:hover span {
-  background-color: #fbc531;
-}
-
-body.agm-standard .card .list-group-warning input:checked + label {
-  background-color: #fbc531;
-}
-
-body.agm-standard .card .list-group-warning input:checked + span {
-  border: solid 2px #fbc531;
-}
-
-body.agm-standard .card .list-group-warning span:after {
-  background-color: #fbc531;
-}
-
-body.agm-standard .toast.toast-primary .card-header {
-  background-color: #00a8ff;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toast.toast-primary .card-body {
-  border: solid 1px #00a8ff;
-}
-
-body.agm-standard .toast.toast-primary .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toast.toast-primary .card-footer {
-  background-color: #0097e6;
-  color: #ffffff;
 }
 
 body.agm-standard .toast.toast-primary .toast-header {
@@ -12361,69 +11655,6 @@ body.agm-standard .toast.toast-primary .toast-header {
 }
 
 body.agm-standard .toast.toast-primary .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .toast.toast-primary label span {
-  border: solid 2px #00a8ff;
-}
-
-body.agm-standard .toast.toast-primary label span:before {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .toast.toast-primary label span:after {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .toast.toast-primary input:checked + label span {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .toast.toast-primary input:checked + label:hover span {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .toast.toast-primary input:checked + label {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .toast.toast-primary input:checked + span {
-  border: solid 2px #00a8ff;
-}
-
-body.agm-standard .toast.toast-primary span:after {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .toast.toast-success .list-group-item {
-  background-color: #4cd137;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .toast.toast-success .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #44bd32;
-}
-
-body.agm-standard .toast.toast-success .card-header {
-  background-color: #4cd137;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toast.toast-success .card-body {
-  border: solid 1px #4cd137;
-}
-
-body.agm-standard .toast.toast-success .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toast.toast-success .card-footer {
-  background-color: #44bd32;
   color: #ffffff;
 }
 
@@ -12436,138 +11667,12 @@ body.agm-standard .toast.toast-success .toast-header button {
   color: #ffffff;
 }
 
-body.agm-standard .toast.toast-success label span {
-  border: solid 2px #4cd137;
-}
-
-body.agm-standard .toast.toast-success label span:before {
-  background-color: #4cd137;
-}
-
-body.agm-standard .toast.toast-success label span:after {
-  background-color: #4cd137;
-}
-
-body.agm-standard .toast.toast-success input:checked + label span {
-  background-color: #4cd137;
-}
-
-body.agm-standard .toast.toast-success input:checked + label:hover span {
-  background-color: #4cd137;
-}
-
-body.agm-standard .toast.toast-success input:checked + label {
-  background-color: #4cd137;
-}
-
-body.agm-standard .toast.toast-success input:checked + span {
-  border: solid 2px #4cd137;
-}
-
-body.agm-standard .toast.toast-success span:after {
-  background-color: #4cd137;
-}
-
-body.agm-standard .toast.toast-danger .list-group-item {
-  background-color: #e84118;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .toast.toast-danger .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #c23616;
-}
-
-body.agm-standard .toast.toast-danger .card-header {
-  background-color: #c23616;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toast.toast-danger .card-body {
-  border: solid 1px #c23616;
-}
-
-body.agm-standard .toast.toast-danger .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toast.toast-danger .card-footer {
-  background-color: #e84118;
-  color: #ffffff;
-}
-
 body.agm-standard .toast.toast-danger .toast-header {
   background-color: #c23616;
   color: #ffffff;
 }
 
 body.agm-standard .toast.toast-danger .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .toast.toast-danger label span {
-  border: solid 2px #e84118;
-}
-
-body.agm-standard .toast.toast-danger label span:before {
-  background-color: #e84118;
-}
-
-body.agm-standard .toast.toast-danger label span:after {
-  background-color: #e84118;
-}
-
-body.agm-standard .toast.toast-danger input:checked + label span {
-  background-color: #e84118;
-}
-
-body.agm-standard .toast.toast-danger input:checked + label:hover span {
-  background-color: #e84118;
-}
-
-body.agm-standard .toast.toast-danger input:checked + label {
-  background-color: #e84118;
-}
-
-body.agm-standard .toast.toast-danger input:checked + span {
-  border: solid 2px #e84118;
-}
-
-body.agm-standard .toast.toast-danger span:after {
-  background-color: #e84118;
-}
-
-body.agm-standard .toast.toast-warning .list-group-item {
-  background-color: #fbc531;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .toast.toast-warning .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #e1b12c;
-}
-
-body.agm-standard .toast.toast-warning .card-header {
-  background-color: #e1b12c;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toast.toast-warning .card-body {
-  border: solid 1px #e1b12c;
-}
-
-body.agm-standard .toast.toast-warning .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toast.toast-warning .card-footer {
-  background-color: #fbc531;
   color: #ffffff;
 }
 
@@ -12580,59 +11685,6 @@ body.agm-standard .toast.toast-warning .toast-header button {
   color: #ffffff;
 }
 
-body.agm-standard .toast.toast-warning label span {
-  border: solid 2px #fbc531;
-}
-
-body.agm-standard .toast.toast-warning label span:before {
-  background-color: #fbc531;
-}
-
-body.agm-standard .toast.toast-warning label span:after {
-  background-color: #fbc531;
-}
-
-body.agm-standard .toast.toast-warning input:checked + label span {
-  background-color: #fbc531;
-}
-
-body.agm-standard .toast.toast-warning input:checked + label:hover span {
-  background-color: #fbc531;
-}
-
-body.agm-standard .toast.toast-warning input:checked + label {
-  background-color: #fbc531;
-}
-
-body.agm-standard .toast.toast-warning input:checked + span {
-  border: solid 2px #fbc531;
-}
-
-body.agm-standard .toast.toast-warning span:after {
-  background-color: #fbc531;
-}
-
-body.agm-standard .toast.toast-info .card-header {
-  background-color: #487eb0;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toast.toast-info .card-body {
-  border: solid 1px #487eb0;
-}
-
-body.agm-standard .toast.toast-info .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toast.toast-info .card-footer {
-  background-color: #40739e;
-  color: #ffffff;
-}
-
 body.agm-standard .toast.toast-info .toast-header {
   background-color: #487eb0;
   color: #ffffff;
@@ -12640,69 +11692,6 @@ body.agm-standard .toast.toast-info .toast-header {
 
 body.agm-standard .toast.toast-info .toast-header button {
   color: #ffffff;
-}
-
-body.agm-standard .toast.toast-info label span {
-  border: solid 2px #487eb0;
-}
-
-body.agm-standard .toast.toast-info label span:before {
-  background-color: #487eb0;
-}
-
-body.agm-standard .toast.toast-info label span:after {
-  background-color: #487eb0;
-}
-
-body.agm-standard .toast.toast-info input:checked + label span {
-  background-color: #487eb0;
-}
-
-body.agm-standard .toast.toast-info input:checked + label:hover span {
-  background-color: #487eb0;
-}
-
-body.agm-standard .toast.toast-info input:checked + label {
-  background-color: #487eb0;
-}
-
-body.agm-standard .toast.toast-info input:checked + span {
-  border: solid 2px #487eb0;
-}
-
-body.agm-standard .toast.toast-info span:after {
-  background-color: #487eb0;
-}
-
-body.agm-standard .toast.toast-light .list-group-item {
-  background-color: #f5f6fa;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .toast.toast-light .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #dcdde1;
-}
-
-body.agm-standard .toast.toast-light .card-header {
-  background-color: #f5f6fa;
-  color: #353b48;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toast.toast-light .card-body {
-  border: solid 1px #f5f6fa;
-}
-
-body.agm-standard .toast.toast-light .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toast.toast-light .card-footer {
-  background-color: #dcdde1;
-  color: #353b48;
 }
 
 body.agm-standard .toast.toast-light .toast-header {
@@ -12714,59 +11703,6 @@ body.agm-standard .toast.toast-light .toast-header button {
   color: #353b48;
 }
 
-body.agm-standard .toast.toast-light label span {
-  border: solid 2px #f5f6fa;
-}
-
-body.agm-standard .toast.toast-light label span:before {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .toast.toast-light label span:after {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .toast.toast-light input:checked + label span {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .toast.toast-light input:checked + label:hover span {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .toast.toast-light input:checked + label {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .toast.toast-light input:checked + span {
-  border: solid 2px #f5f6fa;
-}
-
-body.agm-standard .toast.toast-light span:after {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .toast.toast-dark .card-header {
-  background-color: #2f3640;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toast.toast-dark .card-body {
-  border: solid 1px #2f3640;
-}
-
-body.agm-standard .toast.toast-dark .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toast.toast-dark .card-footer {
-  background-color: #353b48;
-  color: #ffffff;
-}
-
 body.agm-standard .toast.toast-dark .toast-header {
   background-color: #2f3640;
   color: #ffffff;
@@ -12774,38 +11710,6 @@ body.agm-standard .toast.toast-dark .toast-header {
 
 body.agm-standard .toast.toast-dark .toast-header button {
   color: #ffffff;
-}
-
-body.agm-standard .toast.toast-dark label span {
-  border: solid 2px #353b48;
-}
-
-body.agm-standard .toast.toast-dark label span:before {
-  background-color: #353b48;
-}
-
-body.agm-standard .toast.toast-dark label span:after {
-  background-color: #353b48;
-}
-
-body.agm-standard .toast.toast-dark input:checked + label span {
-  background-color: #353b48;
-}
-
-body.agm-standard .toast.toast-dark input:checked + label:hover span {
-  background-color: #353b48;
-}
-
-body.agm-standard .toast.toast-dark input:checked + label {
-  background-color: #353b48;
-}
-
-body.agm-standard .toast.toast-dark input:checked + span {
-  border: solid 2px #353b48;
-}
-
-body.agm-standard .toast.toast-dark span:after {
-  background-color: #353b48;
 }
 
 body.agm-standard .toast.toast-custom-primary-solid .toast-body {
@@ -12831,25 +11735,6 @@ body.agm-standard .toast.toast-custom-primary-solid .toast-body .toast-button:fo
   box-shadow: none;
 }
 
-body.agm-standard .toast.toast-custom-primary-solid input:checked {
-  color: #ffffff;
-}
-
-body.agm-standard .toast.toast-custom-primary-solid input:checked + label {
-  color: #ffffff;
-  background-color: #00a8ffa4;
-}
-
-body.agm-standard .toast.toast-custom-primary-solid label {
-  border: solid 1px #00a8ff;
-  color: #00a8ff;
-}
-
-body.agm-standard .toast.toast-custom-primary-solid label:hover {
-  background-color: #00a8ffa4;
-  transition: all 0.3s ease-in-out;
-}
-
 body.agm-standard .toast.toast-custom-success-solid .toast-body {
   background-color: #4cd137c4;
   color: #ffffff;
@@ -12871,25 +11756,6 @@ body.agm-standard .toast.toast-custom-success-solid .toast-body .toast-button:fo
   outline: none;
   border: none;
   box-shadow: none;
-}
-
-body.agm-standard .toast.toast-custom-success-solid input:checked {
-  color: #ffffff;
-}
-
-body.agm-standard .toast.toast-custom-success-solid input:checked + label {
-  color: #ffffff;
-  background-color: #4cd137a4;
-}
-
-body.agm-standard .toast.toast-custom-success-solid label {
-  border: solid 1px #4cd137;
-  color: #4cd137;
-}
-
-body.agm-standard .toast.toast-custom-success-solid label:hover {
-  background-color: #4cd137a4;
-  transition: all 0.3s ease-in-out;
 }
 
 body.agm-standard .toast.toast-custom-danger-solid .toast-body {
@@ -12915,25 +11781,6 @@ body.agm-standard .toast.toast-custom-danger-solid .toast-body .toast-button:foc
   box-shadow: none;
 }
 
-body.agm-standard .toast.toast-custom-danger-solid input:checked {
-  color: #ffffff;
-}
-
-body.agm-standard .toast.toast-custom-danger-solid input:checked + label {
-  color: #ffffff;
-  background-color: #e84118a4;
-}
-
-body.agm-standard .toast.toast-custom-danger-solid label {
-  border: solid 1px #e84118;
-  color: #e84118;
-}
-
-body.agm-standard .toast.toast-custom-danger-solid label:hover {
-  background-color: #e84118a4;
-  transition: all 0.3s ease-in-out;
-}
-
 body.agm-standard .toast.toast-custom-warning-solid .toast-body {
   background-color: #e1b12cc4;
   color: #ffffff;
@@ -12957,27 +11804,8 @@ body.agm-standard .toast.toast-custom-warning-solid .toast-body .toast-button:fo
   box-shadow: none;
 }
 
-body.agm-standard .toast.toast-custom-warning-solid input:checked {
-  color: #ffffff;
-}
-
-body.agm-standard .toast.toast-custom-warning-solid input:checked + label {
-  color: #ffffff;
-  background-color: #fbc531a4;
-}
-
-body.agm-standard .toast.toast-custom-warning-solid label {
-  border: solid 1px #fbc531;
-  color: #fbc531;
-}
-
-body.agm-standard .toast.toast-custom-warning-solid label:hover {
-  background-color: #fbc531a4;
-  transition: all 0.3s ease-in-out;
-}
-
 body.agm-standard .toast.toast-custom-info-solid .toast-body {
-  background-color: #40739ec4;
+  background-color: #487eb0c4;
   color: #ffffff;
 }
 
@@ -12997,25 +11825,6 @@ body.agm-standard .toast.toast-custom-info-solid .toast-body .toast-button:focus
   outline: none;
   border: none;
   box-shadow: none;
-}
-
-body.agm-standard .toast.toast-custom-info-solid input:checked {
-  color: #ffffff;
-}
-
-body.agm-standard .toast.toast-custom-info-solid input:checked + label {
-  color: #ffffff;
-  background-color: #487eb0a4;
-}
-
-body.agm-standard .toast.toast-custom-info-solid label {
-  border: solid 1px #487eb0;
-  color: #487eb0;
-}
-
-body.agm-standard .toast.toast-custom-info-solid label:hover {
-  background-color: #487eb0a4;
-  transition: all 0.3s ease-in-out;
 }
 
 body.agm-standard .toast.toast-custom-light-solid .toast-body {
@@ -13041,25 +11850,6 @@ body.agm-standard .toast.toast-custom-light-solid .toast-body .toast-button:focu
   box-shadow: none;
 }
 
-body.agm-standard .toast.toast-custom-light-solid input:checked {
-  color: #ffffff;
-}
-
-body.agm-standard .toast.toast-custom-light-solid input:checked + label {
-  color: #ffffff;
-  background-color: #f5f6faa4;
-}
-
-body.agm-standard .toast.toast-custom-light-solid label {
-  border: solid 1px #f5f6fa;
-  color: #f5f6fa;
-}
-
-body.agm-standard .toast.toast-custom-light-solid label:hover {
-  background-color: #f5f6faa4;
-  transition: all 0.3s ease-in-out;
-}
-
 body.agm-standard .toast.toast-custom-dark-solid .toast-body {
   background-color: #2f3640c4;
   color: #ffffff;
@@ -13083,41 +11873,6 @@ body.agm-standard .toast.toast-custom-dark-solid .toast-body .toast-button:focus
   box-shadow: none;
 }
 
-body.agm-standard .toast.toast-custom-dark-solid input:checked {
-  color: #ffffff;
-}
-
-body.agm-standard .toast.toast-custom-dark-solid input:checked + label {
-  color: #ffffff;
-  background-color: #353b48a4;
-}
-
-body.agm-standard .toast.toast-custom-dark-solid label {
-  border: solid 1px #353b48;
-  color: #353b48;
-}
-
-body.agm-standard .toast.toast-custom-dark-solid label:hover {
-  background-color: #353b48a4;
-  transition: all 0.3s ease-in-out;
-}
-
-body.agm-standard .toast.toast-custom-primary-outline .card-header {
-  color: #00a8ff;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #00a8ff;
-}
-
-body.agm-standard .toast.toast-custom-primary-outline .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toast.toast-custom-primary-outline .card-footer {
-  border-top: solid 1px #00a8ff;
-}
-
 body.agm-standard .toast.toast-custom-primary-outline .toast-body {
   background-color: rgba(255, 255, 255, 0);
   border: solid 1px #00a8ffc4;
@@ -13125,7 +11880,7 @@ body.agm-standard .toast.toast-custom-primary-outline .toast-body {
 
 body.agm-standard .toast.toast-custom-primary-outline .toast-body .custom-icon {
   font-size: 1.2rem;
-  color: #00a8ffc4;
+  color: #00a8ff;
 }
 
 body.agm-standard .toast.toast-custom-primary-outline .toast-body p {
@@ -13134,46 +11889,13 @@ body.agm-standard .toast.toast-custom-primary-outline .toast-body p {
 
 body.agm-standard .toast.toast-custom-primary-outline .toast-body .toast-button {
   font-size: 1rem;
-  color: #353b48;
+  color: #ffffff;
 }
 
 body.agm-standard .toast.toast-custom-primary-outline .toast-body .toast-button:focus {
   outline: none;
   border: none;
   box-shadow: none;
-}
-
-body.agm-standard .toast.toast-custom-primary-outline label:hover svg {
-  stroke: #00a8ff;
-}
-
-body.agm-standard .toast.toast-custom-primary-outline input:checked + label svg {
-  stroke: #00a8ff;
-}
-
-body.agm-standard .toast.toast-custom-primary-outline input:checked + label {
-  border: solid 4px #00a8ff;
-  background-color: transparent;
-}
-
-body.agm-standard .toast.toast-custom-primary-outline input:checked + label:after {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .toast.toast-custom-success-outline .card-header {
-  color: #4cd137;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #4cd137;
-}
-
-body.agm-standard .toast.toast-custom-success-outline .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toast.toast-custom-success-outline .card-footer {
-  border-top: solid 1px #4cd137;
 }
 
 body.agm-standard .toast.toast-custom-success-outline .toast-body {
@@ -13183,7 +11905,7 @@ body.agm-standard .toast.toast-custom-success-outline .toast-body {
 
 body.agm-standard .toast.toast-custom-success-outline .toast-body .custom-icon {
   font-size: 1.2rem;
-  color: #4cd137c4;
+  color: #4cd137;
 }
 
 body.agm-standard .toast.toast-custom-success-outline .toast-body p {
@@ -13192,46 +11914,13 @@ body.agm-standard .toast.toast-custom-success-outline .toast-body p {
 
 body.agm-standard .toast.toast-custom-success-outline .toast-body .toast-button {
   font-size: 1rem;
-  color: #353b48;
+  color: #ffffff;
 }
 
 body.agm-standard .toast.toast-custom-success-outline .toast-body .toast-button:focus {
   outline: none;
   border: none;
   box-shadow: none;
-}
-
-body.agm-standard .toast.toast-custom-success-outline label:hover svg {
-  stroke: #4cd137;
-}
-
-body.agm-standard .toast.toast-custom-success-outline input:checked + label svg {
-  stroke: #4cd137;
-}
-
-body.agm-standard .toast.toast-custom-success-outline input:checked + label {
-  border: solid 4px #4cd137;
-  background-color: transparent;
-}
-
-body.agm-standard .toast.toast-custom-success-outline input:checked + label:after {
-  background-color: #4cd137;
-}
-
-body.agm-standard .toast.toast-custom-danger-outline .card-header {
-  color: #c23616;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #c23616;
-}
-
-body.agm-standard .toast.toast-custom-danger-outline .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toast.toast-custom-danger-outline .card-footer {
-  border-top: solid 1px #c23616;
 }
 
 body.agm-standard .toast.toast-custom-danger-outline .toast-body {
@@ -13241,7 +11930,7 @@ body.agm-standard .toast.toast-custom-danger-outline .toast-body {
 
 body.agm-standard .toast.toast-custom-danger-outline .toast-body .custom-icon {
   font-size: 1.2rem;
-  color: #c23616c4;
+  color: #c23616;
 }
 
 body.agm-standard .toast.toast-custom-danger-outline .toast-body p {
@@ -13250,46 +11939,13 @@ body.agm-standard .toast.toast-custom-danger-outline .toast-body p {
 
 body.agm-standard .toast.toast-custom-danger-outline .toast-body .toast-button {
   font-size: 1rem;
-  color: #353b48;
+  color: #ffffff;
 }
 
 body.agm-standard .toast.toast-custom-danger-outline .toast-body .toast-button:focus {
   outline: none;
   border: none;
   box-shadow: none;
-}
-
-body.agm-standard .toast.toast-custom-danger-outline label:hover svg {
-  stroke: #e84118;
-}
-
-body.agm-standard .toast.toast-custom-danger-outline input:checked + label svg {
-  stroke: #e84118;
-}
-
-body.agm-standard .toast.toast-custom-danger-outline input:checked + label {
-  border: solid 4px #e84118;
-  background-color: transparent;
-}
-
-body.agm-standard .toast.toast-custom-danger-outline input:checked + label:after {
-  background-color: #e84118;
-}
-
-body.agm-standard .toast.toast-custom-warning-outline .card-header {
-  color: #e1b12c;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #e1b12c;
-}
-
-body.agm-standard .toast.toast-custom-warning-outline .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toast.toast-custom-warning-outline .card-footer {
-  border-top: solid 1px #e1b12c;
 }
 
 body.agm-standard .toast.toast-custom-warning-outline .toast-body {
@@ -13299,7 +11955,7 @@ body.agm-standard .toast.toast-custom-warning-outline .toast-body {
 
 body.agm-standard .toast.toast-custom-warning-outline .toast-body .custom-icon {
   font-size: 1.2rem;
-  color: #e1b12cc4;
+  color: #e1b12c;
 }
 
 body.agm-standard .toast.toast-custom-warning-outline .toast-body p {
@@ -13308,7 +11964,7 @@ body.agm-standard .toast.toast-custom-warning-outline .toast-body p {
 
 body.agm-standard .toast.toast-custom-warning-outline .toast-body .toast-button {
   font-size: 1rem;
-  color: #353b48;
+  color: #ffffff;
 }
 
 body.agm-standard .toast.toast-custom-warning-outline .toast-body .toast-button:focus {
@@ -13317,47 +11973,14 @@ body.agm-standard .toast.toast-custom-warning-outline .toast-body .toast-button:
   box-shadow: none;
 }
 
-body.agm-standard .toast.toast-custom-warning-outline label:hover svg {
-  stroke: #fbc531;
-}
-
-body.agm-standard .toast.toast-custom-warning-outline input:checked + label svg {
-  stroke: #fbc531;
-}
-
-body.agm-standard .toast.toast-custom-warning-outline input:checked + label {
-  border: solid 4px #fbc531;
-  background-color: transparent;
-}
-
-body.agm-standard .toast.toast-custom-warning-outline input:checked + label:after {
-  background-color: #fbc531;
-}
-
-body.agm-standard .toast.toast-custom-info-outline .card-header {
-  color: #487eb0;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #487eb0;
-}
-
-body.agm-standard .toast.toast-custom-info-outline .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toast.toast-custom-info-outline .card-footer {
-  border-top: solid 1px #487eb0;
-}
-
 body.agm-standard .toast.toast-custom-info-outline .toast-body {
   background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #40739ec4;
+  border: solid 1px #487eb0c4;
 }
 
 body.agm-standard .toast.toast-custom-info-outline .toast-body .custom-icon {
   font-size: 1.2rem;
-  color: #40739ec4;
+  color: #487eb0;
 }
 
 body.agm-standard .toast.toast-custom-info-outline .toast-body p {
@@ -13366,7 +11989,7 @@ body.agm-standard .toast.toast-custom-info-outline .toast-body p {
 
 body.agm-standard .toast.toast-custom-info-outline .toast-body .toast-button {
   font-size: 1rem;
-  color: #353b48;
+  color: #ffffff;
 }
 
 body.agm-standard .toast.toast-custom-info-outline .toast-body .toast-button:focus {
@@ -13375,47 +11998,14 @@ body.agm-standard .toast.toast-custom-info-outline .toast-body .toast-button:foc
   box-shadow: none;
 }
 
-body.agm-standard .toast.toast-custom-info-outline label:hover svg {
-  stroke: #487eb0;
-}
-
-body.agm-standard .toast.toast-custom-info-outline input:checked + label svg {
-  stroke: #487eb0;
-}
-
-body.agm-standard .toast.toast-custom-info-outline input:checked + label {
-  border: solid 4px #487eb0;
-  background-color: transparent;
-}
-
-body.agm-standard .toast.toast-custom-info-outline input:checked + label:after {
-  background-color: #487eb0;
-}
-
-body.agm-standard .toast.toast-custom-light-outline .card-header {
-  color: #f5f6fa;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #f5f6fa;
-}
-
-body.agm-standard .toast.toast-custom-light-outline .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toast.toast-custom-light-outline .card-footer {
-  border-top: solid 1px #f5f6fa;
-}
-
 body.agm-standard .toast.toast-custom-light-outline .toast-body {
   background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #353b48;
+  border: solid 1px #f5f6fac4;
 }
 
 body.agm-standard .toast.toast-custom-light-outline .toast-body .custom-icon {
   font-size: 1.2rem;
-  color: #353b48;
+  color: #f5f6fa;
 }
 
 body.agm-standard .toast.toast-custom-light-outline .toast-body p {
@@ -13433,39 +12023,6 @@ body.agm-standard .toast.toast-custom-light-outline .toast-body .toast-button:fo
   box-shadow: none;
 }
 
-body.agm-standard .toast.toast-custom-light-outline label:hover svg {
-  stroke: #f5f6fa;
-}
-
-body.agm-standard .toast.toast-custom-light-outline input:checked + label svg {
-  stroke: #f5f6fa;
-}
-
-body.agm-standard .toast.toast-custom-light-outline input:checked + label {
-  border: solid 4px #f5f6fa;
-  background-color: transparent;
-}
-
-body.agm-standard .toast.toast-custom-light-outline input:checked + label:after {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .toast.toast-custom-dark-outline .card-header {
-  color: #2f3640;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #2f3640;
-}
-
-body.agm-standard .toast.toast-custom-dark-outline .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toast.toast-custom-dark-outline .card-footer {
-  border-top: solid 1px #2f3640;
-}
-
 body.agm-standard .toast.toast-custom-dark-outline .toast-body {
   background-color: rgba(255, 255, 255, 0);
   border: solid 1px #2f3640c4;
@@ -13473,7 +12030,7 @@ body.agm-standard .toast.toast-custom-dark-outline .toast-body {
 
 body.agm-standard .toast.toast-custom-dark-outline .toast-body .custom-icon {
   font-size: 1.2rem;
-  color: #2f3640c4;
+  color: #2f3640;
 }
 
 body.agm-standard .toast.toast-custom-dark-outline .toast-body p {
@@ -13482,30 +12039,13 @@ body.agm-standard .toast.toast-custom-dark-outline .toast-body p {
 
 body.agm-standard .toast.toast-custom-dark-outline .toast-body .toast-button {
   font-size: 1rem;
-  color: #353b48;
+  color: #ffffff;
 }
 
 body.agm-standard .toast.toast-custom-dark-outline .toast-body .toast-button:focus {
   outline: none;
   border: none;
   box-shadow: none;
-}
-
-body.agm-standard .toast.toast-custom-dark-outline label:hover svg {
-  stroke: #353b48;
-}
-
-body.agm-standard .toast.toast-custom-dark-outline input:checked + label svg {
-  stroke: #353b48;
-}
-
-body.agm-standard .toast.toast-custom-dark-outline input:checked + label {
-  border: solid 4px #353b48;
-  background-color: transparent;
-}
-
-body.agm-standard .toast.toast-custom-dark-outline input:checked + label:after {
-  background-color: #353b48;
 }
 
 body.agm-standard .toast-header img {
@@ -13538,103 +12078,12 @@ body.agm-standard .toast-body {
   font-size: 0.8rem;
 }
 
-body.agm-standard .checkbox-simple.check-primary .card-header {
-  color: #00a8ff;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #00a8ff;
-}
-
-body.agm-standard .checkbox-simple.check-primary .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .checkbox-simple.check-primary .card-footer {
-  border-top: solid 1px #00a8ff;
-}
-
-body.agm-standard .checkbox-simple.check-primary .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #00a8ffc4;
-}
-
-body.agm-standard .checkbox-simple.check-primary .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #00a8ffc4;
-}
-
-body.agm-standard .checkbox-simple.check-primary .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .checkbox-simple.check-primary .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .checkbox-simple.check-primary .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
 body.agm-standard .checkbox-simple.check-primary label:hover svg {
   stroke: #00a8ff;
 }
 
 body.agm-standard .checkbox-simple.check-primary input:checked + label svg {
   stroke: #00a8ff;
-}
-
-body.agm-standard .checkbox-simple.check-primary input:checked + label {
-  border: solid 4px #00a8ff;
-  background-color: transparent;
-}
-
-body.agm-standard .checkbox-simple.check-primary input:checked + label:after {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .checkbox-simple.check-success .card-header {
-  color: #4cd137;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #4cd137;
-}
-
-body.agm-standard .checkbox-simple.check-success .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .checkbox-simple.check-success .card-footer {
-  border-top: solid 1px #4cd137;
-}
-
-body.agm-standard .checkbox-simple.check-success .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #4cd137c4;
-}
-
-body.agm-standard .checkbox-simple.check-success .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #4cd137c4;
-}
-
-body.agm-standard .checkbox-simple.check-success .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .checkbox-simple.check-success .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .checkbox-simple.check-success .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
 }
 
 body.agm-standard .checkbox-simple.check-success label:hover svg {
@@ -13645,112 +12094,12 @@ body.agm-standard .checkbox-simple.check-success input:checked + label svg {
   stroke: #4cd137;
 }
 
-body.agm-standard .checkbox-simple.check-success input:checked + label {
-  border: solid 4px #4cd137;
-  background-color: transparent;
-}
-
-body.agm-standard .checkbox-simple.check-success input:checked + label:after {
-  background-color: #4cd137;
-}
-
-body.agm-standard .checkbox-simple.check-danger .card-header {
-  color: #c23616;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #c23616;
-}
-
-body.agm-standard .checkbox-simple.check-danger .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .checkbox-simple.check-danger .card-footer {
-  border-top: solid 1px #c23616;
-}
-
-body.agm-standard .checkbox-simple.check-danger .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #c23616c4;
-}
-
-body.agm-standard .checkbox-simple.check-danger .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #c23616c4;
-}
-
-body.agm-standard .checkbox-simple.check-danger .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .checkbox-simple.check-danger .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .checkbox-simple.check-danger .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
 body.agm-standard .checkbox-simple.check-danger label:hover svg {
   stroke: #e84118;
 }
 
 body.agm-standard .checkbox-simple.check-danger input:checked + label svg {
   stroke: #e84118;
-}
-
-body.agm-standard .checkbox-simple.check-danger input:checked + label {
-  border: solid 4px #e84118;
-  background-color: transparent;
-}
-
-body.agm-standard .checkbox-simple.check-danger input:checked + label:after {
-  background-color: #e84118;
-}
-
-body.agm-standard .checkbox-simple.check-warning .card-header {
-  color: #e1b12c;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #e1b12c;
-}
-
-body.agm-standard .checkbox-simple.check-warning .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .checkbox-simple.check-warning .card-footer {
-  border-top: solid 1px #e1b12c;
-}
-
-body.agm-standard .checkbox-simple.check-warning .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #e1b12cc4;
-}
-
-body.agm-standard .checkbox-simple.check-warning .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #e1b12cc4;
-}
-
-body.agm-standard .checkbox-simple.check-warning .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .checkbox-simple.check-warning .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .checkbox-simple.check-warning .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
 }
 
 body.agm-standard .checkbox-simple.check-warning label:hover svg {
@@ -13761,112 +12110,12 @@ body.agm-standard .checkbox-simple.check-warning input:checked + label svg {
   stroke: #fbc531;
 }
 
-body.agm-standard .checkbox-simple.check-warning input:checked + label {
-  border: solid 4px #fbc531;
-  background-color: transparent;
-}
-
-body.agm-standard .checkbox-simple.check-warning input:checked + label:after {
-  background-color: #fbc531;
-}
-
-body.agm-standard .checkbox-simple.check-info .card-header {
-  color: #487eb0;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #487eb0;
-}
-
-body.agm-standard .checkbox-simple.check-info .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .checkbox-simple.check-info .card-footer {
-  border-top: solid 1px #487eb0;
-}
-
-body.agm-standard .checkbox-simple.check-info .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #40739ec4;
-}
-
-body.agm-standard .checkbox-simple.check-info .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #40739ec4;
-}
-
-body.agm-standard .checkbox-simple.check-info .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .checkbox-simple.check-info .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .checkbox-simple.check-info .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
 body.agm-standard .checkbox-simple.check-info label:hover svg {
   stroke: #487eb0;
 }
 
 body.agm-standard .checkbox-simple.check-info input:checked + label svg {
   stroke: #487eb0;
-}
-
-body.agm-standard .checkbox-simple.check-info input:checked + label {
-  border: solid 4px #487eb0;
-  background-color: transparent;
-}
-
-body.agm-standard .checkbox-simple.check-info input:checked + label:after {
-  background-color: #487eb0;
-}
-
-body.agm-standard .checkbox-simple.check-light .card-header {
-  color: #f5f6fa;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #f5f6fa;
-}
-
-body.agm-standard .checkbox-simple.check-light .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .checkbox-simple.check-light .card-footer {
-  border-top: solid 1px #f5f6fa;
-}
-
-body.agm-standard .checkbox-simple.check-light .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #353b48;
-}
-
-body.agm-standard .checkbox-simple.check-light .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #353b48;
-}
-
-body.agm-standard .checkbox-simple.check-light .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .checkbox-simple.check-light .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .checkbox-simple.check-light .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
 }
 
 body.agm-standard .checkbox-simple.check-light label:hover svg {
@@ -13877,71 +12126,12 @@ body.agm-standard .checkbox-simple.check-light input:checked + label svg {
   stroke: #f5f6fa;
 }
 
-body.agm-standard .checkbox-simple.check-light input:checked + label {
-  border: solid 4px #f5f6fa;
-  background-color: transparent;
-}
-
-body.agm-standard .checkbox-simple.check-light input:checked + label:after {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .checkbox-simple.check-dark .card-header {
-  color: #2f3640;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #2f3640;
-}
-
-body.agm-standard .checkbox-simple.check-dark .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .checkbox-simple.check-dark .card-footer {
-  border-top: solid 1px #2f3640;
-}
-
-body.agm-standard .checkbox-simple.check-dark .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #2f3640c4;
-}
-
-body.agm-standard .checkbox-simple.check-dark .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #2f3640c4;
-}
-
-body.agm-standard .checkbox-simple.check-dark .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .checkbox-simple.check-dark .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .checkbox-simple.check-dark .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
 body.agm-standard .checkbox-simple.check-dark label:hover svg {
   stroke: #353b48;
 }
 
 body.agm-standard .checkbox-simple.check-dark input:checked + label svg {
   stroke: #353b48;
-}
-
-body.agm-standard .checkbox-simple.check-dark input:checked + label {
-  border: solid 4px #353b48;
-  background-color: transparent;
-}
-
-body.agm-standard .checkbox-simple.check-dark input:checked + label:after {
-  background-color: #353b48;
 }
 
 body.agm-standard .checkbox-simple label {
@@ -14015,29 +12205,6 @@ body.agm-standard .checkbox-simple p {
   margin-left: 0.5rem;
 }
 
-body.agm-standard .checkbox-square.check-primary .toast-body {
-  background-color: #00a8ffc4;
-  color: #ffffff;
-}
-
-body.agm-standard .checkbox-square.check-primary .toast-body .custom-icon {
-  font-size: 1.2rem;
-}
-
-body.agm-standard .checkbox-square.check-primary .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .checkbox-square.check-primary .toast-body .toast-button {
-  font-size: 1rem;
-}
-
-body.agm-standard .checkbox-square.check-primary .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
 body.agm-standard .checkbox-square.check-primary input:checked {
   color: #ffffff;
 }
@@ -14055,29 +12222,6 @@ body.agm-standard .checkbox-square.check-primary label {
 body.agm-standard .checkbox-square.check-primary label:hover {
   background-color: #00a8ffa4;
   transition: all 0.3s ease-in-out;
-}
-
-body.agm-standard .checkbox-square.check-success .toast-body {
-  background-color: #4cd137c4;
-  color: #ffffff;
-}
-
-body.agm-standard .checkbox-square.check-success .toast-body .custom-icon {
-  font-size: 1.2rem;
-}
-
-body.agm-standard .checkbox-square.check-success .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .checkbox-square.check-success .toast-body .toast-button {
-  font-size: 1rem;
-}
-
-body.agm-standard .checkbox-square.check-success .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
 }
 
 body.agm-standard .checkbox-square.check-success input:checked {
@@ -14099,29 +12243,6 @@ body.agm-standard .checkbox-square.check-success label:hover {
   transition: all 0.3s ease-in-out;
 }
 
-body.agm-standard .checkbox-square.check-danger .toast-body {
-  background-color: #c23616c4;
-  color: #ffffff;
-}
-
-body.agm-standard .checkbox-square.check-danger .toast-body .custom-icon {
-  font-size: 1.2rem;
-}
-
-body.agm-standard .checkbox-square.check-danger .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .checkbox-square.check-danger .toast-body .toast-button {
-  font-size: 1rem;
-}
-
-body.agm-standard .checkbox-square.check-danger .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
 body.agm-standard .checkbox-square.check-danger input:checked {
   color: #ffffff;
 }
@@ -14139,29 +12260,6 @@ body.agm-standard .checkbox-square.check-danger label {
 body.agm-standard .checkbox-square.check-danger label:hover {
   background-color: #e84118a4;
   transition: all 0.3s ease-in-out;
-}
-
-body.agm-standard .checkbox-square.check-warning .toast-body {
-  background-color: #e1b12cc4;
-  color: #ffffff;
-}
-
-body.agm-standard .checkbox-square.check-warning .toast-body .custom-icon {
-  font-size: 1.2rem;
-}
-
-body.agm-standard .checkbox-square.check-warning .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .checkbox-square.check-warning .toast-body .toast-button {
-  font-size: 1rem;
-}
-
-body.agm-standard .checkbox-square.check-warning .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
 }
 
 body.agm-standard .checkbox-square.check-warning input:checked {
@@ -14183,29 +12281,6 @@ body.agm-standard .checkbox-square.check-warning label:hover {
   transition: all 0.3s ease-in-out;
 }
 
-body.agm-standard .checkbox-square.check-info .toast-body {
-  background-color: #40739ec4;
-  color: #ffffff;
-}
-
-body.agm-standard .checkbox-square.check-info .toast-body .custom-icon {
-  font-size: 1.2rem;
-}
-
-body.agm-standard .checkbox-square.check-info .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .checkbox-square.check-info .toast-body .toast-button {
-  font-size: 1rem;
-}
-
-body.agm-standard .checkbox-square.check-info .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
 body.agm-standard .checkbox-square.check-info input:checked {
   color: #ffffff;
 }
@@ -14225,29 +12300,6 @@ body.agm-standard .checkbox-square.check-info label:hover {
   transition: all 0.3s ease-in-out;
 }
 
-body.agm-standard .checkbox-square.check-light .toast-body {
-  background-color: #f5f6fac4;
-  color: #353b48;
-}
-
-body.agm-standard .checkbox-square.check-light .toast-body .custom-icon {
-  font-size: 1.2rem;
-}
-
-body.agm-standard .checkbox-square.check-light .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .checkbox-square.check-light .toast-body .toast-button {
-  font-size: 1rem;
-}
-
-body.agm-standard .checkbox-square.check-light .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
 body.agm-standard .checkbox-square.check-light input:checked {
   color: #ffffff;
 }
@@ -14265,29 +12317,6 @@ body.agm-standard .checkbox-square.check-light label {
 body.agm-standard .checkbox-square.check-light label:hover {
   background-color: #f5f6faa4;
   transition: all 0.3s ease-in-out;
-}
-
-body.agm-standard .checkbox-square.check-dark .toast-body {
-  background-color: #2f3640c4;
-  color: #ffffff;
-}
-
-body.agm-standard .checkbox-square.check-dark .toast-body .custom-icon {
-  font-size: 1.2rem;
-}
-
-body.agm-standard .checkbox-square.check-dark .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .checkbox-square.check-dark .toast-body .toast-button {
-  font-size: 1rem;
-}
-
-body.agm-standard .checkbox-square.check-dark .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
 }
 
 body.agm-standard .checkbox-square.check-dark input:checked {
@@ -14334,36 +12363,6 @@ body.agm-standard .checkbox-square label i {
   opacity: 0;
 }
 
-body.agm-standard .checkbox-rounded.check-primary .card-header {
-  background-color: #00a8ff;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .checkbox-rounded.check-primary .card-body {
-  border: solid 1px #00a8ff;
-}
-
-body.agm-standard .checkbox-rounded.check-primary .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .checkbox-rounded.check-primary .card-footer {
-  background-color: #0097e6;
-  color: #ffffff;
-}
-
-body.agm-standard .checkbox-rounded.check-primary .toast-header {
-  background-color: #00a8ff;
-  color: #ffffff;
-}
-
-body.agm-standard .checkbox-rounded.check-primary .toast-header button {
-  color: #ffffff;
-}
-
 body.agm-standard .checkbox-rounded.check-primary label span {
   border: solid 2px #00a8ff;
 }
@@ -14382,58 +12381,6 @@ body.agm-standard .checkbox-rounded.check-primary input:checked + label span {
 
 body.agm-standard .checkbox-rounded.check-primary input:checked + label:hover span {
   background-color: #00a8ff;
-}
-
-body.agm-standard .checkbox-rounded.check-primary input:checked + label {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .checkbox-rounded.check-primary input:checked + span {
-  border: solid 2px #00a8ff;
-}
-
-body.agm-standard .checkbox-rounded.check-primary span:after {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .checkbox-rounded.check-success .list-group-item {
-  background-color: #4cd137;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .checkbox-rounded.check-success .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #44bd32;
-}
-
-body.agm-standard .checkbox-rounded.check-success .card-header {
-  background-color: #4cd137;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .checkbox-rounded.check-success .card-body {
-  border: solid 1px #4cd137;
-}
-
-body.agm-standard .checkbox-rounded.check-success .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .checkbox-rounded.check-success .card-footer {
-  background-color: #44bd32;
-  color: #ffffff;
-}
-
-body.agm-standard .checkbox-rounded.check-success .toast-header {
-  background-color: #4cd137;
-  color: #ffffff;
-}
-
-body.agm-standard .checkbox-rounded.check-success .toast-header button {
-  color: #ffffff;
 }
 
 body.agm-standard .checkbox-rounded.check-success label span {
@@ -14456,58 +12403,6 @@ body.agm-standard .checkbox-rounded.check-success input:checked + label:hover sp
   background-color: #4cd137;
 }
 
-body.agm-standard .checkbox-rounded.check-success input:checked + label {
-  background-color: #4cd137;
-}
-
-body.agm-standard .checkbox-rounded.check-success input:checked + span {
-  border: solid 2px #4cd137;
-}
-
-body.agm-standard .checkbox-rounded.check-success span:after {
-  background-color: #4cd137;
-}
-
-body.agm-standard .checkbox-rounded.check-danger .list-group-item {
-  background-color: #e84118;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .checkbox-rounded.check-danger .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #c23616;
-}
-
-body.agm-standard .checkbox-rounded.check-danger .card-header {
-  background-color: #c23616;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .checkbox-rounded.check-danger .card-body {
-  border: solid 1px #c23616;
-}
-
-body.agm-standard .checkbox-rounded.check-danger .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .checkbox-rounded.check-danger .card-footer {
-  background-color: #e84118;
-  color: #ffffff;
-}
-
-body.agm-standard .checkbox-rounded.check-danger .toast-header {
-  background-color: #c23616;
-  color: #ffffff;
-}
-
-body.agm-standard .checkbox-rounded.check-danger .toast-header button {
-  color: #ffffff;
-}
-
 body.agm-standard .checkbox-rounded.check-danger label span {
   border: solid 2px #e84118;
 }
@@ -14526,58 +12421,6 @@ body.agm-standard .checkbox-rounded.check-danger input:checked + label span {
 
 body.agm-standard .checkbox-rounded.check-danger input:checked + label:hover span {
   background-color: #e84118;
-}
-
-body.agm-standard .checkbox-rounded.check-danger input:checked + label {
-  background-color: #e84118;
-}
-
-body.agm-standard .checkbox-rounded.check-danger input:checked + span {
-  border: solid 2px #e84118;
-}
-
-body.agm-standard .checkbox-rounded.check-danger span:after {
-  background-color: #e84118;
-}
-
-body.agm-standard .checkbox-rounded.check-warning .list-group-item {
-  background-color: #fbc531;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .checkbox-rounded.check-warning .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #e1b12c;
-}
-
-body.agm-standard .checkbox-rounded.check-warning .card-header {
-  background-color: #e1b12c;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .checkbox-rounded.check-warning .card-body {
-  border: solid 1px #e1b12c;
-}
-
-body.agm-standard .checkbox-rounded.check-warning .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .checkbox-rounded.check-warning .card-footer {
-  background-color: #fbc531;
-  color: #ffffff;
-}
-
-body.agm-standard .checkbox-rounded.check-warning .toast-header {
-  background-color: #e1b12c;
-  color: #ffffff;
-}
-
-body.agm-standard .checkbox-rounded.check-warning .toast-header button {
-  color: #ffffff;
 }
 
 body.agm-standard .checkbox-rounded.check-warning label span {
@@ -14600,48 +12443,6 @@ body.agm-standard .checkbox-rounded.check-warning input:checked + label:hover sp
   background-color: #fbc531;
 }
 
-body.agm-standard .checkbox-rounded.check-warning input:checked + label {
-  background-color: #fbc531;
-}
-
-body.agm-standard .checkbox-rounded.check-warning input:checked + span {
-  border: solid 2px #fbc531;
-}
-
-body.agm-standard .checkbox-rounded.check-warning span:after {
-  background-color: #fbc531;
-}
-
-body.agm-standard .checkbox-rounded.check-info .card-header {
-  background-color: #487eb0;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .checkbox-rounded.check-info .card-body {
-  border: solid 1px #487eb0;
-}
-
-body.agm-standard .checkbox-rounded.check-info .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .checkbox-rounded.check-info .card-footer {
-  background-color: #40739e;
-  color: #ffffff;
-}
-
-body.agm-standard .checkbox-rounded.check-info .toast-header {
-  background-color: #487eb0;
-  color: #ffffff;
-}
-
-body.agm-standard .checkbox-rounded.check-info .toast-header button {
-  color: #ffffff;
-}
-
 body.agm-standard .checkbox-rounded.check-info label span {
   border: solid 2px #487eb0;
 }
@@ -14660,58 +12461,6 @@ body.agm-standard .checkbox-rounded.check-info input:checked + label span {
 
 body.agm-standard .checkbox-rounded.check-info input:checked + label:hover span {
   background-color: #487eb0;
-}
-
-body.agm-standard .checkbox-rounded.check-info input:checked + label {
-  background-color: #487eb0;
-}
-
-body.agm-standard .checkbox-rounded.check-info input:checked + span {
-  border: solid 2px #487eb0;
-}
-
-body.agm-standard .checkbox-rounded.check-info span:after {
-  background-color: #487eb0;
-}
-
-body.agm-standard .checkbox-rounded.check-light .list-group-item {
-  background-color: #f5f6fa;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .checkbox-rounded.check-light .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #dcdde1;
-}
-
-body.agm-standard .checkbox-rounded.check-light .card-header {
-  background-color: #f5f6fa;
-  color: #353b48;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .checkbox-rounded.check-light .card-body {
-  border: solid 1px #f5f6fa;
-}
-
-body.agm-standard .checkbox-rounded.check-light .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .checkbox-rounded.check-light .card-footer {
-  background-color: #dcdde1;
-  color: #353b48;
-}
-
-body.agm-standard .checkbox-rounded.check-light .toast-header {
-  background-color: #f5f6fa;
-  color: #353b48;
-}
-
-body.agm-standard .checkbox-rounded.check-light .toast-header button {
-  color: #353b48;
 }
 
 body.agm-standard .checkbox-rounded.check-light label span {
@@ -14734,48 +12483,6 @@ body.agm-standard .checkbox-rounded.check-light input:checked + label:hover span
   background-color: #f5f6fa;
 }
 
-body.agm-standard .checkbox-rounded.check-light input:checked + label {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .checkbox-rounded.check-light input:checked + span {
-  border: solid 2px #f5f6fa;
-}
-
-body.agm-standard .checkbox-rounded.check-light span:after {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .checkbox-rounded.check-dark .card-header {
-  background-color: #2f3640;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .checkbox-rounded.check-dark .card-body {
-  border: solid 1px #2f3640;
-}
-
-body.agm-standard .checkbox-rounded.check-dark .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .checkbox-rounded.check-dark .card-footer {
-  background-color: #353b48;
-  color: #ffffff;
-}
-
-body.agm-standard .checkbox-rounded.check-dark .toast-header {
-  background-color: #2f3640;
-  color: #ffffff;
-}
-
-body.agm-standard .checkbox-rounded.check-dark .toast-header button {
-  color: #ffffff;
-}
-
 body.agm-standard .checkbox-rounded.check-dark label span {
   border: solid 2px #353b48;
 }
@@ -14793,18 +12500,6 @@ body.agm-standard .checkbox-rounded.check-dark input:checked + label span {
 }
 
 body.agm-standard .checkbox-rounded.check-dark input:checked + label:hover span {
-  background-color: #353b48;
-}
-
-body.agm-standard .checkbox-rounded.check-dark input:checked + label {
-  background-color: #353b48;
-}
-
-body.agm-standard .checkbox-rounded.check-dark input:checked + span {
-  border: solid 2px #353b48;
-}
-
-body.agm-standard .checkbox-rounded.check-dark span:after {
   background-color: #353b48;
 }
 
@@ -14962,477 +12657,31 @@ body.agm-standard .toggle input:checked + label:after {
   left: 50%;
 }
 
-body.agm-standard .toggle.toggle-light.t-primary .card-header {
-  background-color: #00a8ff;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-light.t-primary .card-body {
-  border: solid 1px #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-light.t-primary .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-light.t-primary .card-footer {
-  background-color: #0097e6;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-light.t-primary .toast-header {
-  background-color: #00a8ff;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-light.t-primary .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-light.t-primary label span {
-  border: solid 2px #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-light.t-primary label span:before {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-light.t-primary label span:after {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-light.t-primary input:checked + label span {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-light.t-primary input:checked + label:hover span {
-  background-color: #00a8ff;
-}
-
 body.agm-standard .toggle.toggle-light.t-primary input:checked + label {
   background-color: #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-light.t-primary input:checked + span {
-  border: solid 2px #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-light.t-primary span:after {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-light.t-success .list-group-item {
-  background-color: #4cd137;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .toggle.toggle-light.t-success .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #44bd32;
-}
-
-body.agm-standard .toggle.toggle-light.t-success .card-header {
-  background-color: #4cd137;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-light.t-success .card-body {
-  border: solid 1px #4cd137;
-}
-
-body.agm-standard .toggle.toggle-light.t-success .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-light.t-success .card-footer {
-  background-color: #44bd32;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-light.t-success .toast-header {
-  background-color: #4cd137;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-light.t-success .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-light.t-success label span {
-  border: solid 2px #4cd137;
-}
-
-body.agm-standard .toggle.toggle-light.t-success label span:before {
-  background-color: #4cd137;
-}
-
-body.agm-standard .toggle.toggle-light.t-success label span:after {
-  background-color: #4cd137;
-}
-
-body.agm-standard .toggle.toggle-light.t-success input:checked + label span {
-  background-color: #4cd137;
-}
-
-body.agm-standard .toggle.toggle-light.t-success input:checked + label:hover span {
-  background-color: #4cd137;
 }
 
 body.agm-standard .toggle.toggle-light.t-success input:checked + label {
   background-color: #4cd137;
 }
 
-body.agm-standard .toggle.toggle-light.t-success input:checked + span {
-  border: solid 2px #4cd137;
-}
-
-body.agm-standard .toggle.toggle-light.t-success span:after {
-  background-color: #4cd137;
-}
-
-body.agm-standard .toggle.toggle-light.t-danger .list-group-item {
-  background-color: #e84118;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .toggle.toggle-light.t-danger .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #c23616;
-}
-
-body.agm-standard .toggle.toggle-light.t-danger .card-header {
-  background-color: #c23616;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-light.t-danger .card-body {
-  border: solid 1px #c23616;
-}
-
-body.agm-standard .toggle.toggle-light.t-danger .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-light.t-danger .card-footer {
-  background-color: #e84118;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-light.t-danger .toast-header {
-  background-color: #c23616;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-light.t-danger .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-light.t-danger label span {
-  border: solid 2px #e84118;
-}
-
-body.agm-standard .toggle.toggle-light.t-danger label span:before {
-  background-color: #e84118;
-}
-
-body.agm-standard .toggle.toggle-light.t-danger label span:after {
-  background-color: #e84118;
-}
-
-body.agm-standard .toggle.toggle-light.t-danger input:checked + label span {
-  background-color: #e84118;
-}
-
-body.agm-standard .toggle.toggle-light.t-danger input:checked + label:hover span {
-  background-color: #e84118;
-}
-
 body.agm-standard .toggle.toggle-light.t-danger input:checked + label {
   background-color: #e84118;
-}
-
-body.agm-standard .toggle.toggle-light.t-danger input:checked + span {
-  border: solid 2px #e84118;
-}
-
-body.agm-standard .toggle.toggle-light.t-danger span:after {
-  background-color: #e84118;
-}
-
-body.agm-standard .toggle.toggle-light.t-warning .list-group-item {
-  background-color: #fbc531;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .toggle.toggle-light.t-warning .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #e1b12c;
-}
-
-body.agm-standard .toggle.toggle-light.t-warning .card-header {
-  background-color: #e1b12c;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-light.t-warning .card-body {
-  border: solid 1px #e1b12c;
-}
-
-body.agm-standard .toggle.toggle-light.t-warning .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-light.t-warning .card-footer {
-  background-color: #fbc531;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-light.t-warning .toast-header {
-  background-color: #e1b12c;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-light.t-warning .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-light.t-warning label span {
-  border: solid 2px #fbc531;
-}
-
-body.agm-standard .toggle.toggle-light.t-warning label span:before {
-  background-color: #fbc531;
-}
-
-body.agm-standard .toggle.toggle-light.t-warning label span:after {
-  background-color: #fbc531;
-}
-
-body.agm-standard .toggle.toggle-light.t-warning input:checked + label span {
-  background-color: #fbc531;
-}
-
-body.agm-standard .toggle.toggle-light.t-warning input:checked + label:hover span {
-  background-color: #fbc531;
 }
 
 body.agm-standard .toggle.toggle-light.t-warning input:checked + label {
   background-color: #fbc531;
 }
 
-body.agm-standard .toggle.toggle-light.t-warning input:checked + span {
-  border: solid 2px #fbc531;
-}
-
-body.agm-standard .toggle.toggle-light.t-warning span:after {
-  background-color: #fbc531;
-}
-
-body.agm-standard .toggle.toggle-light.t-info .card-header {
-  background-color: #487eb0;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-light.t-info .card-body {
-  border: solid 1px #487eb0;
-}
-
-body.agm-standard .toggle.toggle-light.t-info .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-light.t-info .card-footer {
-  background-color: #40739e;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-light.t-info .toast-header {
-  background-color: #487eb0;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-light.t-info .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-light.t-info label span {
-  border: solid 2px #487eb0;
-}
-
-body.agm-standard .toggle.toggle-light.t-info label span:before {
-  background-color: #487eb0;
-}
-
-body.agm-standard .toggle.toggle-light.t-info label span:after {
-  background-color: #487eb0;
-}
-
-body.agm-standard .toggle.toggle-light.t-info input:checked + label span {
-  background-color: #487eb0;
-}
-
-body.agm-standard .toggle.toggle-light.t-info input:checked + label:hover span {
-  background-color: #487eb0;
-}
-
 body.agm-standard .toggle.toggle-light.t-info input:checked + label {
   background-color: #487eb0;
-}
-
-body.agm-standard .toggle.toggle-light.t-info input:checked + span {
-  border: solid 2px #487eb0;
-}
-
-body.agm-standard .toggle.toggle-light.t-info span:after {
-  background-color: #487eb0;
-}
-
-body.agm-standard .toggle.toggle-light.t-light .list-group-item {
-  background-color: #f5f6fa;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .toggle.toggle-light.t-light .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #dcdde1;
-}
-
-body.agm-standard .toggle.toggle-light.t-light .card-header {
-  background-color: #f5f6fa;
-  color: #353b48;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-light.t-light .card-body {
-  border: solid 1px #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-light.t-light .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-light.t-light .card-footer {
-  background-color: #dcdde1;
-  color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-light.t-light .toast-header {
-  background-color: #f5f6fa;
-  color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-light.t-light .toast-header button {
-  color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-light.t-light label span {
-  border: solid 2px #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-light.t-light label span:before {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-light.t-light label span:after {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-light.t-light input:checked + label span {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-light.t-light input:checked + label:hover span {
-  background-color: #f5f6fa;
 }
 
 body.agm-standard .toggle.toggle-light.t-light input:checked + label {
   background-color: #f5f6fa;
 }
 
-body.agm-standard .toggle.toggle-light.t-light input:checked + span {
-  border: solid 2px #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-light.t-light span:after {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-light.t-dark .card-header {
-  background-color: #2f3640;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-light.t-dark .card-body {
-  border: solid 1px #2f3640;
-}
-
-body.agm-standard .toggle.toggle-light.t-dark .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-light.t-dark .card-footer {
-  background-color: #353b48;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-light.t-dark .toast-header {
-  background-color: #2f3640;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-light.t-dark .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-light.t-dark label span {
-  border: solid 2px #353b48;
-}
-
-body.agm-standard .toggle.toggle-light.t-dark label span:before {
-  background-color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-light.t-dark label span:after {
-  background-color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-light.t-dark input:checked + label span {
-  background-color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-light.t-dark input:checked + label:hover span {
-  background-color: #353b48;
-}
-
 body.agm-standard .toggle.toggle-light.t-dark input:checked + label {
-  background-color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-light.t-dark input:checked + span {
-  border: solid 2px #353b48;
-}
-
-body.agm-standard .toggle.toggle-light.t-dark span:after {
   background-color: #353b48;
 }
 
@@ -15453,477 +12702,31 @@ body.agm-standard .toggle.toggle-light input:checked + label {
   background-color: #4cd137;
 }
 
-body.agm-standard .toggle.toggle-ios.t-primary .card-header {
-  background-color: #00a8ff;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-ios.t-primary .card-body {
-  border: solid 1px #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-primary .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-ios.t-primary .card-footer {
-  background-color: #0097e6;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-primary .toast-header {
-  background-color: #00a8ff;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-primary .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-primary label span {
-  border: solid 2px #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-primary label span:before {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-primary label span:after {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-primary input:checked + label span {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-primary input:checked + label:hover span {
-  background-color: #00a8ff;
-}
-
 body.agm-standard .toggle.toggle-ios.t-primary input:checked + label {
   background-color: #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-primary input:checked + span {
-  border: solid 2px #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-primary span:after {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-success .list-group-item {
-  background-color: #4cd137;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .toggle.toggle-ios.t-success .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #44bd32;
-}
-
-body.agm-standard .toggle.toggle-ios.t-success .card-header {
-  background-color: #4cd137;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-ios.t-success .card-body {
-  border: solid 1px #4cd137;
-}
-
-body.agm-standard .toggle.toggle-ios.t-success .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-ios.t-success .card-footer {
-  background-color: #44bd32;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-success .toast-header {
-  background-color: #4cd137;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-success .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-success label span {
-  border: solid 2px #4cd137;
-}
-
-body.agm-standard .toggle.toggle-ios.t-success label span:before {
-  background-color: #4cd137;
-}
-
-body.agm-standard .toggle.toggle-ios.t-success label span:after {
-  background-color: #4cd137;
-}
-
-body.agm-standard .toggle.toggle-ios.t-success input:checked + label span {
-  background-color: #4cd137;
-}
-
-body.agm-standard .toggle.toggle-ios.t-success input:checked + label:hover span {
-  background-color: #4cd137;
 }
 
 body.agm-standard .toggle.toggle-ios.t-success input:checked + label {
   background-color: #4cd137;
 }
 
-body.agm-standard .toggle.toggle-ios.t-success input:checked + span {
-  border: solid 2px #4cd137;
-}
-
-body.agm-standard .toggle.toggle-ios.t-success span:after {
-  background-color: #4cd137;
-}
-
-body.agm-standard .toggle.toggle-ios.t-danger .list-group-item {
-  background-color: #e84118;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .toggle.toggle-ios.t-danger .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #c23616;
-}
-
-body.agm-standard .toggle.toggle-ios.t-danger .card-header {
-  background-color: #c23616;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-ios.t-danger .card-body {
-  border: solid 1px #c23616;
-}
-
-body.agm-standard .toggle.toggle-ios.t-danger .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-ios.t-danger .card-footer {
-  background-color: #e84118;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-danger .toast-header {
-  background-color: #c23616;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-danger .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-danger label span {
-  border: solid 2px #e84118;
-}
-
-body.agm-standard .toggle.toggle-ios.t-danger label span:before {
-  background-color: #e84118;
-}
-
-body.agm-standard .toggle.toggle-ios.t-danger label span:after {
-  background-color: #e84118;
-}
-
-body.agm-standard .toggle.toggle-ios.t-danger input:checked + label span {
-  background-color: #e84118;
-}
-
-body.agm-standard .toggle.toggle-ios.t-danger input:checked + label:hover span {
-  background-color: #e84118;
-}
-
 body.agm-standard .toggle.toggle-ios.t-danger input:checked + label {
   background-color: #e84118;
-}
-
-body.agm-standard .toggle.toggle-ios.t-danger input:checked + span {
-  border: solid 2px #e84118;
-}
-
-body.agm-standard .toggle.toggle-ios.t-danger span:after {
-  background-color: #e84118;
-}
-
-body.agm-standard .toggle.toggle-ios.t-warning .list-group-item {
-  background-color: #fbc531;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .toggle.toggle-ios.t-warning .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #e1b12c;
-}
-
-body.agm-standard .toggle.toggle-ios.t-warning .card-header {
-  background-color: #e1b12c;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-ios.t-warning .card-body {
-  border: solid 1px #e1b12c;
-}
-
-body.agm-standard .toggle.toggle-ios.t-warning .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-ios.t-warning .card-footer {
-  background-color: #fbc531;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-warning .toast-header {
-  background-color: #e1b12c;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-warning .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-warning label span {
-  border: solid 2px #fbc531;
-}
-
-body.agm-standard .toggle.toggle-ios.t-warning label span:before {
-  background-color: #fbc531;
-}
-
-body.agm-standard .toggle.toggle-ios.t-warning label span:after {
-  background-color: #fbc531;
-}
-
-body.agm-standard .toggle.toggle-ios.t-warning input:checked + label span {
-  background-color: #fbc531;
-}
-
-body.agm-standard .toggle.toggle-ios.t-warning input:checked + label:hover span {
-  background-color: #fbc531;
 }
 
 body.agm-standard .toggle.toggle-ios.t-warning input:checked + label {
   background-color: #fbc531;
 }
 
-body.agm-standard .toggle.toggle-ios.t-warning input:checked + span {
-  border: solid 2px #fbc531;
-}
-
-body.agm-standard .toggle.toggle-ios.t-warning span:after {
-  background-color: #fbc531;
-}
-
-body.agm-standard .toggle.toggle-ios.t-info .card-header {
-  background-color: #487eb0;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-ios.t-info .card-body {
-  border: solid 1px #487eb0;
-}
-
-body.agm-standard .toggle.toggle-ios.t-info .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-ios.t-info .card-footer {
-  background-color: #40739e;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-info .toast-header {
-  background-color: #487eb0;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-info .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-info label span {
-  border: solid 2px #487eb0;
-}
-
-body.agm-standard .toggle.toggle-ios.t-info label span:before {
-  background-color: #487eb0;
-}
-
-body.agm-standard .toggle.toggle-ios.t-info label span:after {
-  background-color: #487eb0;
-}
-
-body.agm-standard .toggle.toggle-ios.t-info input:checked + label span {
-  background-color: #487eb0;
-}
-
-body.agm-standard .toggle.toggle-ios.t-info input:checked + label:hover span {
-  background-color: #487eb0;
-}
-
 body.agm-standard .toggle.toggle-ios.t-info input:checked + label {
   background-color: #487eb0;
-}
-
-body.agm-standard .toggle.toggle-ios.t-info input:checked + span {
-  border: solid 2px #487eb0;
-}
-
-body.agm-standard .toggle.toggle-ios.t-info span:after {
-  background-color: #487eb0;
-}
-
-body.agm-standard .toggle.toggle-ios.t-light .list-group-item {
-  background-color: #f5f6fa;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .toggle.toggle-ios.t-light .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #dcdde1;
-}
-
-body.agm-standard .toggle.toggle-ios.t-light .card-header {
-  background-color: #f5f6fa;
-  color: #353b48;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-ios.t-light .card-body {
-  border: solid 1px #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-ios.t-light .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-ios.t-light .card-footer {
-  background-color: #dcdde1;
-  color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-ios.t-light .toast-header {
-  background-color: #f5f6fa;
-  color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-ios.t-light .toast-header button {
-  color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-ios.t-light label span {
-  border: solid 2px #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-ios.t-light label span:before {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-ios.t-light label span:after {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-ios.t-light input:checked + label span {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-ios.t-light input:checked + label:hover span {
-  background-color: #f5f6fa;
 }
 
 body.agm-standard .toggle.toggle-ios.t-light input:checked + label {
   background-color: #f5f6fa;
 }
 
-body.agm-standard .toggle.toggle-ios.t-light input:checked + span {
-  border: solid 2px #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-ios.t-light span:after {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-ios.t-dark .card-header {
-  background-color: #2f3640;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-ios.t-dark .card-body {
-  border: solid 1px #2f3640;
-}
-
-body.agm-standard .toggle.toggle-ios.t-dark .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-ios.t-dark .card-footer {
-  background-color: #353b48;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-dark .toast-header {
-  background-color: #2f3640;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-dark .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-ios.t-dark label span {
-  border: solid 2px #353b48;
-}
-
-body.agm-standard .toggle.toggle-ios.t-dark label span:before {
-  background-color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-ios.t-dark label span:after {
-  background-color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-ios.t-dark input:checked + label span {
-  background-color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-ios.t-dark input:checked + label:hover span {
-  background-color: #353b48;
-}
-
 body.agm-standard .toggle.toggle-ios.t-dark input:checked + label {
-  background-color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-ios.t-dark input:checked + span {
-  border: solid 2px #353b48;
-}
-
-body.agm-standard .toggle.toggle-ios.t-dark span:after {
   background-color: #353b48;
 }
 
@@ -15945,477 +12748,31 @@ body.agm-standard .toggle.toggle-ios input:checked + label {
   background-color: #4cd137;
 }
 
-body.agm-standard .toggle.toggle-skewed.t-primary .card-header {
-  background-color: #00a8ff;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-primary .card-body {
-  border: solid 1px #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-primary .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-primary .card-footer {
-  background-color: #0097e6;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-primary .toast-header {
-  background-color: #00a8ff;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-primary .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-primary label span {
-  border: solid 2px #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-primary label span:before {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-primary label span:after {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-primary input:checked + label span {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-primary input:checked + label:hover span {
-  background-color: #00a8ff;
-}
-
 body.agm-standard .toggle.toggle-skewed.t-primary input:checked + label {
   background-color: #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-primary input:checked + span {
-  border: solid 2px #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-primary span:after {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-success .list-group-item {
-  background-color: #4cd137;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-success .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #44bd32;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-success .card-header {
-  background-color: #4cd137;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-success .card-body {
-  border: solid 1px #4cd137;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-success .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-success .card-footer {
-  background-color: #44bd32;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-success .toast-header {
-  background-color: #4cd137;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-success .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-success label span {
-  border: solid 2px #4cd137;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-success label span:before {
-  background-color: #4cd137;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-success label span:after {
-  background-color: #4cd137;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-success input:checked + label span {
-  background-color: #4cd137;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-success input:checked + label:hover span {
-  background-color: #4cd137;
 }
 
 body.agm-standard .toggle.toggle-skewed.t-success input:checked + label {
   background-color: #4cd137;
 }
 
-body.agm-standard .toggle.toggle-skewed.t-success input:checked + span {
-  border: solid 2px #4cd137;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-success span:after {
-  background-color: #4cd137;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-danger .list-group-item {
-  background-color: #e84118;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-danger .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #c23616;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-danger .card-header {
-  background-color: #c23616;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-danger .card-body {
-  border: solid 1px #c23616;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-danger .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-danger .card-footer {
-  background-color: #e84118;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-danger .toast-header {
-  background-color: #c23616;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-danger .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-danger label span {
-  border: solid 2px #e84118;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-danger label span:before {
-  background-color: #e84118;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-danger label span:after {
-  background-color: #e84118;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-danger input:checked + label span {
-  background-color: #e84118;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-danger input:checked + label:hover span {
-  background-color: #e84118;
-}
-
 body.agm-standard .toggle.toggle-skewed.t-danger input:checked + label {
   background-color: #e84118;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-danger input:checked + span {
-  border: solid 2px #e84118;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-danger span:after {
-  background-color: #e84118;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-warning .list-group-item {
-  background-color: #fbc531;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-warning .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #e1b12c;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-warning .card-header {
-  background-color: #e1b12c;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-warning .card-body {
-  border: solid 1px #e1b12c;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-warning .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-warning .card-footer {
-  background-color: #fbc531;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-warning .toast-header {
-  background-color: #e1b12c;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-warning .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-warning label span {
-  border: solid 2px #fbc531;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-warning label span:before {
-  background-color: #fbc531;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-warning label span:after {
-  background-color: #fbc531;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-warning input:checked + label span {
-  background-color: #fbc531;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-warning input:checked + label:hover span {
-  background-color: #fbc531;
 }
 
 body.agm-standard .toggle.toggle-skewed.t-warning input:checked + label {
   background-color: #fbc531;
 }
 
-body.agm-standard .toggle.toggle-skewed.t-warning input:checked + span {
-  border: solid 2px #fbc531;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-warning span:after {
-  background-color: #fbc531;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-info .card-header {
-  background-color: #487eb0;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-info .card-body {
-  border: solid 1px #487eb0;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-info .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-info .card-footer {
-  background-color: #40739e;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-info .toast-header {
-  background-color: #487eb0;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-info .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-info label span {
-  border: solid 2px #487eb0;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-info label span:before {
-  background-color: #487eb0;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-info label span:after {
-  background-color: #487eb0;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-info input:checked + label span {
-  background-color: #487eb0;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-info input:checked + label:hover span {
-  background-color: #487eb0;
-}
-
 body.agm-standard .toggle.toggle-skewed.t-info input:checked + label {
   background-color: #487eb0;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-info input:checked + span {
-  border: solid 2px #487eb0;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-info span:after {
-  background-color: #487eb0;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-light .list-group-item {
-  background-color: #f5f6fa;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-light .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #dcdde1;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-light .card-header {
-  background-color: #f5f6fa;
-  color: #353b48;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-light .card-body {
-  border: solid 1px #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-light .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-light .card-footer {
-  background-color: #dcdde1;
-  color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-light .toast-header {
-  background-color: #f5f6fa;
-  color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-light .toast-header button {
-  color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-light label span {
-  border: solid 2px #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-light label span:before {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-light label span:after {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-light input:checked + label span {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-light input:checked + label:hover span {
-  background-color: #f5f6fa;
 }
 
 body.agm-standard .toggle.toggle-skewed.t-light input:checked + label {
   background-color: #f5f6fa;
 }
 
-body.agm-standard .toggle.toggle-skewed.t-light input:checked + span {
-  border: solid 2px #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-light span:after {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-dark .card-header {
-  background-color: #2f3640;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-dark .card-body {
-  border: solid 1px #2f3640;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-dark .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-dark .card-footer {
-  background-color: #353b48;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-dark .toast-header {
-  background-color: #2f3640;
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-dark .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-dark label span {
-  border: solid 2px #353b48;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-dark label span:before {
-  background-color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-dark label span:after {
-  background-color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-dark input:checked + label span {
-  background-color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-dark input:checked + label:hover span {
-  background-color: #353b48;
-}
-
 body.agm-standard .toggle.toggle-skewed.t-dark input:checked + label {
-  background-color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-dark input:checked + span {
-  border: solid 2px #353b48;
-}
-
-body.agm-standard .toggle.toggle-skewed.t-dark span:after {
   background-color: #353b48;
 }
 
@@ -16477,55 +12834,6 @@ body.agm-standard .toggle.toggle-skewed input:checked + label:active:after {
   left: 10%;
 }
 
-body.agm-standard .toggle.toggle-flat.t-primary .card-header {
-  color: #00a8ff;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-flat.t-primary .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-flat.t-primary .card-footer {
-  border-top: solid 1px #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-flat.t-primary .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #00a8ffc4;
-}
-
-body.agm-standard .toggle.toggle-flat.t-primary .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #00a8ffc4;
-}
-
-body.agm-standard .toggle.toggle-flat.t-primary .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .toggle.toggle-flat.t-primary .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-flat.t-primary .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
-body.agm-standard .toggle.toggle-flat.t-primary label:hover svg {
-  stroke: #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-flat.t-primary input:checked + label svg {
-  stroke: #00a8ff;
-}
-
 body.agm-standard .toggle.toggle-flat.t-primary input:checked + label {
   border: solid 4px #00a8ff;
   background-color: transparent;
@@ -16533,55 +12841,6 @@ body.agm-standard .toggle.toggle-flat.t-primary input:checked + label {
 
 body.agm-standard .toggle.toggle-flat.t-primary input:checked + label:after {
   background-color: #00a8ff;
-}
-
-body.agm-standard .toggle.toggle-flat.t-success .card-header {
-  color: #4cd137;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #4cd137;
-}
-
-body.agm-standard .toggle.toggle-flat.t-success .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-flat.t-success .card-footer {
-  border-top: solid 1px #4cd137;
-}
-
-body.agm-standard .toggle.toggle-flat.t-success .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #4cd137c4;
-}
-
-body.agm-standard .toggle.toggle-flat.t-success .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #4cd137c4;
-}
-
-body.agm-standard .toggle.toggle-flat.t-success .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .toggle.toggle-flat.t-success .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-flat.t-success .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
-body.agm-standard .toggle.toggle-flat.t-success label:hover svg {
-  stroke: #4cd137;
-}
-
-body.agm-standard .toggle.toggle-flat.t-success input:checked + label svg {
-  stroke: #4cd137;
 }
 
 body.agm-standard .toggle.toggle-flat.t-success input:checked + label {
@@ -16593,55 +12852,6 @@ body.agm-standard .toggle.toggle-flat.t-success input:checked + label:after {
   background-color: #4cd137;
 }
 
-body.agm-standard .toggle.toggle-flat.t-danger .card-header {
-  color: #c23616;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #c23616;
-}
-
-body.agm-standard .toggle.toggle-flat.t-danger .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-flat.t-danger .card-footer {
-  border-top: solid 1px #c23616;
-}
-
-body.agm-standard .toggle.toggle-flat.t-danger .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #c23616c4;
-}
-
-body.agm-standard .toggle.toggle-flat.t-danger .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #c23616c4;
-}
-
-body.agm-standard .toggle.toggle-flat.t-danger .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .toggle.toggle-flat.t-danger .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-flat.t-danger .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
-body.agm-standard .toggle.toggle-flat.t-danger label:hover svg {
-  stroke: #e84118;
-}
-
-body.agm-standard .toggle.toggle-flat.t-danger input:checked + label svg {
-  stroke: #e84118;
-}
-
 body.agm-standard .toggle.toggle-flat.t-danger input:checked + label {
   border: solid 4px #e84118;
   background-color: transparent;
@@ -16649,55 +12859,6 @@ body.agm-standard .toggle.toggle-flat.t-danger input:checked + label {
 
 body.agm-standard .toggle.toggle-flat.t-danger input:checked + label:after {
   background-color: #e84118;
-}
-
-body.agm-standard .toggle.toggle-flat.t-warning .card-header {
-  color: #e1b12c;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #e1b12c;
-}
-
-body.agm-standard .toggle.toggle-flat.t-warning .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-flat.t-warning .card-footer {
-  border-top: solid 1px #e1b12c;
-}
-
-body.agm-standard .toggle.toggle-flat.t-warning .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #e1b12cc4;
-}
-
-body.agm-standard .toggle.toggle-flat.t-warning .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #e1b12cc4;
-}
-
-body.agm-standard .toggle.toggle-flat.t-warning .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .toggle.toggle-flat.t-warning .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-flat.t-warning .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
-body.agm-standard .toggle.toggle-flat.t-warning label:hover svg {
-  stroke: #fbc531;
-}
-
-body.agm-standard .toggle.toggle-flat.t-warning input:checked + label svg {
-  stroke: #fbc531;
 }
 
 body.agm-standard .toggle.toggle-flat.t-warning input:checked + label {
@@ -16709,55 +12870,6 @@ body.agm-standard .toggle.toggle-flat.t-warning input:checked + label:after {
   background-color: #fbc531;
 }
 
-body.agm-standard .toggle.toggle-flat.t-info .card-header {
-  color: #487eb0;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #487eb0;
-}
-
-body.agm-standard .toggle.toggle-flat.t-info .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-flat.t-info .card-footer {
-  border-top: solid 1px #487eb0;
-}
-
-body.agm-standard .toggle.toggle-flat.t-info .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #40739ec4;
-}
-
-body.agm-standard .toggle.toggle-flat.t-info .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #40739ec4;
-}
-
-body.agm-standard .toggle.toggle-flat.t-info .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .toggle.toggle-flat.t-info .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-flat.t-info .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
-body.agm-standard .toggle.toggle-flat.t-info label:hover svg {
-  stroke: #487eb0;
-}
-
-body.agm-standard .toggle.toggle-flat.t-info input:checked + label svg {
-  stroke: #487eb0;
-}
-
 body.agm-standard .toggle.toggle-flat.t-info input:checked + label {
   border: solid 4px #487eb0;
   background-color: transparent;
@@ -16767,55 +12879,6 @@ body.agm-standard .toggle.toggle-flat.t-info input:checked + label:after {
   background-color: #487eb0;
 }
 
-body.agm-standard .toggle.toggle-flat.t-light .card-header {
-  color: #f5f6fa;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-flat.t-light .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-flat.t-light .card-footer {
-  border-top: solid 1px #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-flat.t-light .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #353b48;
-}
-
-body.agm-standard .toggle.toggle-flat.t-light .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-flat.t-light .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .toggle.toggle-flat.t-light .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-flat.t-light .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
-body.agm-standard .toggle.toggle-flat.t-light label:hover svg {
-  stroke: #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-flat.t-light input:checked + label svg {
-  stroke: #f5f6fa;
-}
-
 body.agm-standard .toggle.toggle-flat.t-light input:checked + label {
   border: solid 4px #f5f6fa;
   background-color: transparent;
@@ -16823,55 +12886,6 @@ body.agm-standard .toggle.toggle-flat.t-light input:checked + label {
 
 body.agm-standard .toggle.toggle-flat.t-light input:checked + label:after {
   background-color: #f5f6fa;
-}
-
-body.agm-standard .toggle.toggle-flat.t-dark .card-header {
-  color: #2f3640;
-  font-size: 1.1rem;
-  border-bottom: solid 1px #2f3640;
-}
-
-body.agm-standard .toggle.toggle-flat.t-dark .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .toggle.toggle-flat.t-dark .card-footer {
-  border-top: solid 1px #2f3640;
-}
-
-body.agm-standard .toggle.toggle-flat.t-dark .toast-body {
-  background-color: rgba(255, 255, 255, 0);
-  border: solid 1px #2f3640c4;
-}
-
-body.agm-standard .toggle.toggle-flat.t-dark .toast-body .custom-icon {
-  font-size: 1.2rem;
-  color: #2f3640c4;
-}
-
-body.agm-standard .toggle.toggle-flat.t-dark .toast-body p {
-  margin-bottom: 0;
-}
-
-body.agm-standard .toggle.toggle-flat.t-dark .toast-body .toast-button {
-  font-size: 1rem;
-  color: #353b48;
-}
-
-body.agm-standard .toggle.toggle-flat.t-dark .toast-body .toast-button:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
-body.agm-standard .toggle.toggle-flat.t-dark label:hover svg {
-  stroke: #353b48;
-}
-
-body.agm-standard .toggle.toggle-flat.t-dark input:checked + label svg {
-  stroke: #353b48;
 }
 
 body.agm-standard .toggle.toggle-flat.t-dark input:checked + label {
@@ -16998,130 +13012,12 @@ body.agm-standard .toggle.toggle-flip input:checked + label:active:before {
   transform: rotateY(20deg);
 }
 
-body.agm-standard .radio-group .radio-simple.r-primary .card-header {
-  background-color: #00a8ff;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .radio-group .radio-simple.r-primary .card-body {
-  border: solid 1px #00a8ff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-primary .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .radio-group .radio-simple.r-primary .card-footer {
-  background-color: #0097e6;
-  color: #ffffff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-primary .toast-header {
-  background-color: #00a8ff;
-  color: #ffffff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-primary .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-primary label span {
-  border: solid 2px #00a8ff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-primary label span:before {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-primary label span:after {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-primary input:checked + label span {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-primary input:checked + label:hover span {
-  background-color: #00a8ff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-primary input:checked + label {
-  background-color: #00a8ff;
-}
-
 body.agm-standard .radio-group .radio-simple.r-primary input:checked + span {
   border: solid 2px #00a8ff;
 }
 
 body.agm-standard .radio-group .radio-simple.r-primary span:after {
   background-color: #00a8ff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-success .list-group-item {
-  background-color: #4cd137;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .radio-group .radio-simple.r-success .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #44bd32;
-}
-
-body.agm-standard .radio-group .radio-simple.r-success .card-header {
-  background-color: #4cd137;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .radio-group .radio-simple.r-success .card-body {
-  border: solid 1px #4cd137;
-}
-
-body.agm-standard .radio-group .radio-simple.r-success .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .radio-group .radio-simple.r-success .card-footer {
-  background-color: #44bd32;
-  color: #ffffff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-success .toast-header {
-  background-color: #4cd137;
-  color: #ffffff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-success .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-success label span {
-  border: solid 2px #4cd137;
-}
-
-body.agm-standard .radio-group .radio-simple.r-success label span:before {
-  background-color: #4cd137;
-}
-
-body.agm-standard .radio-group .radio-simple.r-success label span:after {
-  background-color: #4cd137;
-}
-
-body.agm-standard .radio-group .radio-simple.r-success input:checked + label span {
-  background-color: #4cd137;
-}
-
-body.agm-standard .radio-group .radio-simple.r-success input:checked + label:hover span {
-  background-color: #4cd137;
-}
-
-body.agm-standard .radio-group .radio-simple.r-success input:checked + label {
-  background-color: #4cd137;
 }
 
 body.agm-standard .radio-group .radio-simple.r-success input:checked + span {
@@ -17132,140 +13028,12 @@ body.agm-standard .radio-group .radio-simple.r-success span:after {
   background-color: #4cd137;
 }
 
-body.agm-standard .radio-group .radio-simple.r-danger .list-group-item {
-  background-color: #e84118;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .radio-group .radio-simple.r-danger .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #c23616;
-}
-
-body.agm-standard .radio-group .radio-simple.r-danger .card-header {
-  background-color: #c23616;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .radio-group .radio-simple.r-danger .card-body {
-  border: solid 1px #c23616;
-}
-
-body.agm-standard .radio-group .radio-simple.r-danger .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .radio-group .radio-simple.r-danger .card-footer {
-  background-color: #e84118;
-  color: #ffffff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-danger .toast-header {
-  background-color: #c23616;
-  color: #ffffff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-danger .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-danger label span {
-  border: solid 2px #e84118;
-}
-
-body.agm-standard .radio-group .radio-simple.r-danger label span:before {
-  background-color: #e84118;
-}
-
-body.agm-standard .radio-group .radio-simple.r-danger label span:after {
-  background-color: #e84118;
-}
-
-body.agm-standard .radio-group .radio-simple.r-danger input:checked + label span {
-  background-color: #e84118;
-}
-
-body.agm-standard .radio-group .radio-simple.r-danger input:checked + label:hover span {
-  background-color: #e84118;
-}
-
-body.agm-standard .radio-group .radio-simple.r-danger input:checked + label {
-  background-color: #e84118;
-}
-
 body.agm-standard .radio-group .radio-simple.r-danger input:checked + span {
   border: solid 2px #e84118;
 }
 
 body.agm-standard .radio-group .radio-simple.r-danger span:after {
   background-color: #e84118;
-}
-
-body.agm-standard .radio-group .radio-simple.r-warning .list-group-item {
-  background-color: #fbc531;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .radio-group .radio-simple.r-warning .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #e1b12c;
-}
-
-body.agm-standard .radio-group .radio-simple.r-warning .card-header {
-  background-color: #e1b12c;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .radio-group .radio-simple.r-warning .card-body {
-  border: solid 1px #e1b12c;
-}
-
-body.agm-standard .radio-group .radio-simple.r-warning .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .radio-group .radio-simple.r-warning .card-footer {
-  background-color: #fbc531;
-  color: #ffffff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-warning .toast-header {
-  background-color: #e1b12c;
-  color: #ffffff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-warning .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-warning label span {
-  border: solid 2px #fbc531;
-}
-
-body.agm-standard .radio-group .radio-simple.r-warning label span:before {
-  background-color: #fbc531;
-}
-
-body.agm-standard .radio-group .radio-simple.r-warning label span:after {
-  background-color: #fbc531;
-}
-
-body.agm-standard .radio-group .radio-simple.r-warning input:checked + label span {
-  background-color: #fbc531;
-}
-
-body.agm-standard .radio-group .radio-simple.r-warning input:checked + label:hover span {
-  background-color: #fbc531;
-}
-
-body.agm-standard .radio-group .radio-simple.r-warning input:checked + label {
-  background-color: #fbc531;
 }
 
 body.agm-standard .radio-group .radio-simple.r-warning input:checked + span {
@@ -17276,60 +13044,6 @@ body.agm-standard .radio-group .radio-simple.r-warning span:after {
   background-color: #fbc531;
 }
 
-body.agm-standard .radio-group .radio-simple.r-info .card-header {
-  background-color: #487eb0;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .radio-group .radio-simple.r-info .card-body {
-  border: solid 1px #487eb0;
-}
-
-body.agm-standard .radio-group .radio-simple.r-info .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .radio-group .radio-simple.r-info .card-footer {
-  background-color: #40739e;
-  color: #ffffff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-info .toast-header {
-  background-color: #487eb0;
-  color: #ffffff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-info .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-info label span {
-  border: solid 2px #487eb0;
-}
-
-body.agm-standard .radio-group .radio-simple.r-info label span:before {
-  background-color: #487eb0;
-}
-
-body.agm-standard .radio-group .radio-simple.r-info label span:after {
-  background-color: #487eb0;
-}
-
-body.agm-standard .radio-group .radio-simple.r-info input:checked + label span {
-  background-color: #487eb0;
-}
-
-body.agm-standard .radio-group .radio-simple.r-info input:checked + label:hover span {
-  background-color: #487eb0;
-}
-
-body.agm-standard .radio-group .radio-simple.r-info input:checked + label {
-  background-color: #487eb0;
-}
-
 body.agm-standard .radio-group .radio-simple.r-info input:checked + span {
   border: solid 2px #487eb0;
 }
@@ -17338,130 +13052,12 @@ body.agm-standard .radio-group .radio-simple.r-info span:after {
   background-color: #487eb0;
 }
 
-body.agm-standard .radio-group .radio-simple.r-light .list-group-item {
-  background-color: #f5f6fa;
-  font-size: 0.8rem;
-}
-
-body.agm-standard .radio-group .radio-simple.r-light .list-group-item:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: #dcdde1;
-}
-
-body.agm-standard .radio-group .radio-simple.r-light .card-header {
-  background-color: #f5f6fa;
-  color: #353b48;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .radio-group .radio-simple.r-light .card-body {
-  border: solid 1px #f5f6fa;
-}
-
-body.agm-standard .radio-group .radio-simple.r-light .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .radio-group .radio-simple.r-light .card-footer {
-  background-color: #dcdde1;
-  color: #353b48;
-}
-
-body.agm-standard .radio-group .radio-simple.r-light .toast-header {
-  background-color: #f5f6fa;
-  color: #353b48;
-}
-
-body.agm-standard .radio-group .radio-simple.r-light .toast-header button {
-  color: #353b48;
-}
-
-body.agm-standard .radio-group .radio-simple.r-light label span {
-  border: solid 2px #f5f6fa;
-}
-
-body.agm-standard .radio-group .radio-simple.r-light label span:before {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .radio-group .radio-simple.r-light label span:after {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .radio-group .radio-simple.r-light input:checked + label span {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .radio-group .radio-simple.r-light input:checked + label:hover span {
-  background-color: #f5f6fa;
-}
-
-body.agm-standard .radio-group .radio-simple.r-light input:checked + label {
-  background-color: #f5f6fa;
-}
-
 body.agm-standard .radio-group .radio-simple.r-light input:checked + span {
   border: solid 2px #f5f6fa;
 }
 
 body.agm-standard .radio-group .radio-simple.r-light span:after {
   background-color: #f5f6fa;
-}
-
-body.agm-standard .radio-group .radio-simple.r-dark .card-header {
-  background-color: #2f3640;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-body.agm-standard .radio-group .radio-simple.r-dark .card-body {
-  border: solid 1px #2f3640;
-}
-
-body.agm-standard .radio-group .radio-simple.r-dark .card-body .card-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 900;
-}
-
-body.agm-standard .radio-group .radio-simple.r-dark .card-footer {
-  background-color: #353b48;
-  color: #ffffff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-dark .toast-header {
-  background-color: #2f3640;
-  color: #ffffff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-dark .toast-header button {
-  color: #ffffff;
-}
-
-body.agm-standard .radio-group .radio-simple.r-dark label span {
-  border: solid 2px #353b48;
-}
-
-body.agm-standard .radio-group .radio-simple.r-dark label span:before {
-  background-color: #353b48;
-}
-
-body.agm-standard .radio-group .radio-simple.r-dark label span:after {
-  background-color: #353b48;
-}
-
-body.agm-standard .radio-group .radio-simple.r-dark input:checked + label span {
-  background-color: #353b48;
-}
-
-body.agm-standard .radio-group .radio-simple.r-dark input:checked + label:hover span {
-  background-color: #353b48;
-}
-
-body.agm-standard .radio-group .radio-simple.r-dark input:checked + label {
-  background-color: #353b48;
 }
 
 body.agm-standard .radio-group .radio-simple.r-dark input:checked + span {
@@ -17522,5 +13118,61 @@ body.agm-standard .radio-group .radio-simple span:after {
   transition: all 0.2s ease;
   opacity: 0.08;
   pointer-events: none;
+}
+
+body.agm-standard .radio-group .radio-icon.r-primary input:checked + span {
+  border: solid 2px #00a8ff;
+}
+
+body.agm-standard .radio-group .radio-icon.r-primary span:after {
+  background-color: #00a8ff;
+}
+
+body.agm-standard .radio-group .radio-icon.r-success input:checked + span {
+  border: solid 2px #4cd137;
+}
+
+body.agm-standard .radio-group .radio-icon.r-success span:after {
+  background-color: #4cd137;
+}
+
+body.agm-standard .radio-group .radio-icon.r-danger input:checked + span {
+  border: solid 2px #e84118;
+}
+
+body.agm-standard .radio-group .radio-icon.r-danger span:after {
+  background-color: #e84118;
+}
+
+body.agm-standard .radio-group .radio-icon.r-warning input:checked + span {
+  border: solid 2px #fbc531;
+}
+
+body.agm-standard .radio-group .radio-icon.r-warning span:after {
+  background-color: #fbc531;
+}
+
+body.agm-standard .radio-group .radio-icon.r-info input:checked + span {
+  border: solid 2px #487eb0;
+}
+
+body.agm-standard .radio-group .radio-icon.r-info span:after {
+  background-color: #487eb0;
+}
+
+body.agm-standard .radio-group .radio-icon.r-light input:checked + span {
+  border: solid 2px #f5f6fa;
+}
+
+body.agm-standard .radio-group .radio-icon.r-light span:after {
+  background-color: #f5f6fa;
+}
+
+body.agm-standard .radio-group .radio-icon.r-dark input:checked + span {
+  border: solid 2px #353b48;
+}
+
+body.agm-standard .radio-group .radio-icon.r-dark span:after {
+  background-color: #353b48;
 }
 

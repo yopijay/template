@@ -55,31 +55,31 @@
 }
 
 @mixin radio-icon() {
-    
+    @include radio-theme(icon);
+
+
 }
 
 @mixin radio-theme($type) {
-    @if $type == simple {
-        &.r-primary {
-            @include theme(primary, solid);
-        }
-        &.r-success {
-            @include theme(success, solid);
-        }
-        &.r-danger {
-            @include theme(danger, solid);
-        }
-        &.r-warning {
-            @include theme(warning, solid);
-        }
-        &.r-info {
-            @include theme(info, solid);
-        }
-        &.r-light {
-            @include theme(light, solid);
-        }
-        &.r-dark {
-            @include theme(dark, solid);
-        }
+    &.r-primary {
+        @include theme($type, primary, radio);
+    }
+    &.r-success {
+        @include theme($type, success, radio);
+    }
+    &.r-danger {
+        @include theme($type, danger, radio);
+    }
+    &.r-warning {
+        @include theme($type, warning, radio);
+    }
+    &.r-info {
+        @include theme($type, info, radio);
+    }
+    &.r-light {
+        @include theme($type, light, radio);
+    }
+    &.r-dark {
+        @include theme($type, dark, radio);
     }
 }

@@ -107,6 +107,7 @@
     }
 }
 
+// Card
 @mixin card($type, $header-color, $header-font-color, $footer-color, $footer-font-color) {
     @if $type == solid {
         .card-header {
@@ -152,6 +153,7 @@
     }
 }
 
+// Modal
 @mixin modal($header-color, $header-font-color) {
     .modal-content {
 		.modal-header {
@@ -165,6 +167,7 @@
 	}
 }
 
+// Toast
 @mixin toast($type, $background-color, $font-color) {
     @if $type == solid {
         .toast-header {
@@ -179,7 +182,7 @@
     @else if $type == outline {
         .toast-body {
             background-color: rgba(255, 255, 255, 0);
-            border: solid 1px $background-color;
+            border: solid 1px $background-color + c4;
             
             .custom-icon {
                 font-size: 1.2rem;
@@ -204,7 +207,7 @@
     }
     @else if $type == custom {
         .toast-body {
-            background-color: $background-color;
+            background-color: $background-color + c4;
             color: $font-color;
             
             .custom-icon {
@@ -228,6 +231,7 @@
     }
 }
 
+// Checkbox
 @mixin checkbox($type, $color) {
     @if $type == simple {
         label:hover svg {
@@ -289,6 +293,7 @@
     }
 }
 
+// Toggle
 @mixin toggle($type, $color) {
     @if $type == light {
         input {
@@ -322,6 +327,7 @@
     }
 }
 
+// Radio
 @mixin radio($type, $color) {
     @if $type == simple {
         input:checked + span {

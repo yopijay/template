@@ -3,7 +3,7 @@
 @section('content')
 <div class= "row mt-5">
     <div class= "col-md-4 offset-md-4">
-        <div class="card card-outline-success mb-3">
+        <div class="card card-outline-primary mb-3">
             <div class="card-header">Header</div>
             <div class="card-body">
                 <h5 class="card-title">Success card title</h5>
@@ -11,7 +11,7 @@
             </div>
             <div class="card-footer">Footer</div>
         </div>
-        <div class="card card-success mb-3">
+        <div class="card card-primary mb-3">
             <div class="card-header">Header</div>
             <div class="card-body">
                 <h5 class="card-title">Success card title</h5>

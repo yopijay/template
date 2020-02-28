@@ -8,7 +8,7 @@
 @import 'toggle';
 @import 'radio';
 @import 'checkbox';
-@import 'table';
+// @import 'table';
 @import 'themes';
 @import 'modal';
 @import 'toast';
@@ -23,6 +23,7 @@ body.agm-standard {
     @include link-standard;
     @include paragraph-text;
     @include button-standard;
+    @include modal-default;
 
     .agm-standard-login {
         margin: 5rem 10%;
@@ -72,7 +73,7 @@ body.agm-standard {
         @include card-default;
    }
 
-   // Toasts
+    // Toasts
    .toast {
        @include toast-default;
    }
@@ -81,6 +82,7 @@ body.agm-standard {
    .checkbox-simple {
         @include check-simple-default;
    }
+
    .checkbox-square {
        @include check-square-default;
    }
@@ -91,7 +93,7 @@ body.agm-standard {
 
    //Toggles
    .toggle {
-    @include toggle-default;
+        @include toggle-default;
 
         &.toggle-light {
             @include toggle-light;
@@ -110,6 +112,7 @@ body.agm-standard {
         }
    }
 
+   // Radio
    .radio-group {
        .radio-simple {
            @include radio-simple;

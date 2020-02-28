@@ -2,67 +2,67 @@
 
     // Solid Cards
     &.card-primary {
-        @include theme(primary, solid);
+        @include theme(solid, primary, card);
     }
 
     &.card-success {
-     @include theme(success, solid);
+     @include theme(solid, success, card);
     }
 
     &.card-danger {
-     @include theme(danger, solid);
+     @include theme(solid, danger, card);
     }
 
     &.card-warning {
-     @include theme(warning, solid);
+     @include theme(solid, warning, card);
     }
 
     &.card-info {
-     @include theme(info, solid);
+     @include theme(solid, info, card);
     }
 
     &.card-light {
-     @include theme(light, solid);
+     @include theme(solid, light, card);
     }
 
     &.card-dark {
-     @include theme(dark, solid);
+     @include theme(solid, dark, card);
     }
     
     // Outline Cards
     &.card-outline-primary {
-         @include theme(primary, outline);
-         border: solid 1px #0097e6;
+         @include theme(outline, primary, card);
+         border: solid 1px $default-primary-dark;
      }
 
      &.card-outline-success {
-         @include theme(success, outline);
-         border: solid 1px #44bd32;
+         @include theme(outline, success, card);
+         border: solid 1px $default-success-dark;
      }
 
      &.card-outline-danger {
-         @include theme(danger, outline);
-         border: solid 1px #c23616;
+         @include theme(outline, danger, card);
+         border: solid 1px $default-danger-dark;
      }
 
      &.card-outline-warning {
-         @include theme(warning, outline);
-         border: solid 1px #e1b12c;
+         @include theme(outline, warning, card);
+         border: solid 1px $default-warning-dark;
      }
 
      &.card-outline-info {
-         @include theme(info, outline);
-         border: solid 1px #40739e;
+         @include theme(outline, info, card);
+         border: solid 1px $default-info-dark;
      }
 
      &.card-outline-light {
-         @include theme(light, outline);
-         border: solid 1px #f5f6fa;
+         @include theme(outline, light, card);
+         border: solid 1px $default-light;
      }
 
      &.card-outline-dark {
-         @include theme(dark, outline);
-         border: solid 1px #2f3640;
+         @include theme(outline, dark, card);
+         border: solid 1px $default-dark-dark;
      }
 
     &-body {
@@ -140,19 +140,19 @@
     }
 
     .list-group-light {
-        @include theme(light, solid);
+        @include theme(solid, light, card);
     }
 
     .list-group-success {
-        @include theme(success, solid);
+        @include theme(solid, success, card);
     }
 
     .list-group-danger {
-        @include theme(danger, solid);
+        @include theme(solid, danger, card);
         color: $default-text-white;
     }
 
     .list-group-warning {
-        @include theme(warning, solid);
+        @include theme(solid, warning, card);
     }
 }
